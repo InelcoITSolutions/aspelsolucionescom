@@ -1,0 +1,26 @@
+/* ESTILOS DE LA PAGINA DE LISTA DE PRECIOS*/
+#precios {
+    background: url(/img/img-servicios/lista-de-precios.jpg)no-repeat center 0px fixed;
+    background-size: 100%;
+    /*! padding: 5em 1em; */
+    color: #fff;
+}
+#precios .img {
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0.9;
+    padding: 5em 0 0 0;
+    height: 18em;
+}
+
+#precios h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+#precios p {
+    font-size: 1.5em;
+}
+
+/*terminan los estilos para la lista de precios*/
+
+

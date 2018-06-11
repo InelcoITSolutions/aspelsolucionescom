@@ -1,0 +1,1237 @@
+
+/* star estilos para la ventana modal de sae*/
+/* star estilos para la ventana modal de sae*/
+
+#sae-popup .modal-dialog 
+{
+    width: 700px;
+   
+    padding: 0px ;
+    position: relative;
+    margin-right: 705px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* star responsive*/
+@media (max-width: 1000px) 
+{
+    #sae-popup .modal-dialog 
+    {
+        margin-top: 70px;
+    }
+   
+}
+
+@media (max-width: 500px) 
+{
+    #sae-popup .modal-dialog 
+    {
+    width: 200px;
+   
+    padding: 0px ;
+    position: relative;
+    margin-right: 705px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+    #sae-popup .modal-dialog 
+    {
+        margin-top: 90px;
+    }
+    #sae-popup .modal-dialog 
+    {
+    width: 200px;
+    padding: 0px ;
+    position: relative;
+    }
+   
+}
+/* end responsive*/
+/* end responsive*/
+#sae-popup .modal-dialog {
+    width: 700px;
+    padding: 0px ;
+    position: relative;
+}
+#sae-popup .modal-dialog:before {
+    content: '';
+    height: 0px;
+    width: 0px;
+    border-left: 50px solid #8D1A17;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    top: 1px;
+    left: -14px;
+    z-index: 99;
+}
+
+.custom-modal-header {
+    text-align: center;
+    color: #8D1A17;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-top: 4px solid;
+}
+
+#sae-popup .modal-dialog .close {
+    z-index: 99999999;
+    color: white;
+    text-shadow: 0px 0px 0px;
+    font-weight: normal;
+    top: 4px;
+    right: 6px;
+    position: absolute;
+    opacity: 1;
+}
+
+.custom-modal-header .modal-title {
+    /* font-weight: bold; */
+    font-size: 25px;
+    color: #fff;
+}
+
+#sae-popup .modal-dialog:after {
+    content: '';
+    height: 0px;
+    width: 0px;
+    /* border-right: 50px solid rgba(255, 0, 0, 0.98); */
+    border-right: 50px solid #8D1A17;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    top: 1px;
+    right: -14px;
+    z-index: 999999;
+}
+
+
+
+.modal-content1
+{
+       
+        background: #8D1A17;
+}
+    .modal-content1 h1
+    {
+        color: #fff;
+    }
+    .modal-content1 p
+    {
+        color: #fff;
+        font-size: 15px;
+    }
+    .modal-content1 h2
+    {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 300;
+    }
+/* estilos para los botones del popup de sae*/
+    .sae-conocelo{
+    text-decoration: none;
+    padding: 5px 20px;
+    
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #8D1A17;
+    border-radius: 6px;
+    border: 2px solid #ffffff;
+    margin-right: 20px;
+  }
+  .sae-conocelo:hover{
+    text-decoration: none;
+    color: #8D1A17;
+    background-color: #ffffff;
+    background-color: #ffffff;
+  }
+
+  .sae-adquierelo{
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #8D1A17;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+  }
+  .sae-adquierelo:hover{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #8D1A17;
+    border: 2px solid #ffffff;
+  }
+/* estilospara el icono de cerrar popup*/
+  .ocultar-popup
+  {
+    font-size: 10px;
+  }
+
+
+        /*estilos para sae de fondo gris*/
+
+/* star estilos para la ventana modal de sae*/
+/* star estilos para la ventana modal de sae*/
+
+#sae2-popup .modal-dialog 
+{
+    width: 700px;
+   
+    padding: 0px ;
+    position: relative;
+    margin-right: 705px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* star responsive*/
+@media (max-width: 1000px) 
+{
+    #sae2-popup .modal-dialog 
+    {
+        margin-top: 70px;
+    }
+   
+}
+
+@media (max-width: 500px) 
+{
+    #sae2-popup .modal-dialog 
+    {
+    width: 200px;
+   
+    padding: 0px ;
+    position: relative;
+    margin-right: 705px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+    #sae2-popup .modal-dialog 
+    {
+        margin-top: 90px;
+    }
+    #sae2-popup .modal-dialog 
+    {
+    width: 200px;
+    padding: 0px ;
+    position: relative;
+    }
+   
+}
+/* end responsive*/
+/* end responsive*/
+#sae2-popup .modal-dialog {
+    width: 700px;
+    padding: 0px ;
+    position: relative;
+}
+#sae2-popup .modal-dialog:before {
+    content: '';
+    height: 0px;
+    width: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    top: 1px;
+    left: -14px;
+    z-index: 99;
+}
+
+.custom-modal-header {
+    text-align: center;
+    color: #8D1A17;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-top: 4px solid;
+}
+
+#sae2-popup .modal-dialog .close {
+    z-index: 99999999;
+    color: white;
+    text-shadow: 0px 0px 0px;
+    font-weight: normal;
+    top: 4px;
+    right: 6px;
+    position: absolute;
+    opacity: 1;
+}
+
+.custom-modal-header .modal-title {
+    /* font-weight: bold; */
+    font-size: 25px;
+    color: #fff;
+}
+
+#sae2-popup .modal-dialog:after {
+    content: '';
+    height: 0px;
+    width: 0px;
+    /* border-right: 50px solid rgba(255, 0, 0, 0.98); */
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    top: 1px;
+    right: -14px;
+    z-index: 999999;
+}
+
+
+
+.modal-content1-sae
+{
+ 
+background: rgba(212,212,212,1);
+
+background: -moz-linear-gradient(top, rgba(212,212,212,1) 0%, rgba(205,205,205,1) 15%,
+ rgba(204,204,204,1) 16%, rgba(194,194,194,1) 41%, rgba(168,165,168,1) 100%);
+
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(212,212,212,1)), 
+    color-stop(15%, rgba(205,205,205,1)), color-stop(16%, rgba(204,204,204,1)), 
+    color-stop(41%, rgba(194,194,194,1)), color-stop(100%, rgba(168,165,168,1)));
+
+background: -webkit-linear-gradient(top, rgba(212,212,212,1) 0%, rgba(205,205,205,1) 15%,
+ rgba(204,204,204,1) 16%, rgba(194,194,194,1) 41%, rgba(168,165,168,1) 100%);
+
+background: -o-linear-gradient(top, rgba(212,212,212,1) 0%, rgba(205,205,205,1) 15%,
+ rgba(204,204,204,1) 16%, rgba(194,194,194,1) 41%, rgba(168,165,168,1) 100%);
+
+background: -ms-linear-gradient(top, rgba(212,212,212,1) 0%, rgba(205,205,205,1) 15%,
+ rgba(204,204,204,1) 16%, rgba(194,194,194,1) 41%, rgba(168,165,168,1) 100%);
+
+background: linear-gradient(to bottom, rgba(212,212,212,1) 0%, rgba(205,205,205,1) 15%,
+ rgba(204,204,204,1) 16%, rgba(194,194,194,1) 41%, rgba(168,165,168,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4d4d4',
+ endColorstr='#a8a5a8', GradientType=0 );
+
+
+}
+    .modal-content1-sae h1
+    {
+        color: #3c3a3a;
+    }
+    .modal-content1-sae p
+    {
+        color: #3c3a3a;
+        font-size: 15px;
+    }
+    .modal-content1-sae h2
+    {
+        color: #3c3a3a;
+        font-size: 22px;
+        font-weight: 300;
+    }
+/* estilos para los botones del popup de sae*/
+    .sae2-conocelo{
+    text-decoration: none;
+    padding: 5px 20px;
+    
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #8D1A17;
+    border-radius: 6px;
+    border: 2px solid #ffffff;
+    margin-right: 20px;
+  }
+  .sae2-conocelo:hover{
+    text-decoration: none;
+    color: #8D1A17;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+  
+  }
+
+  .sae2-adquierelo{
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #8D1A17;
+    background-color: #ffffff;
+    
+    border: 2px solid #ffffff;
+  }
+  .sae2-adquierelo:hover{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #8D1A17;
+    border: 2px solid #ffffff;
+  }
+/* estilospara el icono de cerrar popup*/
+  .ocultar-popup
+  {
+    font-size: 10px;
+  }
+
+
+
+
+
+
+
+
+/* star estilos para la ventana modal de coi*/
+/* star estilos para la ventana modal de coi*/
+
+#coi-popup .modal-dialog 
+{
+    width: 700px;
+   
+    padding: 0px ;
+    position: relative;
+    margin-right: 705px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* star responsive*/
+@media (max-width: 1000px) 
+{
+    #coi-popup .modal-dialog 
+    {
+        margin-top: 70px;
+    }
+   
+}
+
+@media (max-width: 500px) 
+{
+    #coi-popup .modal-dialog 
+    {
+    width: 200px;
+   
+    padding: 0px ;
+    position: relative;
+    margin-right: 705px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+    #coi-popup .modal-dialog 
+    {
+        margin-top: 90px;
+    }
+    #coi-popup .modal-dialog 
+    {
+    width: 200px;
+    padding: 0px ;
+    position: relative;
+    }
+   
+}
+/* end responsive*/
+/* end responsive*/
+#coi-popup .modal-dialog {
+    width: 700px;
+    padding: 0px ;
+    position: relative;
+}
+#coi-popup .modal-dialog:before {
+    content: '';
+    height: 0px;
+    width: 0px;
+    border-left: 50px solid #129CAF;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    top: 1px;
+    left: -14px;
+    z-index: 99;
+}
+
+.custom-modal-header {
+    text-align: center;
+    color: #129CAF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-top: 4px solid;
+}
+
+#coi-popup .modal-dialog .close {
+    z-index: 99999999;
+    color: white;
+    text-shadow: 0px 0px 0px;
+    font-weight: normal;
+    top: 4px;
+    right: 6px;
+    position: absolute;
+    opacity: 1;
+}
+
+.custom-modal-header .modal-title {
+    /* font-weight: bold; */
+    font-size: 25px;
+    color: #fff;
+}
+
+#coi-popup .modal-dialog:after {
+    content: '';
+    height: 0px;
+    width: 0px;
+    /* border-right: 50px solid rgba(255, 0, 0, 0.98); */
+    border-right: 50px solid #129CAF;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    top: 1px;
+    right: -14px;
+    z-index: 999999;
+}
+
+
+
+.modal-content2
+{
+        background: #129CAF;
+}
+    .modal-content2 h1
+    {
+        color: #fff;
+    }
+    .modal-content2 p
+    {
+        color: #fff;
+        font-size: 15px;
+    }
+    .modal-content2 h2
+    {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 300;
+    }
+/* estilos para los botones del popup de sae*/
+    .coi-conocelo{
+    text-decoration: none;
+    padding: 5px 20px;
+    
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #129CAF;
+    border-radius: 6px;
+    border: 2px solid #ffffff;
+    margin-right: 20px;
+  }
+  .coi-conocelo:hover{
+    text-decoration: none;
+    color: #129CAF;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+  }
+
+  .coi-adquierelo{
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #129CAF;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+  }
+  .coi-adquierelo:hover{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #129CAF;
+    border: 2px solid #ffffff;
+  }
+/* estilospara el icono de cerrar popup*/
+  .ocultar-popup
+  {
+    font-size: 10px;
+  }
+
+
+
+
+
+  /* star estilos para la ventana modal de NOI*/
+/* star estilos para la ventana modal de NOI*/
+
+#noi-popup .modal-dialog 
+{
+    width: 700px;
+   
+    padding: 0px ;
+    position: relative;
+    margin-right: 705px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* star responsive*/
+@media (max-width: 1000px) 
+{
+    #noi-popup .modal-dialog 
+    {
+        margin-top: 70px;
+    }
+   
+}
+
+@media (max-width: 500px) 
+{
+    #noi-popup .modal-dialog 
+    {
+    width: 200px;
+   
+    padding: 0px ;
+    position: relative;
+    margin-right: 705px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+    #noi-popup .modal-dialog 
+    {
+        margin-top: 90px;
+    }
+    #noi-popup .modal-dialog 
+    {
+    width: 200px;
+    padding: 0px ;
+    position: relative;
+    }
+   
+}
+/* end responsive*/
+/* end responsive*/
+#noi-popup .modal-dialog {
+    width: 700px;
+    padding: 0px ;
+    position: relative;
+}
+#noi-popup .modal-dialog:before {
+    content: '';
+    height: 0px;
+    width: 0px;
+    border-left: 50px solid #C25D1B;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    top: 1px;
+    left: -14px;
+    z-index: 99;
+}
+
+.custom-modal-header {
+    text-align: center;
+    color: #129CAF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-top: 4px solid;
+}
+
+#noi-popup .modal-dialog .close {
+    z-index: 99999999;
+    color: white;
+    text-shadow: 0px 0px 0px;
+    font-weight: normal;
+    top: 4px;
+    right: 6px;
+    position: absolute;
+    opacity: 1;
+}
+
+.custom-modal-header .modal-title {
+    /* font-weight: bold; */
+    font-size: 25px;
+    color: #fff;
+}
+
+#noi-popup .modal-dialog:after {
+    content: '';
+    height: 0px;
+    width: 0px;
+    /* border-right: 50px solid rgba(255, 0, 0, 0.98); */
+    border-right: 50px solid #C25D1B;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    top: 1px;
+    right: -14px;
+    z-index: 999999;
+}
+
+
+
+.modal-content3
+{
+        background: #C25D1B;
+}
+    .modal-content3 h1
+    {
+        color: #fff;
+    }
+    .modal-content3 p
+    {
+        color: #fff;
+        font-size: 15px;
+    }
+    .modal-content3 h2
+    {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 300;
+    }
+/* estilos para los botones del popup de sae*/
+    .noi-conocelo{
+    text-decoration: none;
+    padding: 5px 20px;
+    
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #C25D1B;
+    border-radius: 6px;
+    border: 2px solid #ffffff;
+    margin-right: 20px;
+  }
+  .noi-conocelo:hover{
+    text-decoration: none;
+    color: #C25D1B;
+    background-color: #ffffff;
+    background-color: #ffffff;
+  }
+
+  .noi-adquierelo{
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #C25D1B;
+    background-color: #ffffff;
+    
+    border: 2px solid #ffffff;
+  }
+  .noi-adquierelo:hover{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #C25D1B;
+    background-color: #ffffff;
+  }
+/* estilospara el icono de cerrar popup*/
+  .ocultar-popup
+  {
+    font-size: 10px;
+  }
+
+
+
+
+
+
+
+
+
+  /* star estilos para la ventana modal de FACTURE*/
+/* star estilos para la ventana modal de FACTURE*/
+
+#facture-popup .modal-dialog 
+{
+    width: 700px;
+   
+    padding: 0px ;
+    position: relative;
+    margin-right: 705px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* star responsive*/
+@media (max-width: 1000px) 
+{
+    #facture-popup .modal-dialog 
+    {
+        margin-top: 70px;
+    }
+   
+}
+
+@media (max-width: 500px) 
+{
+    #facture-popup .modal-dialog 
+    {
+    width: 200px;
+   
+    padding: 0px ;
+    position: relative;
+    margin-right: 705px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+    #facture-popup .modal-dialog 
+    {
+        margin-top: 90px;
+    }
+    #facture-popup .modal-dialog 
+    {
+    width: 200px;
+    padding: 0px ;
+    position: relative;
+    }
+   
+}
+/* end responsive*/
+/* end responsive*/
+#facture-popup .modal-dialog {
+    width: 700px;
+    padding: 0px ;
+    position: relative;
+}
+#facture-popup .modal-dialog:before {
+    content: '';
+    height: 0px;
+    width: 0px;
+    border-left: 50px solid #5E2F1C;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    top: 1px;
+    left: -14px;
+    z-index: 99;
+}
+
+.custom-modal-header {
+    text-align: center;
+    color: #5E2F1C;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-top: 4px solid;
+}
+
+#facture-popup .modal-dialog .close {
+    z-index: 99999999;
+    color: white;
+    text-shadow: 0px 0px 0px;
+    font-weight: normal;
+    top: 4px;
+    right: 6px;
+    position: absolute;
+    opacity: 1;
+}
+
+.custom-modal-header .modal-title {
+    /* font-weight: bold; */
+    font-size: 25px;
+    color: #fff;
+}
+
+#facture-popup .modal-dialog:after {
+    content: '';
+    height: 0px;
+    width: 0px;
+    /* border-right: 50px solid rgba(255, 0, 0, 0.98); */
+    border-right: 50px solid #5E2F1C;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    top: 1px;
+    right: -14px;
+    z-index: 999999;
+}
+
+
+
+.modal-content4
+{
+        background: #5E2F1C;
+}
+    .modal-content4 h1
+    {
+        color: #fff;
+    }
+    .modal-content4 p
+    {
+        color: #fff;
+        font-size: 15px;
+    }
+    .modal-content4 h2
+    {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 300;
+    }
+/* estilos para los botones del popup de sae*/
+    .facture-conocelo{
+    text-decoration: none;
+    padding: 5px 20px;
+    
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #5E2F1C;
+    border-radius: 6px;
+    border: 2px solid #ffffff;
+    margin-right: 20px;
+  }
+  .facture-conocelo:hover{
+    text-decoration: none;
+    color: #5E2F1C;
+    background-color: #ffffff;
+    background-color: #ffffff;
+  }
+
+  .facture-adquierelo{
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #5E2F1C;
+    background-color: #ffffff;
+    
+    border: 2px solid #ffff;
+  }
+  .facture-adquierelo:hover{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #5E2F1C;
+    border: 2px solid #ffffff;
+  }
+/* estilospara el icono de cerrar popup*/
+  .ocultar-popup
+  {
+    font-size: 10px;
+  }
+
+
+
+  /* star estilos para la ventana modal de BANCO*/
+/* star estilos para la ventana modal de BANCO*/
+
+#banco-popup .modal-dialog 
+{
+    width: 700px;
+   
+    padding: 0px ;
+    position: relative;
+    margin-right: 705px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* star responsive*/
+@media (max-width: 1000px) 
+{
+    #banco-popup .modal-dialog 
+    {
+        margin-top: 70px;
+    }
+   
+}
+
+@media (max-width: 500px) 
+{
+    #banco-popup .modal-dialog 
+    {
+    width: 200px;
+   
+    padding: 0px ;
+    position: relative;
+    margin-right: 705px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+    #banco-popup .modal-dialog 
+    {
+        margin-top: 90px;
+    }
+    #banco-popup .modal-dialog 
+    {
+    width: 200px;
+    padding: 0px ;
+    position: relative;
+    }
+   
+}
+/* end responsive*/
+/* end responsive*/
+#banco-popup .modal-dialog {
+    width: 700px;
+    padding: 0px ;
+    position: relative;
+}
+#banco-popup .modal-dialog:before {
+    content: '';
+    height: 0px;
+    width: 0px;
+    border-left: 50px solid #33902F;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    top: 1px;
+    left: -14px;
+    z-index: 99;
+}
+
+.custom-modal-header {
+    text-align: center;
+    color: #33902F;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-top: 4px solid;
+}
+
+#banco-popup .modal-dialog .close {
+    z-index: 99999999;
+    color: white;
+    text-shadow: 0px 0px 0px;
+    font-weight: normal;
+    top: 4px;
+    right: 6px;
+    position: absolute;
+    opacity: 1;
+}
+
+.custom-modal-header .modal-title {
+    /* font-weight: bold; */
+    font-size: 25px;
+    color: #fff;
+}
+
+#banco-popup .modal-dialog:after {
+    content: '';
+    height: 0px;
+    width: 0px;
+    /* border-right: 50px solid rgba(255, 0, 0, 0.98); */
+    border-right: 50px solid #33902F;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    top: 1px;
+    right: -14px;
+    z-index: 999999;
+}
+
+
+
+.modal-content5
+{
+        background: #33902F;
+}
+    .modal-content5 h1
+    {
+        color: #fff;
+    }
+    .modal-content5 p
+    {
+        color: #fff;
+        font-size: 15px;
+    }
+    .modal-content5 h2
+    {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 300;
+    }
+/* estilos para los botones del popup de sae*/
+    .banco-conocelo{
+    text-decoration: none;
+    padding: 5px 20px;
+    
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #33902F;
+    border-radius: 6px;
+    border: 2px solid #ffffff;
+    margin-right: 20px;
+  }
+  .banco-conocelo:hover{
+    text-decoration: none;
+    color: #33902F;
+    background-color: #ffffff;
+    background-color: #ffffff;
+  }
+
+  .banco-adquierelo{
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #33902F;
+    background-color: #ffffff;
+    
+    border: 2px solid #ffffff;
+  }
+  .banco-adquierelo:hover{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #33902F;
+   border: 2px solid #ffffff;
+  }
+/* estilospara el icono de cerrar popup*/
+  .ocultar-popup
+  {
+    font-size: 10px;
+  }
+
+
+
+
+
+
+  /* star estilos para la ventana modal de CAJA*/
+/* star estilos para la ventana modal de CAJA*/
+
+
+#caja-popup .modal-dialog 
+{
+    width: 700px;
+   
+    padding: 0px ;
+    position: relative;
+    margin-right: 705px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* star responsive*/
+@media (max-width: 1000px) 
+{
+    #caja-popup .modal-dialog 
+    {
+        margin-top: 70px;
+    }
+   
+}
+
+@media (max-width: 500px) 
+{
+    #caja-popup .modal-dialog 
+    {
+    width: 200px;
+   
+    padding: 0px ;
+    position: relative;
+    margin-right: 705px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+    #caja-popup .modal-dialog 
+    {
+        margin-top: 90px;
+    }
+    #caja-popup .modal-dialog 
+    {
+    width: 200px;
+    padding: 0px ;
+    position: relative;
+    }
+   
+}
+/* end responsive*/
+/* end responsive*/
+#caja-popup .modal-dialog {
+    width: 700px;
+    padding: 0px ;
+    position: relative;
+}
+#caja-popup .modal-dialog:before {
+    content: '';
+    height: 0px;
+    width: 0px;
+    border-left: 50px solid #F6A704;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    top: 1px;
+    left: -14px;
+    z-index: 99;
+}
+
+.custom-modal-header {
+    text-align: center;
+    color: #F6A704;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-top: 4px solid;
+}
+
+#caja-popup .modal-dialog .close {
+    z-index: 99999999;
+    color: white;
+    text-shadow: 0px 0px 0px;
+    font-weight: normal;
+    top: 4px;
+    right: 6px;
+    position: absolute;
+    opacity: 1;
+}
+
+.custom-modal-header .modal-title {
+    /* font-weight: bold; */
+    font-size: 25px;
+    color: #fff;
+}
+
+#caja-popup .modal-dialog:after {
+    content: '';
+    height: 0px;
+    width: 0px;
+    /* border-right: 50px solid rgba(255, 0, 0, 0.98); */
+    border-right: 50px solid #F6A704;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    top: 1px;
+    right: -14px;
+    z-index: 999999;
+}
+
+
+
+.modal-content6
+{
+        background: #F6A704;
+}
+    .modal-content6 h1
+    {
+        color: #fff;
+    }
+    .modal-content6 p
+    {
+        color: #fff;
+        font-size: 15px;
+    }
+    .modal-content6 h2
+    {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 300;
+    }
+/* estilos para los botones del popup de sae*/
+    .caja-conocelo{
+    text-decoration: none;
+    padding: 5px 20px;
+    
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #F6A704;
+    border-radius: 6px;
+    border: 2px solid #ffffff;
+    margin-right: 20px;
+  }
+  .caja-conocelo:hover{
+    text-decoration: none;
+    color: #F6A704;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+  }
+
+  .caja-adquierelo{
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #F6A704;
+    background-color: #ffffff;
+    
+    border: 2px solid #ffffff;
+  }
+  .caja-adquierelo:hover{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #F6A704;
+    border: 2px solid #ffffff;
+  }
+/* estilospara el icono de cerrar popup*/
+  .ocultar-popup
+  {
+    font-size: 10px;
+  }

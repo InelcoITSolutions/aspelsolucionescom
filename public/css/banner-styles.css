@@ -1,0 +1,113 @@
+.anim-slider {
+    background-color: #fff;
+}
+
+.anim-slide {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.anim-slide-this {
+    opacity: 1;
+    visibility: visible;
+}
+
+.img {
+    background-color: rgb(0, 0, 0, 0.4);
+    opacity: 0.8;
+}
+
+li.anim-slide:nth-of-type(1) {
+    background: #fff url("/img/slider23.jpg")no-repeat 100%/cover;
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+    opacity: 0.9;
+}
+
+li.anim-slide:nth-of-type(2) {
+    background: #fff url("/img/slider3-aspelsoluciones.jpg") no-repeat 100%/cover;
+}
+
+li.anim-slide:nth-of-type(3) {
+    background: #fff url("/img/slider11.jpg") 100%/cover;
+}
+
+li.anim-slide:nth-of-type(4) {
+    background: #fff url("/img/slider4-aspelsoluciones.jpg") 100%/cover;
+}
+
+
+/*
+
+li.anim-slide:nth-of-type(5) {
+    background: #fff url("/img/slider-banco.jpg") 100%/cover;
+}
+
+
+li.anim-slide:nth-of-type(6) {
+    background: #fff url("/img/slider-prod.jpg") 100%/cover;
+}
+
+li.anim-slide:nth-of-type(7) {
+    background: #fff url("/img/slider-caja.jpg") 100%/cover;
+}
+
+li.anim-slide:nth-of-type(8) {
+    background: #fff url("/img/slider-facture.jpg") 100%/cover;
+}
+
+li.anim-slide:nth-of-type(9) {
+    background: #fff url("/img/slider-adm.jpg") 100%/cover;
+}*/
+
+li.anim-slide:nth-of-type(1)>h1 {
+    position: static;
+    display: inline-block;
+    margin: 0;
+    font-size: 40px;
+    padding: 0px 25px;
+}
+
+h1#looks {
+    background-color: #fff;
+    color: #34495e;
+}
+
+h1#amazing {
+    background-color: #34495e;
+    color: #fff;
+    margin: 0px -5px;
+}
+
+h1#place {
+    background-color: #3498db;
+    color: #fff;
+}
+
+li.anim-slide:nth-of-type(2)>div {
+    /*width: 100%;*/
+    height: 100%;
+}
+
+li.anim-slide:nth-of-type(3)>h1 {
+    margin: 0;
+    font-size: 60px;
+    color: #225A86;
+}
+
+li.anim-slide:nth-of-type(4)>h1 a div {
+    position: static;
+    display: inline-block;
+    margin: 0;
+    font-size: 40px;
+    padding: 0px 25px;
+}
+
+
+/*
+div#demo{text-align: center;}
+div#demo>a{display:inline-block;text-decoration: none;}
+div#demo>a>h4{padding: 5px 8px;margin: 20px;background-color: #225A86;color: #fff;box-shadow:inset 0 -2px 0 rgba(0,0,0,0.15);}
+p#credits{z-index:-1;position: fixed;bottom: 0px;width: 100%;text-align: center;font-size: 14px;}
+p#credits>a{font-weight: bold;color: #999;text-decoration: none;}
+img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;}*/

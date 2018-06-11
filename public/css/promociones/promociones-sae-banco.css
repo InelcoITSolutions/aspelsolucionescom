@@ -1,0 +1,317 @@
+/* 	===========================================
+					Reglas generales
+	===========================================	*/
+
+label {
+    color: white;
+    font-weight: 400;
+}
+
+p,
+h2,
+h3,
+h4 {
+    font-weight: 400;
+}
+
+ul li {
+    list-style: none;
+}
+
+.btn-promo {
+    color: #fff !important;
+    background-color: transparent !important;
+    border: 1px solid white;
+    border-radius: 8px;
+    -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.btn-promo:hover {
+    color: #fff !important;
+    background-color: #12203b !important;
+    border: 1px solid white;
+    border-radius: 8px;
+    -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+
+/* 	===========================================
+				Banner de promoción SAE BANCO
+	===========================================	*/
+
+.promos-banner {
+    padding: 74px 0;
+    background: url(/images-new/inelco/promocion/sae-banco/wallpaper/inelco-promocion-aspel-sae-banco-wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* optional, center the image */
+}
+
+.promos-banner h2 {
+    margin-bottom: 52px;
+}
+
+.promos-banner img {
+    width: 80%;
+}
+
+#promo-sae-banco .promos-banner span:nth-of-type(1) {
+    color: #628a36;
+}
+
+#promo-sae-banco .promos-banner span:nth-of-type(2) {
+    color: #92232f;
+}
+
+.precio-banner {
+    position: relative;
+    left: 12px;
+    top: 36px;
+    width: 70%!important;
+}
+
+
+
+
+
+
+/* 	===========================================
+					1° separador
+	===========================================	*/
+
+#promo-sae-banco .separador-verde {
+    padding: 52px 0;
+    background: #628a36;
+    color: white;
+}
+
+
+
+
+/* 	===========================================
+			Sección de beneficios y video
+	===========================================	*/
+
+.video-section {
+    padding: 120px 0;
+}
+
+.video-section h2 {
+    margin-bottom: 36px;
+}
+
+.video-section ul li {
+    margin: 8px 0;
+}
+
+.beneficios-ul {
+    position: relative;
+    top: -28px;
+}
+
+video {
+    border: 1px solid #777788;
+    padding: 1px;
+}
+
+
+
+
+/* 	===========================================
+					2° separador
+	===========================================	*/
+
+#promo-sae-banco .separador-rojo {
+    padding: 52px 0;
+    background: #92232f;
+    color: white;
+}
+
+
+
+
+/* 	===========================================
+		Sección con ventajas de la interfaz
+	===========================================	*/
+
+.ventajas-section {
+    padding: 130px 0;
+}
+
+
+.ventajas-section p .icon {
+    text-align: center;
+    width: 150px;
+}
+
+.ventajas-section .row:nth-of-type(2) {
+    margin-top: 120px;
+}
+
+
+
+
+/* 	===========================================
+					Sección de contacto
+	===========================================	*/
+
+.promo-contacto {
+    width: 100%;
+    height: 100%;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background: url(/images-new/inelco/wallpaper/inelco-wallpaper-sae-banco-3.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.promo-contacto h3 {
+    position: relative;
+    top: -100px;
+    color: white;
+    font-size: 3em;
+}
+
+.promo-contacto h4 {
+    color: white;
+    font-size: 2em;
+}
+
+.promo-contacto p {
+    color: white;
+    font-size: 1.2em;
+    /*text-shadow: 1px 1px 3px  #000;*/
+}
+
+.promo-contacto p span {
+    color: white;
+    font-size: 0.8em;
+}
+
+.promo-contacto img {
+    position: relative;
+    width: 80%;
+    top: -35px;
+}
+
+.promo-contacto a {
+    margin: 28px 0 28px 0;
+}
+
+.incluye-promo {
+    position: relative;
+    left: 90px;
+}
+
+.p-contacto-title {
+    position: relative;
+    left: -18px;
+    font-size: 1.4em;
+}
+
+.incluye-promo a {
+    position: relative;
+    left: -108px;
+}
+
+#title-incluye-promo {
+    font-size: 1.2em;
+    font-weight: 550;
+}
+
+.promo-25 {
+    position: relative;
+    top: -120px;
+}
+
+#terminos {
+    margin-left: 24px;
+    font-size: 0.8em;
+    color: white:;
+}
+
+
+
+
+/* =-=-=-=-=-=-=-=- M E D I A Q U E R Y =-=-=-=-=-=-*
+
+/* Smartphones (portrait and landscape) ----------- */
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        /* Styles */
+        .promos-banner {
+            padding: 40px 0;
+            background-color: white !important;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            /* optional, center the image */
+        }
+
+        .precio-banner {
+            position: relative;
+            left: 40px;
+            top: 36px;
+        }
+        video {
+            max-width: 100%;
+        }
+        .ventajas-section .col-md-4 {
+            margin: 64px 0;
+        }
+        .ventajas-section .row:nth-of-type(2) {
+            margin-top: 0px;
+        }
+        .ventajas-section {
+            padding: 64px 0;
+        }
+        .promo-contacto {
+            padding-top: 100px;
+            padding-bottom: 100px;
+            background: url(/images-new/inelco/wallpaper/inelco-wallpaper-sae-banco-3.jpg);
+        }
+
+        .promo-contacto h3 {
+            position: static;
+            top: 0px;
+            color: white;
+            font-size: 3em;
+        }
+
+        .incluye-promo {
+            position: relative;
+            left: 12px;
+            margin: 15% 0;
+        }
+
+        .promo-contacto img {
+            display: none;
+        }
+        .incluye-promo a {
+            position: relative;
+            left: -30px;
+        }
+        .promo-25 {
+            position: static;
+        }
+    }
+
+    /* SMARTPHONES LANDSCAPE */
+    @media only screen and (min-device-width: 364px) and (max-device-width: 736px) {
+/*        .promos-banner {
+            padding: 40px 0;
+            background: red;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            
+        }*/
+        .modal-content {
+            width: 200% !important;
+        }
+    }
+            

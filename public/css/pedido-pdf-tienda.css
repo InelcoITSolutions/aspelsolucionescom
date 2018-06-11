@@ -1,0 +1,276 @@
+body {
+    position: relative;
+    width: 18cm;
+    height: 29.7cm;
+    margin: 0 auto;
+    color: #001028;
+    background: #FFFFFF;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* margin: 3em 1em; */
+    /*! text-transform: uppercase; */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.table tbody tr td {
+    padding: 0.2em 0;
+    text-align: center;
+}
+
+table thead tr th {
+    border-bottom: 1px solid #000;
+}
+
+.abc {
+    padding-top: 5%;
+}
+
+hr {
+    border-top: 1px solid #000;
+}
+
+.nota {
+    font-size: .8em;
+    text-align: left;
+    width: 500px;
+}
+
+.logo img {
+    margin-top: -13%;
+}
+
+#project-dos {
+    float: right;
+    padding-left: 80%;
+    padding-bottom: 20%;
+}
+
+#project-dos div {
+    white-space: nowrap;
+}
+
+#project-dos span {
+    color: #5D6975;
+    text-align: left;
+    width: 52px;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 0.8em;
+}
+
+#project-tres {
+    float: right;
+    padding-left: 68%;
+    margin-top: 1%;
+}
+
+#project-tres div {
+    white-space: nowrap;
+}
+
+#project-tres span {
+    color: #5D6975;
+    text-align: left;
+    width: 42px;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 0.8em;
+}
+
+.razon-social {
+    padding-top: 20%;
+    font-size: .8em;
+}
+
+.empresa {
+    font-size: .8em;
+}
+
+.texto p {
+    padding-top: 25%;
+    font-size: .8em;
+}
+
+.pedido {
+    padding-top: -10%;
+    font-size: .8em;
+}
+
+.fila1 {
+    padding-top: 5%;
+}
+
+.tabla1 {
+    width: 300px;
+    float: right;
+    padding-top: 5em;
+    height: 200px;
+    line-height: .5em;
+}
+
+.datos-bancarios {
+    padding-top: 10%;
+    width: 250px;
+}
+
+.tabla1 tbody {
+    padding-top: 2em;
+}
+
+.precios table {
+    margin-top: 40px;
+    float: right;
+    margin-left: 100%;
+}
+
+.bajar {
+    padding-top: 60%;
+}
+
+.tabla3 {
+    width: 210px;
+    margin-top: 60%;
+}
+
+.tabla4 {
+    margin-top: 40%;
+}
+
+.logo-banco {
+    margin-top: -1%;
+    float: left;
+    margin-left: 42%;
+    position: absolute;
+}
+
+header {
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+#logo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#logo img {
+    width: 90px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#project {
+    float: right;
+    margin-left: 70%;
+    font-size: 1em;
+}
+
+#project span {
+    color: #5D6975;
+    text-align: left;
+    width: 52px;
+    margin-right: 20px;
+    display: inline-block;
+    font-size: 0.8em;
+}
+
+#project-uno {
+    float: left;
+}
+
+#project-uno span {
+    color: #5D6975;
+    text-align: left;
+    width: 52px;
+    margin-right: 20px;
+    display: inline-block;
+    font-size: 0.8em;
+}
+
+#company {
+    float: left;
+    text-align: left;
+}
+
+#company-nota {
+    float: left;
+    text-align: left;
+    font-size: .8em;
+    width: 500px;
+}
+
+#project div, #company div {
+    white-space: nowrap;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+    margin-top: 15%;
+}
+
+table tr:nth-child(2n-1) td {
+    background: #F5F5F5;
+}
+
+table th, table td {
+    text-align: center;
+}
+
+table th {
+    padding: 5px 20px;
+    color: #5D6975;
+    border-bottom: 1px solid #C1CED9;
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+table .service, table .desc {
+    text-align: left;
+}
+
+table td {
+    padding: 20px;
+    text-align: right;
+}
+
+table td.service, table td.desc {
+    vertical-align: top;
+}
+
+table td.unit, table td.qty, table td.total {
+    font-size: 1.2em;
+}
+
+table td.grand {
+    border-top: 1px solid #5D6975;
+    ;
+}
+
+#notices .notice {
+    color: #5D6975;
+    font-size: 1.2em;
+}
+
+footer {
+    color: #5D6975;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #C1CED9;
+    padding: 8px 0;
+    text-align: center;
+}

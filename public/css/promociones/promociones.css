@@ -1,0 +1,180 @@
+/*  ===========================================
+                    Reglas generales
+    =========================================== */
+
+/*#promociones {
+    background: url(/images-new/inelco/promocion/fondo.png);
+        background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#promociones .container {
+    /*position: relative;*
+    padding-top:160px;
+    padding-bottom:30px;
+}*/
+
+
+
+
+#promociones p,
+#promociones h2,
+#promociones h3,
+#promociones h4 {
+    font-weight: 400;
+    margin:0;
+    color: black;
+}
+
+#promociones p {
+    font-size: 1.4em!important;
+}
+
+#promociones h2 {
+    font-size: 2.2em!important;
+}
+
+#promociones h3 {
+    font-size: 1.4em;
+}
+
+#promociones ul li {
+    list-style: none;
+    font-size:1em !important;
+    line-height: 1.6;
+}
+
+#promociones ul li p {
+    font-size:1em !important;
+}
+
+.btn-promo {
+    font-size: 1.4em;
+    font-style: none;
+    color: #1e3662 !important;
+    background-color: transparent !important;
+    border: 1px solid #1e3662;
+    border-radius: 8px;
+    -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.btn-promo:hover {
+    font-size: 1.4em;
+    font-style: none;
+    color: #fff !important;
+    background-color: #1e3662 !important;
+    border: 1px solid #1e3662;
+    border-radius: 8px;
+    -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+#scnb {
+    width: 52%;
+    box-shadow: 0px 0px 10px black;
+}
+
+#promociones .container {
+    padding-top: 80px;
+    padding-bottom:140px;
+}
+
+.grey-space {
+    background: #f2f2f2;
+}
+
+.info {
+    color: #1e3662;
+    font-size: 0.9em;
+}
+
+.info:hover {
+    color: #1e3662;
+    font-size: 0.9em;
+}
+
+.special-text {
+    font-family: 'Great Vibes';
+    font-size: 2em;
+}
+
+.center-block {
+    float: none;
+    display: table;
+    margin: 0 auto;
+}
+
+.col-md-4 {
+    float:none;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:-4px;
+}
+
+.separador-vertical .col-md-4:nth-child(1),
+.separador-vertical .col-md-4:nth-child(2) {
+    height: 200;
+    border-right: 4px solid #d6d6d6;    
+}
+
+hr {
+    margin-top: 64px; 
+    border: 2px solid #d6d6d6;
+}
+
+
+
+/* =-=-=-=-=-=-=-=- M E D I A Q U E R Y =-=-=-=-=-=-*
+
+/* Smartphones (portrait and landscape) ----------- */
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        .col-md-3 {
+            margin: 24px 0;
+        }
+
+        #promociones .row {
+            padding: 30px 0;
+        }
+    }
+
+    /* SMARTPHONES LANDSCAPE */
+    @media only screen and (min-device-width: 362px) and (max-device-width: 736px) {
+
+    }
+
+/* ===============================================================================
+    M E D I A - Q U E R Y para cambiar posición de logo y botón en smartphones*/
+    @media only screen and (min-device-width: 320px) and (max-device-width: 991px) {
+        #changePosition {
+            display: -webkit-box;
+            display: -moz-box;
+            display: box;
+
+            -webkit-box-orient: vertical;
+            -moz-box-orient: vertical;
+            box-orient: vertical;
+        }
+        #blockA {
+            -webkit-box-ordinal-group: 4;
+            -moz-box-ordinal-group: 4;
+            box-ordinal-group: 4;
+        }
+        #blockB {
+            -webkit-box-ordinal-group: 2;
+            -moz-box-ordinal-group: 2;
+            box-ordinal-group: 2;
+        }
+        #blockC {
+            -webkit-box-ordinal-group: 3;
+            -moz-box-ordinal-group: 3;
+            box-ordinal-group: 3;
+        }
+        #blockD {
+            -webkit-box-ordinal-group: 1;
+            -moz-box-ordinal-group: 1;
+            box-ordinal-group: 1;
+        }
+    }

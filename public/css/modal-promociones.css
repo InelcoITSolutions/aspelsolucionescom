@@ -1,0 +1,110 @@
+    .modal-header, .close {
+      background-color: #005dab;
+      color:white !important;
+      text-align: center;
+      font-size: 15px;
+  }
+  
+  .dos{
+    background-color:  #005dab;
+  }
+  .pull-left2 {
+    float: right !important;
+
+}
+
+.modal-footer {
+    background: #005dab!important;
+}
+.modal {
+  text-align: center;
+}
+
+.modal-dialog {
+  width: 70%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+
+
+@media (min-width: 980px) and (max-width: 1999px) {
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+@media (min-width: 731px) and (max-width: 767px) {
+  .modal-dialog {
+    width: 90%;
+    position: relative;
+    top: 64px;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 698px) and (max-width: 730px) {
+  .modal-dialog {
+    max-width: 95% !important;
+    width: 1000px!important;
+    position: relative;
+    top: 108px;
+  }
+}
+
+/*-+-+-+-+  Cambia la imagen por medio de JS si es menor que 607px -+-+-+-+-+-*/
+@media (min-width: 536px) and (max-width: 697px) {
+  .modal-dialog {
+    position: relative;
+    top: 108px;
+    max-width: 80% !important;
+    width: 1000px!important;
+  }
+
+}
+
+@media (min-width: 481px) and (max-width: 535px) {
+  .modal-dialog {
+    position: relative;
+    top: 108px;
+    max-width: 80% !important;
+    width: 1000px!important;
+  }
+}
+
+/* Landscape phones and down */
+@media (min-width: 410px) and (max-width: 480px) {
+  .modal-dialog {
+    position: relative;
+    top: 108px;
+    max-width: 80% !important;
+    width: 1000px!important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 409px) {
+  .modal-dialog {
+    position: relative;
+    top: 108px;
+    max-width: 80% !important;
+    width: 1000px!important;
+  }
+}

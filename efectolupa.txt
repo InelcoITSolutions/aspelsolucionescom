@@ -1,0 +1,28 @@
+@push('add-js')
+    <script src="/js/jquery.elevatezoom.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".zoom1").elevateZoom({
+                zoomWindowPosition: 10,
+                /*zoomWindowFadeIn: 500,
+                zoomWindowFadeOut: 500,
+                lensFadeIn: 500,
+                lensFadeOut: 500,*/
+                easing : true,
+                scrollZoom : true
+            }); 
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".zoom2").elevateZoom({
+                zoomWindowPosition:2,
+                /*zoomWindowFadeIn: 500,
+                zoomWindowFadeOut: 500,
+                lensFadeIn: 500,
+                lensFadeOut: 500,*/
+                easing : true,
+                scrollZoom : true
+            }); 
+        });
+    </script>

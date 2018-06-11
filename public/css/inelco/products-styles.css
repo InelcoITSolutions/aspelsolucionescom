@@ -1,0 +1,4272 @@
+.espacios{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.espacios-min {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.nuevos-beneficios {
+	margin-right: 36px!important;
+}
+
+.nuevos-beneficios > h3{
+	margin-top: 36px!important;
+}
+
+.nuevos-beneficios > p{
+	margin-bottom: 36px!important;
+}
+
+.nuevos-beneficios-img {
+	margin-top: 36px!important;
+}
+
+
+
+.banner-prod{
+	padding: 6% 0;
+	color: #FFF;
+}
+/**/
+.banner-prod h1{
+	font-weight: 300;
+	text-align: center;
+	padding-bottom: 2%;
+	font-size: 2em;
+	line-height: 1.5;
+}
+
+.banner-prod h3{
+	font-weight: 300;
+	text-align: center;
+	padding-bottom: 4%;
+	font-size: 1.5em;
+	line-height: 1.5;
+}
+
+.banner-prod .iis-btn{
+	width: 35%!important;
+	border-color: #FFF;
+	margin: 0 1em;
+}
+
+.title-h2{
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 1.5em;
+	font-size: 2.5em;
+}
+
+.title-h3{
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 1em;
+	color: #1E3662;
+}
+
+.title-list{
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 1em;
+	color: #058628;
+}
+
+.title-h4{
+	font-weight: 300;
+	text-align: left;
+	margin-bottom: 1em;
+	color: #aeaeae;
+}
+
+.title-h5{
+	font-weight: 300;
+	text-align: left;
+	margin-bottom: 1em;
+	color: #aeaeae;
+	font-size: 1.3em;
+}
+
+.text-p{
+	font-size: 1.2em;
+	color: #777788;
+	font-weight: 300;
+}
+
+/*Efecto botones*/
+/* Sweep To Right */
+.hvr-sweep-to-right {
+	border-radius: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #FFF;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  border-radius: 40px;
+}
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+  color: white;
+  border-radius: 40px;
+}
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  border-radius: 40px;
+}
+/*termina efecto*/
+
+.row-icons img{
+	max-height: 90px;
+}
+
+/* ============================
+		BANNER PROMOCIONES
+	=========================== */
+
+#banner-promociones{
+	background-image: url(/images-new/inelco/otros/seccion-servicios/banner/banner-.jpg);
+}
+
+#banner-promociones{
+	padding: 0;
+}
+
+#banner-promociones .fondo-gray{
+    padding: 9% 0;
+    color: #FFF;
+    background: #1E3662;
+    background: -moz-linear-gradient(90deg, #1E3662 0%, #00ffff 100%);  
+    background: -webkit-linear-gradient(90deg, #1E3662 0%, #00ffff 100%);  
+    background: -o-linear-gradient(90deg, #1E3662 0%, #00ffff 100%);  
+    background: -ms-linear-gradient(90deg, #1E3662 0%, #00ffff 100%);  
+    background: linear-gradient(90deg, rgba(30, 54, 98,0.7) 30%, rgba(0, 153, 255,0.7) 90%);    
+}
+
+
+#banner-promociones .vm-banner-prod:hover{
+	color: #000;
+	background: transparent;
+	background-color: white;
+	border-color:white;
+}
+
+#banner-promociones .probar-banner-prod{
+	color: #000;
+	background: #FFF;
+}
+
+#banner-promociones .probar-banner-prod:hover{
+	color: #fff;
+	font-size: 22px;
+	border-color: #fff;
+	background: transparent;
+}
+
+
+
+/* =========================
+		BANNER SERVICIOS
+	======================= */
+
+#banner-servicios{
+	background-image: url(/images-new/inelco/otros/seccion-servicios/banner/banner-servicios.jpg);
+}
+
+#banner-servicios{
+	padding: 0;
+}
+
+#banner-servicios .fondo-gray{
+    padding: 9% 0;
+    color: #FFF;
+    background: #1E3662;
+    background: -moz-linear-gradient(90deg, #1E3662 0%, #00ffff 100%);  
+    background: -webkit-linear-gradient(90deg, #1E3662 0%, #00ffff 100%);  
+    background: -o-linear-gradient(90deg, #1E3662 0%, #00ffff 100%);  
+    background: -ms-linear-gradient(90deg, #1E3662 0%, #00ffff 100%);  
+    background: linear-gradient(90deg, rgba(30, 54, 98,0.7) 30%, rgba(0, 153, 255,0.7) 90%);    
+}
+
+
+#banner-servicios .vm-banner-prod:hover{
+	color: #000;
+	background: transparent;
+	background-color: white;
+	border-color:white;
+}
+
+#banner-servicios .probar-banner-prod{
+	color: #000;
+	background: #FFF;
+}
+
+#banner-servicios .probar-banner-prod:hover{
+	color: #fff;
+	font-size: 22px;
+	border-color: #fff;
+	background: transparent;
+}
+
+/* =====================================
+		INICIO IMPLEMENTACIÓN
+	==================================== */
+#banner-implementacion{
+	color: #FFF;
+	background: #B81029;
+}
+
+#banner-implementacion .vm-banner-prod:hover{
+	color: #B81029;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-implementacion .probar-banner-prod{
+	color: #B81029;
+	background: #FFF;
+}
+
+#banner-implementacion .probar-banner-prod:hover{
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+.desc-implementacion h2{
+	color:#DF2141;
+}
+
+.desc-implementacion p>b{
+	color:#DF2141;
+}
+
+#frase-implementacion{
+	background-image: url(../images/products/inelco-sae-frase.jpg);
+}
+
+#frase-implementacion .fondo-gray{
+	background: rgba(223, 33, 65,0.8);
+}
+
+/* =====================================
+		TERMINA IMPLEMENTACIÓN
+	==================================== */
+
+/* =====================================
+		INICIO ASESORIA
+	==================================== */
+#banner-asesoria{
+	color: #FFF;
+	background: #B81029;
+}
+
+#banner-asesoria .vm-banner-prod:hover{
+	color: #B81029;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-asesoria .probar-banner-prod{
+	color: #B81029;
+	background: #FFF;
+}
+
+#banner-asesoria .probar-banner-prod:hover{
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+.desc-asesoria h2{
+	color:#DF2141;
+}
+
+.desc-asesoria p>b{
+	color:#DF2141;
+}
+
+#frase-asesoria{
+	background-image: url(../images/products/inelco-sae-frase.jpg);
+}
+
+#frase-asesoria .fondo-gray{
+	background: rgba(223, 33, 65,0.8);
+}
+
+/* =====================================
+		TERMINA ASESORIA
+	==================================== */
+
+/* =====================================
+		INICIO CONSULTORIA
+	==================================== */
+#banner-consultoria{
+	color: #FFF;
+	background: #B81029;
+}
+
+#banner-consultoria .vm-banner-prod:hover{
+	color: #B81029;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-consultoria .probar-banner-prod{
+	color: #B81029;
+	background: #FFF;
+}
+
+#banner-consultoria .probar-banner-prod:hover{
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+.desc-consultoria h2{
+	color:#DF2141;
+}
+
+.desc-consultoria p>b{
+	color:#DF2141;
+}
+
+#frase-consultoria{
+	background-image: url(../images/products/inelco-sae-frase.jpg);
+}
+
+#frase-consultoria .fondo-gray{
+	background: rgba(223, 33, 65,0.8);
+}
+
+/* =====================================
+		TERMINA CONSULTORIA
+	==================================== */
+
+/* =====================================
+		INICIO CAPACITACION
+	==================================== */
+#banner-capacitacion{
+	color: #FFF;
+	background: #B81029;
+}
+
+#banner-capacitacion .vm-banner-prod:hover{
+	color: #B81029;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-capacitacion .probar-banner-prod{
+	color: #B81029;
+	background: #FFF;
+}
+
+#banner-capacitacion .probar-banner-prod:hover{
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+.desc-capacitacion h2{
+	color:#DF2141;
+}
+
+.desc-capacitacion p>b{
+	color:#DF2141;
+}
+
+#frase-capacitacion{
+	background-image: url(../images/products/inelco-sae-frase.jpg);
+}
+
+#frase-capacitacion .fondo-gray{
+	background: rgba(223, 33, 65,0.8);
+}
+
+/* =====================================
+		TERMINA CAPACITACIÓN
+	==================================== */
+
+/* =====================================
+		INICIO SOPORTE
+	==================================== */
+#banner-soporte{
+	color: #FFF;
+	background: #B81029;
+}
+
+#banner-soporte .vm-banner-prod:hover{
+	color: #B81029;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-soporte .probar-banner-prod{
+	color: #B81029;
+	background: #FFF;
+}
+
+#banner-soporte .probar-banner-prod:hover{
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+.desc-soporte h2{
+	color:#DF2141;
+}
+
+.desc-soporte p>b{
+	color:#DF2141;
+}
+
+#frase-soporte{
+	background-image: url(../images/products/inelco-sae-frase.jpg);
+}
+
+#frase-soporte .fondo-gray{
+	background: rgba(223, 33, 65,0.8);
+}
+
+/* =====================================
+		TERMINA SOPORTE
+	==================================== */
+
+/* =====================================
+		INICIO SEGURIDAD INFORMATICA
+	==================================== */
+#banner-seguridad{
+	color: #FFF;
+	background: #B81029;
+}
+
+#banner-seguridad .vm-banner-prod:hover{
+	color: #B81029;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-seguridad .probar-banner-prod{
+	color: #B81029;
+	background: #FFF;
+}
+
+#banner-seguridad .probar-banner-prod:hover{
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+.desc-seguridad h2{
+	color:#DF2141;
+}
+
+.desc-seguridad p>b{
+	color:#DF2141;
+}
+
+#frase-seguridad{
+	background-image: url(../images/products/inelco-sae-frase.jpg);
+}
+
+#frase-seguridad .fondo-gray{
+	background: rgba(223, 33, 65,0.8);
+}
+
+/* =====================================
+		TERMINA SEGURIDAD INFORMATICA
+	==================================== */
+
+
+/*BANNER Espacio*/
+#banner-espacio{
+	color: #fff;
+	background: #67CAE9;
+}
+
+#banner-espacio .vm-banner-prod:hover{
+	color: #67CAE9;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-espacio .probar-banner-prod{
+	color: #67CAE9;
+	background: #FFF;
+}
+
+#banner-espacio .probar-banner-prod:hover{
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+#btn-espacio-prob button.hvr-sweep-to-right:before{
+	background:#67CAE9;
+}
+
+#btn-espacio-prob1{
+	background: rgba( 91, 197, 237 , 0.9);
+	color:#fff;
+}
+
+#btn-espacio-prob1:hover{
+	background: #fff;
+	color: rgba(   91, 197, 237 , 0.9);
+	border-color: rgba(  91, 197, 237  , 0.9);
+}
+/*TERMINA BANNER espacio*/
+
+/*BANNER admtienda*/
+#banner-admTienda{
+	color: #fff;
+	background: #64B32E;
+}
+
+#banner-admTienda .vm-banner-prod:hover{
+	color: #64B32E;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-admTienda .probar-banner-prod{
+	color: #64B32E;
+	background: #FFF;
+}
+
+#banner-admTienda .probar-banner-prod:hover{
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+#btn-admTienda-prob button.hvr-sweep-to-right:before{
+	background:#64B32E;
+}
+
+#btn-admtienda-prob1{
+	background: rgba(100, 179, 46, 0.9);
+	color:#fff;
+}
+
+#btn-admtienda-prob1:hover{
+	background: #fff;
+	color: rgba(100, 179, 46, 0.9);
+	border-color: rgba(100, 179, 46, 0.9);
+}
+/*TERMINA BANNER adm tienda*/
+
+/*BANNER SAE*/
+#banner-sae{
+	color: #FFF;
+	background: #c10b11;
+}
+
+#banner-sae .vm-banner-prod:hover{
+	color: #B81029;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-sae .probar-banner-prod{
+	color: #B81029;
+	background: #FFF;
+}
+
+#banner-sae .probar-banner-prod:hover{
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+#btn-sae-prob button.hvr-sweep-to-right:before{
+	background:#B81029;
+}
+
+#btn-sae-prob1{
+	background: rgba(   184, 16, 41 , 0.9);
+	color:#fff;
+}
+
+#btn-sae-prob1:hover{
+	background: #fff;
+	color: rgba(  184, 16, 41 , 0.9);
+	border-color: rgba( 184, 16, 41 , 0.9);
+}
+/*TERMINA BANNER SAE*/
+
+/*BANNER ADM*/
+#banner-adm{
+	color: #FFF;
+	background: #005487;
+}
+
+#banner-adm .vm-banner-prod:hover{
+	color: #005487;
+	background: transparent;
+		background-color: white;
+}
+
+#banner-adm .probar-banner-prod{
+	color: #005487;
+	background: #FFF;
+}
+
+#banner-adm .probar-banner-prod:hover{
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+#btn-adm-prob button.hvr-sweep-to-right:before{
+	background:rgb(0,117,189);
+}
+
+#btn-adm-prob1 {
+	
+}
+
+#btn-adm-prob1{
+	background: rgba(0, 84, 135, 0.9);
+	color:#fff;
+}
+
+#btn-adm-prob1:hover{
+	background: #fff;
+	color: rgba(0, 84, 135, 0.9);
+	border-color: rgba(0, 84, 135, 0.9);
+}
+
+/*TERMINA BANNER ADM*/
+
+/*BANNER BANCO*/
+#banner-banco{
+	color: #FFF;
+	background: #469B47;
+}
+
+#banner-banco .vm-banner-prod:hover{
+	color: #469B47;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-banco .probar-banner-prod{
+	color: #469B47;
+	background: #FFF;
+}
+
+#banner-banco .probar-banner-prod:hover{
+	color: #fff;
+	border-color: white;
+	background: transparent;
+}
+
+#btn-banco-prob button.hvr-sweep-to-right:before{
+	background: rgb(50, 122, 51)!important;
+}
+
+#btn-banco-prob1{
+	background: rgba( 70, 155, 71 , 0.9);
+	color:#fff;
+}
+
+#btn-banco-prob1:hover{
+	background: #fff;
+	color: rgba( 70, 155, 71 , 0.9);
+	border-color: rgba( 70, 155, 71 , 0.9);
+}
+/*TERMINA BANNER BANCO*/
+
+
+/*BANNER CAJA*/
+#banner-caja{
+	background: #F3A02C;
+}
+
+#banner-caja .vm-banner-prod:hover{
+	color: #F3A02C;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-caja .probar-banner-prod{
+	color: #F3A02C;
+	background: #FFF;
+}
+
+#banner-caja .probar-banner-prod:hover{
+	color: #FFF;
+	border-color: #fff;
+	background: transparent;
+}
+
+#btn-caja-prob button.hvr-sweep-to-right:before{
+	background:#c1750b;
+}
+
+#btn-caja-prob1{
+	background: rgba( 253, 202, 64 , 0.9);
+	color:#fff;
+}
+
+#btn-caja-prob1:hover{
+	background: #fff;
+	color: rgba( 253, 202, 64 , 0.9);
+	border-color: rgba( 253, 202, 64 , 0.9);
+}
+/*Termina BANNER CAJA*/
+
+/*BANNER COI*/
+#banner-coi{
+	background: #03AEBD;
+}
+
+#banner-coi .vm-banner-prod:hover{
+	color: #03AEBD;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-coi .probar-banner-prod{
+	color: #03AEBD;
+	background: #FFF;
+}
+
+#banner-coi .probar-banner-prod:hover{
+	color: #FFF;
+	background: transparent;
+	border-color: #fff;
+}
+
+#btn-coi-prob button.hvr-sweep-to-right:before{
+	background:#028a97;
+}
+
+#btn-coi-prob1{
+	background: rgba(3, 174, 189, 0.9);
+	color:#fff;
+}
+
+#btn-coi-prob1:hover{
+	background: #fff;
+	color: rgba(3, 174, 189, 0.9);
+	border-color: rgba(3, 174, 189, 0.9);
+}
+/*Termina BANNER COI*/
+
+/*BANNER FACTURE*/
+#banner-facture{
+	background: #753D29;
+}
+
+#banner-facture .vm-banner-prod:hover{
+	color: #753D29;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-facture .probar-banner-prod{
+	color: #753D29;
+	background: #FFF;
+}
+
+#banner-facture .probar-banner-prod:hover{
+	color: #FFF;
+	background:transparent;
+	border-color: #fff;
+}
+
+#btn-facture-prob button.hvr-sweep-to-right:before{
+	background:#4b281b;
+	border: 0.7px #4b281b solid;
+}
+
+#btn-facture-prob1{
+	background: rgba( 117, 61, 41 , 0.9);
+	color:#fff;
+}
+
+#btn-facture-prob1:hover{
+	background: #fff;
+	color: rgba( 117, 61, 41, 0.9);
+	border-color: rgba(  117, 61, 41, 0.9);
+}
+/*Termina BANNER FACTURE*/
+
+/*BANNER NOI*/
+#banner-noi{
+	background: #dd5d07;
+}
+
+#banner-noi .vm-banner-prod:hover{
+	color: #dd5d07;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-noi .probar-banner-prod{
+	color: #dd5d07;
+	background: #FFF;
+}
+
+#banner-noi .probar-banner-prod:hover{
+	color: #FFF;
+	border-color: #fff;
+	background: transparent;
+}
+
+#btn-noi-prob button.hvr-sweep-to-right:before{
+	background:#c1750b;
+}
+
+#btn-noi-prob1{
+	background: rgba(  221, 93, 7  , 0.9);
+	color:#fff;
+}
+
+#btn-noi-prob1:hover{
+	background: #fff;
+	color: rgba(  221, 93, 7 , 0.9);
+	border-color: rgba(   221, 93, 7 , 0.9);
+}
+/*Termina BANNER NOI*/
+
+/*BANNER PROD*/
+#banner-prod{
+	background: #308FAF;
+}
+
+#banner-prod .vm-banner-prod:hover{
+	color: #308FAF;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-prod .probar-banner-prod{
+	color: #308FAF;
+	background: #FFF;
+}
+
+#banner-prod .probar-banner-prod:hover{
+	color: #FFF;
+	border-color: #fff;
+	background: transparent;
+}
+
+#btn-prod-prob button.hvr-sweep-to-right:before{
+	background:#216278;
+}
+
+#btn-prod-prob1{
+	background: rgba(  46, 139, 172, 0.9);
+	color:#fff;
+}
+
+#btn-prod-prob1:hover{
+	background: #fff;
+	color: rgba(  46, 139, 172, 0.9);
+	border-color: rgba( 46, 139, 172, 0.9);
+}
+/*Termina BANNER PROD*/
+
+/*btn de banner sae nube*/
+
+#btn-saenube-prob1{
+	background: rgba(  184, 16, 41, 0.9);
+	color:#fff;
+}
+
+#btn-saenube-prob1:hover{
+	background: #fff;
+	color: rgba(  184, 16, 41, 0.9);
+	border-color: rgba(184, 16, 41, 0.9);
+}
+
+
+/*BANNER SR*/
+#banner-national{
+	background-image: url(../images/products/Inelco-banner-national-soft.jpg);
+}
+
+#banner-national{
+	padding: 0;
+}
+
+#banner-national .fondo-gray{
+	background: rgba( 25, 25, 25 , 0.5);
+	padding: 7% 0;
+}
+
+
+#banner-national .vm-banner-prod:hover{
+	color: #191919;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-national .probar-banner-prod{
+	color: #191919;
+	background: #FFF;
+}
+
+#banner-national .probar-banner-prod:hover{
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+#btn-national-prob button.hvr-sweep-to-right:before{
+	background: #ac4906!important;
+}
+/*TERMINA BANNER SR*/
+
+/*BANNER Aspel general*/
+#banner-aspel{
+	background-image: url(../images/products/aspelgral/inelco-banner-aspelgral.jpg);
+}
+
+#banner-aspel{
+	padding: 0;
+}
+
+#banner-aspel .fondo-gray{
+	background: rgba( 25, 25, 25 , 0.5);
+	padding: 7% 0;
+}
+
+
+#banner-aspel .vm-banner-prod:hover{
+	color: #191919;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-aspel .probar-banner-prod{
+	color: #191919;
+	background: #FFF;
+}
+
+#banner-aspel .probar-banner-prod:hover{
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+#btn-aspel-prob button.hvr-sweep-to-right:before{
+	background: #ac4906!important;
+}
+/*TERMINA BANNER SR*/
+
+/*BANNER SR*/
+#banner-sr{
+	background-image: url(../images/products/sr/restaurant3.jpg);
+}
+
+#banner-sr{
+	padding: 0;
+}
+
+#banner-sr .fondo-gray{
+	background: rgba(247, 118, 31, 0.8);
+	padding: 7% 0;
+}
+
+
+#banner-sr .vm-banner-prod:hover{
+	color: #f7761f;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-sr .probar-banner-prod{
+	color: #f7761f;
+	background: #FFF;
+}
+
+#banner-sr .probar-banner-prod:hover{
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+#btn-sr-prob button.hvr-sweep-to-right:before{
+	background: #ac4906!important;
+}
+/*TERMINA BANNER SR*/
+
+/*BANNER SR-nuevo*/
+#banner-sr-nuevo{
+	background-image: url(../images/products/sr/Inelco-softrestaurant-banner-modo-operacion.jpg);
+}
+
+#banner-sr-nuevo{
+	padding: 0;
+}
+
+#banner-sr-nuevo .fondo-gray{
+	background: rgba(247, 118, 31, 0.7);
+	padding: 7% 0;
+}
+
+
+#banner-sr-nuevo .vm-banner-prod:hover{
+	color: #f7761f;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-sr-nuevo .probar-banner-prod{
+	color: #f7761f;
+	background: #FFF;
+}
+
+#banner-sr-nuevo .probar-banner-prod:hover{
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+#btn-sr-prob button.hvr-sweep-to-right:before{
+	background: #ac4906!important;
+}
+/*TERMINA BANNER SR-nuevo*/
+
+/*BANNER OTM*/
+#banner-otm{
+	background-image: url(../images/products/otm/inelco-banner-otm.jpg);
+}
+
+#banner-otm{
+	padding: 0;
+}
+
+#banner-otm .fondo-gray{
+	background: rgba(58, 115, 184, 0.8);
+	padding: 7% 0;
+}
+
+
+#banner-otm .vm-banner-prod:hover{
+	color: #3A73B8;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-otm .probar-banner-prod{
+	color: #3A73B8;
+	background: #FFF;
+}
+
+#banner-otm .probar-banner-prod:hover{
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+#btn-otm-prob button.hvr-sweep-to-right:before{
+	background: #254974!important;
+}
+/*TERMINA BANNER OTM*/
+
+/*BANNER SF*/
+#banner-sf{
+	background-image: url(../images/products/sf/inelco-sf-banner.png);
+	background-position: 50% 50%;
+}
+
+#banner-sf{
+	padding: 0;
+}
+
+#banner-sf .fondo-gray{
+	background: rgba(235, 73, 71, 0.8);
+	padding: 7% 0;
+}
+
+
+#banner-sf .vm-banner-prod:hover{
+	color: #eb4947;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-sf .probar-banner-prod{
+	color: #eb4947;
+	background: #FFF;
+}
+
+#banner-sf .probar-banner-prod:hover{
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+#btn-sf-prob button.hvr-sweep-to-right:before{
+	background: #b81714!important;
+}
+/*TERMINA BANNER SF*/
+
+
+/*BANNER NSH*/
+#banner-nsh{
+	background-image: url(../images/products/nsh/inelco-banner-national-soft-hoteles.jpg);
+	background-position: 50% 50%;
+}
+
+#banner-nsh{
+	padding: 0;
+}
+
+#banner-nsh .fondo-gray{
+	background: rgba(110, 62, 24, 0.8);
+	padding: 7% 0;
+}
+
+
+#banner-nsh .vm-banner-prod:hover{
+	color: #6E3E18;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-nsh .probar-banner-prod{
+	color: #6E3E18;
+	background: #FFF;
+}
+
+#banner-nsh .probar-banner-prod:hover{
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+#btn-nsh-prob button.hvr-sweep-to-right:before{
+	background: #3f240d!important;
+}
+/*TERMINA BANNER NSH*/
+
+/*BANNER ICRM*/
+#banner-icrm{
+	background-image: url(../images/products/icrm/inelco-icrm-banner2.jpg);
+	background-position: 50% 90%;
+}
+
+#banner-icrm{
+	padding: 0;
+}
+
+#banner-icrm .fondo-gray{
+	background: rgba(87, 155, 211, 0.8);
+	padding: 7% 0;
+}
+
+
+#banner-icrm .vm-banner-prod:hover{
+	color: #579bd3;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-icrm .probar-banner-prod{
+	color: #579bd3;
+	background: #FFF;
+}
+
+#banner-icrm .probar-banner-prod:hover{
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+#btn-icrm-prob button.hvr-sweep-to-right:before{
+	background: #255e8d!important;
+}
+/*TERMINA BANNER ICRM*/
+
+/*BANNER ICRM de lista de precios*/
+#banner-precios{
+	background-image: url(../images/products/icrm/inelco-icrm-banner2.jpg);
+	background-position: 30% 40%;
+}
+
+#banner-precios{
+	padding: 0;
+}
+
+#banner-precios .fondo-gray{
+	background: rgba(76, 150, 159, 0.8);
+	padding: 3% 0;
+}
+
+
+#banner-precios .vm-banner-prod:hover{
+	color: #579bd3;
+	background: transparent;
+}
+
+#banner-precios .probar-banner-prod{
+	color: #579bd3;
+	background: #FFFFFF;
+}
+
+#banner-precios .probar-banner-prod:hover{
+	color: #fff;
+	border-color: #255e8d;
+	background: transparent;
+}
+
+#btn-icrm-prob button.hvr-sweep-to-right:before{
+	background: #255e8d!important;
+}
+/*TERMINA BANNER ICRM*/
+
+/*BANNER de aspel en general*/
+#banner-aspelgr{
+	background-image: url(../images/products/inelco-sae-frase5.jpg);
+	background-position: 50% 90%;
+}
+
+#banner-aspelgr{
+	padding: 0;
+}
+
+#banner-aspelgr .fondo-gray{
+	background: rgba(10, 124, 238, 0.2); 
+	padding: 7% 0;
+}
+
+
+#banner-aspelgr .vm-banner-prod:hover{
+	color: #1988F7;
+	background: transparent;
+	background-color: white;
+}
+
+#banner-aspelgr .probar-banner-prod{
+	color: #1988F7;
+	background: #FFFFFF;
+}
+
+#banner-aspelgr .probar-banner-prod:hover{
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+#btn-aspel-prob button.hvr-sweep-to-right:before{
+	background: #1988F7!important;
+}
+/*TERMINA BANNER ICRM*/
+
+/*aspel pages*/
+.aspel-pages h2, .espacio-pages b, .espacio-pages .espacio-h2, .espacio-pages .title, .espacio-pages h3, .espacio-pages .title-h5 {
+	color:#1988F7!important;
+}
+
+
+/*espacio PAGES*/
+.espacio-pages h2, .espacio-pages b, .espacio-pages .espacio-h2, .espacio-pages .title, .espacio-pages h3, .espacio-pages .title-h5 {
+	color:#1084CD!important;
+}
+
+.soluciones-espacio .title-h4{
+	font-weight: 400;
+	text-align: center;
+}
+
+/*ADM Tienda PAGES*/
+.admtienda-pages h2, .admtienda-pages b, .admtienda-pages .espacio-h2, .admtienda-pages .title, .admtienda-pages h3, .admtienda-pages .title-h5 {
+	color:#47BB03!important;
+}
+
+.soluciones-admtienda .title-h4{
+	font-weight: 400;
+	text-align: center;
+}
+
+/*ADM PAGES*/
+.adm-pages h2, .adm-pages b, .adm-pages .title-h2, .adm-pages .title, .adm-pages h3, .adm-pages .title-h5{
+	color:#005487!important;
+}
+
+.soluciones-adm .title-h4{
+	font-weight: 400;
+	text-align: center;
+}
+
+/*BANCO PAGES*/
+.banco-pages h2, .banco-pages b, .banco-pages .title-h2, .banco-pages .title, .banco-pages h3, .banco-pages .title-h5{
+	color:#469B47!important;
+}
+
+.soluciones-banco .title-h4{
+	font-weight: 400;
+	text-align: center;
+}
+
+
+/*CAJA PAGES*/
+.caja-pages h2, .caja-pages b, .caja-pages .title-h2, .caja-pages .title, .caja-pages h3, .caja-pages .title-h5{
+	color:#F3A02C!important;
+}
+
+.soluciones-caja .title-h4{
+	font-weight: 400;
+	text-align: center;
+}
+
+/*COI PAGES*/
+.coi-pages h2, .coi-pages b, .coi-pages .title-h2, .coi-pages .title, .coi-pages h3, .coi-pages .title-h5{
+	color:#03AEBD!important;
+}
+
+.soluciones-coi .title-h4{
+	font-weight: 400;
+	text-align: center;
+}
+
+/*FACTURE PAGES*/
+.facture-pages h2, .facture-pages b, .facture-pages .title-h2, .facture-pages .title, .facture-pages h3, .facture-pages .title-h5{
+	color:#753D29!important;
+}
+
+.soluciones-facture .title-h4{
+	font-weight: 400;
+	text-align: center;
+}
+
+/*Aspel general estilos*/
+/*SR PAGES*/
+.aspel-pages h2, .aspel-pages b, .aspel-pages .title-h2, .aspel-pages .title, .aspel-pages h3, .aspel-pages .title-h5{
+	color:#0068AF!important;
+	text-align: center;
+}
+
+.soluciones-aspel .title-h4{
+	font-weight: 400;
+	text-align: center;
+}
+
+.soluciones-aspel .title-h5{
+	text-align: center;
+	margin-bottom: 0.2em;
+}
+
+#btn-aspel{
+	background-color: #0068AF;
+	color: #fff;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
+
+#btn-aspel:hover{
+	background-color: #fff;
+	color: #0068AF;
+	border-color: #0068AF; 
+
+}
+
+
+
+/*National soft estilos*/
+/*SR PAGES*/
+.nsoft-pages h2, .nsoft-pages b, .nsoft-pages .title-h2, .nsoft-pages .title, .nsoft-pages h3, .nsoft-pages .title-h5{
+	color:#EB4947!important;
+	text-align: center;
+}
+
+.soluciones-nsoft .title-h4{
+	font-weight: 400;
+	text-align: center;
+}
+
+.soluciones-nsoft .title-h5{
+	text-align: center;
+	margin-bottom: 0.2em;
+}
+
+#btn-national{
+	background-color: #EB4947;
+	color: #fff;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
+
+#btn-national:hover{
+	background-color: #fff;
+	color: #EB4947;
+	border-color: #EB4947; 
+
+}
+
+/*NOI PAGES*/
+.noi-pages h2, .noi-pages b, .noi-pages .title-h2, .noi-pages .title, .noi-pages h3, .noi-pages .title-h5{
+	color:#F3A02C!important;
+}
+
+.noi-pages a{
+	color: inherit;
+}
+
+.soluciones-noi .title-h4{
+	font-weight: 400;
+	text-align: center;
+}
+
+/*PROD PAGES*/
+.prod-pages h2, .prod-pages b, .prod-pages .title-h2, .prod-pages .title, .prod-pages h3, .prod-pages .title-h5{
+	color:#308FAF!important;
+}
+
+.soluciones-prod .title-h4{
+	font-weight: 400;
+	text-align: center;
+}
+
+/*SR PAGES*/
+.sr-pages h2, .sr-pages b, .sr-pages .title-h2, .sr-pages .title, .sr-pages h3, .sr-pages .title-h5{
+	color:#f7761f!important;
+}
+
+.soluciones-sr .title-h4{
+	font-weight: 400;
+	text-align: center;
+}
+
+.soluciones-sr .title-h5{
+	text-align: center;
+	margin-bottom: 0.2em;
+}
+
+#lo-nuevo-sr .box-solutions{
+	height: 350px;
+}
+
+#lo-nuevo-sr .box-solutions img{
+	height: 100px;
+}
+
+.sr-movil p.icon-movil-sr{
+	width: 100%;
+	font-size: 2.7em;
+	text-align: right!important;
+	color: #672480;
+}
+
+.sr-movil li:before{
+	color: #672480;
+	font-size: 1.6em;
+}
+
+.sr-movil .title-h2, .sr-movil b{
+	color: #672480!important;
+}
+
+
+/*OTM PAGES*/
+.otm-pages h2, .otm-pages b, .otm-pages .title-h2, .otm-pages .title, .otm-pages h3, .otm-pages .title-h5{
+	color:#3A73B8!important;
+}
+
+.soluciones-otm .title-h4{
+	font-weight: 400;
+	text-align: center;
+}
+
+.soluciones-otm .title-h5{
+	text-align: center;
+	margin-bottom: 0.2em;
+}
+
+#lo-nuevo-otm .box-solutions{
+	height: 350px;
+}
+
+#lo-nuevo-otm .box-solutions img{
+	height: 100px;
+}
+
+.li-otm li:before {
+  content: "\eb70"; /* FontAwesome Unicode */
+  font-family: icomoon;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.2em; /* same as padding-left set on li */
+  font-size: 1.5em;
+    vertical-align: middle;
+	color: #3A73B8!important;
+}
+
+#hard{
+	padding-top: 3%;
+}
+
+#btn-hard{
+	margin-right: 8px;
+	margin-left: 8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.tx-js{
+	text-align:justify;
+}
+
+/*SF PAGES*/
+.sf-pages h2, .sf-pages b, .sf-pages .title-h2, .sf-pages .title, .sf-pages h3, .sf-pages .title-h5{
+	color:#eb4947!important;
+}
+
+.soluciones-sf .title-h4{
+	font-weight: 400;
+	text-align: center;
+}
+
+.soluciones-sf .title-h5{
+	text-align: center;
+	margin-bottom: 0.2em;
+}
+
+#lo-nuevo-sf .box-solutions{
+	height: 350px;
+}
+
+#lo-nuevo-sf .box-solutions img{
+	height: 100px;
+}
+
+.sf-movil p.icon-movil-sf{
+	width: 100%;
+	font-size: 2.7em;
+	text-align: right!important;
+	color: #eb4947;
+}
+
+.sf-movil li:before{
+	color: #672480;
+	font-size: 1.6em;
+}
+
+.sf-movil .title-h2, .sf-movil b{
+	color: #eb4947!important;
+}
+
+.ul-sf-req li:before {
+  content: "\e958"; /* FontAwesome Unicode */
+  font-family: icomoon;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.2em; /* same as padding-left set on li */
+  font-size: 1.5em;
+  vertical-align: middle;
+	color: #eb4947!important;
+	line-height: 1.5;
+}
+
+
+/*NSH PAGES*/
+.nsh-pages h2, .nsh-pages b, .nsh-pages .title-h2, .nsh-pages .title, .nsh-pages h3, .nsh-pages .title-h5{
+	color:#6E3E18!important;
+}
+
+.soluciones-nsh .title-h4{
+	font-weight: 400;
+	text-align: center;
+}
+
+.soluciones-nsh .title-h5{
+	text-align: center;
+	margin-bottom: 0.2em;
+}
+
+#lo-nuevo-nsh .box-solutions{
+	height: 350px;
+}
+
+#lo-nuevo-nsh .box-solutions img{
+	height: 100px;
+}
+
+
+/*ICRM PAGES*/
+.icrm-pages h2, .icrm-pages b, .icrm-pages .title-h2, .icrm-pages .title, .icrm-pages h3, .icrm-pages .title-h5{
+	color:#579bd3!important;
+}
+
+.soluciones-icrm .title-h4{
+	font-weight: 400;
+	text-align: center;
+}
+
+.soluciones-icrm .title-h5{
+	text-align: center;
+	margin-bottom: 0.2em;
+}
+
+.row-icon img{
+	height: 110px;
+}
+
+#caract-icrm .box-solutions:hover{
+
+	transform: scale(1.05);
+	-webkit-transform: scale(1.03);
+	-webkit-transition: box-shadow 0.3s, margin-top 0.3s;
+	-moz-transform: translateY(-5px);
+	-o-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	z-index: 1;
+	-webkit-box-shadow: 1px 19px 35px -5px rgba(125,125,125,0.41);
+    -moz-box-shadow: 1px 19px 35px -5px rgba(125,125,125,0.41);
+     box-shadow: 1px 19px 35px -5px rgba(125,125,125,0.41);
+
+	/*box-shadow: 0px 10px 10px #eee;*/
+}
+  /*TERMINA COLORES DE PAGINAS*/
+
+
+
+
+  /*Inicia FRASE*/
+
+/*Frase SAE*/
+#frase-sae{
+	background-image: url(../images/products/inelco-sae-frase.jpg);
+}
+
+#frase-sae .fondo-gray{
+	background:rgba(193, 11, 17,0.7);
+}
+/*Termina Frase SAE*/
+
+/*Frase ADMTienda*/
+#frase-admtienda{
+	background-image: url(../images/products/inelco-sae-frase.jpg);
+}
+
+#frase-admtienda .fondo-gray{
+	background: rgba(100,179,46, 0.8);
+}
+/*Termina Frase SAE*/
+
+/*Frase ADM*/
+#frase-adm{
+	background-image: url(../images/products/inelco-sae-frase.jpg);
+}
+
+#frase-adm .fondo-gray{
+	background: rgba(0, 117, 189,0.8);
+}
+/*Termina Frase ADM*/
+
+/*Frase BANCO*/
+#frase-banco{
+	background-image: url(../images/products/inelco-sae-frase.jpg);
+}
+
+#frase-banco .fondo-gray{
+	background: rgba(70, 155, 71,0.8);
+}
+/*Termina Frase BANCO*/
+
+/*FRASE CAJA*/
+#frase-caja{
+	background-image: url(../images/products/inelco-sae-frase.jpg);
+}
+
+#frase-caja .fondo-gray{
+	background: rgba(243, 160, 44,0.8);
+}
+/*TERMINA FRASE CAJA*/
+
+/*FRASE COI*/
+#frase-coi{
+	background-image: url(../images/products/inelco-sae-frase.jpg);
+}
+
+#frase-coi .fondo-gray{
+	background: rgba(3, 174, 189,0.8);
+}
+/*TERMINA FRASE COI*/
+
+/*FRASE FACTURE*/
+#frase-facture{
+	background-image: url(../images/products/inelco-sae-frase.jpg);
+}
+
+#frase-facture .fondo-gray{
+	background: rgba(117, 61, 41,0.8);
+}
+/*TERMINA FRASE FACTURE*/
+
+
+/*FRASE NOI*/
+#frase-noi{
+	background-image: url(../images/products/inelco-sae-frase.jpg);
+}
+
+#frase-noi .fondo-gray{
+	background: rgba( 221, 93, 7,0.8);
+}
+/*TERMINA FRASE NOI*/
+
+/*FRASE PROD*/
+#frase-prod{
+	background-image: url(../images/products/inelco-sae-frase.jpg);
+}
+
+#frase-prod .fondo-gray{
+	background: rgba(48, 143, 175,0.8);
+}
+/*TERMINA FRASE PROD*/
+
+/*FRASE SR*/
+#frase-sr{
+	background-image: url(../images/products/inelco-sae-frase.jpg);
+}
+
+#frase-sr .fondo-gray{
+	background: rgba(247, 118, 31,0.8);
+}
+
+
+/*TERMINA FRASE SR*/
+
+
+/*FRASE OTM*/
+#frase-otm{
+	background-image: url(../images/products/inelco-sae-frase.jpg);
+}
+
+#frase-otm .fondo-gray{
+	background: rgba(58, 115, 184,0.8);
+}
+/*TERMINA FRASE OTM*/
+
+/*FRASE SF*/
+#frase-sf{
+	background-image: url(../images/products/sf/Inelco-facturas_electronicas.jpg);
+}
+
+.comprar{/*es el boton de comprar*/
+
+	color: #EC645D;
+
+}
+.comprar:hover{/*es el boton de comprar*/
+	background-color: #EC645D;
+	color:#fff;
+}
+
+
+
+.timbres .white{
+	
+  padding: 5% 0;
+  
+}
+
+.timbres .comprar{
+	background: #CF4647;
+  color: #fff;
+}
+
+.timbres .comprar:hover{
+	background: #9B1B1B;
+	color: #fff;
+}
+
+.timbres .table{
+	width: 50%;
+	margin: 0 auto;
+	background: #fff;
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+.timbres h2{
+	color: #EE5347;
+	
+	text-align: center;
+}
+
+.timbres strong{
+	color: #CF4647;
+	font-weight: 600;
+	text-align: center;
+}
+
+.timbres .table th{
+	text-align: center;
+	color: #CF4647;
+	font-size: 1.1em;
+}
+
+.timbres .table td{
+	text-align: center;	
+	line-height: 1.6em;
+	color: #777777;
+}
+
+
+
+#frase-sf .fondo-gray{
+	background: rgba(235, 73, 71,0.8);
+}
+/*TERMINA FRASE SF*/
+
+/*FRASE NSH*/
+#frase-nsh{
+	background-image: url(../images/products/nsh/Soluciones-para-restaurantes-banner-nshoteles.jpg);
+}
+
+#frase-nsh .fondo-gray{
+	background: rgba(110, 62, 24,0.8);
+}
+
+#btn-nsh-frase:hover{
+	background-color: #fff;
+	color: #502D12;
+}
+
+#btn-nsh-frase{
+	background-color: transparent;
+	color: #fff;
+	border-color: #fff;
+}
+
+#btn-nsh-conocemas:hover{
+	background-color: #fff;
+	color: #502D12;
+	border-color: #502D12;
+}
+
+#btn-nsh-conocemas{
+	background-color: #502D12;
+	color: #fff;
+	border-color: #502D12;
+}
+/*TERMINA FRASE NSH*/
+
+/*FRASE ICRM*/
+#frase-icrm{
+	background-image: url(../images/products/inelco-sae-frase.jpg);
+}
+
+#frase-icrm .fondo-gray{
+	background: rgba(87, 155, 211,0.8);
+}
+/*TERMINA FRASE ICRM*/
+
+/*FRASE espacio*/
+#frase-espacio{
+	background-image: url(../images/products/inelco-sae-frase.jpg);
+}
+
+#frase-espacio .fondo-gray{
+	background: rgba(103,202,233, 0.8);
+}
+/*TERMINA FRASE espacio*/
+
+
+  /*Termina Frase*/
+
+
+
+.descripcion-prod{
+	padding: 5% 0;
+}
+
+.descripcion-prod h2{
+	font-weight: 300;
+	padding-bottom: 4%;
+}
+
+.descripcion-prod p{
+	font-weight: 300;
+	color: #777;
+	font-size: 1.3em;
+}
+
+.descripcion-prod img{
+	vertical-align: middle!important;
+	padding-top: 4em;
+}
+
+.secciones b{
+	font-weight: 600;
+}
+
+/*descripcion SAE*/
+.desc-sae h2{
+	color:#DF2141;
+}
+
+.desc-sae p>b{
+	color:#DF2141;
+	font-weight: 600;
+}
+
+/*TERNIMA descrip SAE*/
+
+/*descripcion espacio*/
+.desc-espacio h2{
+	color:#1084CD;
+}
+
+.desc-espacio p>b{
+	color:#1084CD;
+	font-weight: 600;
+}
+
+/*TERNIMA descrip SAE*/
+
+/*descripcion espacio*/
+.desc-admtienda h2{
+	color:#4CC109;
+}
+
+.desc-admtienda p>b{
+	color:#4CC109;
+	font-weight: 600;
+}
+
+/*TERNIMA descrip SAE*/
+
+
+  /*TOUR PRODUCTO*/
+.ac_content .title-h3{
+	color: #777!important;
+}
+
+.ac_content {
+    position: relative;
+    width: 100%;
+}
+
+.ac_content{
+	padding-bottom: 0;
+}
+
+.ac_content .title-h2{
+	padding-top: 2%;
+	margin-bottom: 0;
+}
+
+#lap-separator{
+	margin-top: 0px;
+	border-width: 3px;
+	border-color:#ddd;
+	z-index: 10;
+	visibility: hidden;
+	display: none;
+}
+
+.notpadding {
+    padding-top: 0 !important;
+}
+.ac_content-wrapper {
+    position: relative;
+    padding: 100px 20px;
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.ac_home-tour {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 509px!important;
+    /*background: url(../images/products/home-tour-background.png) no-repeat center bottom;*/
+	  background: url(../images/products/inelco_laptop.png) no-repeat center bottom;
+    background-size: 100%;
+    margin-bottom: -115px;
+}
+
+/*.tour-caption {
+    position: absolute;
+    right: 82px;
+    bottom: 30px;
+    width: 236px;
+    padding: 20px;
+    height: auto;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+    color: #fff;
+    z-index: 2;
+}*/
+
+.tour-caption .title, .tour-caption p{
+	text-align: center!important;
+}
+
+.tour-caption .title{
+	color: #1E3662;
+	font-weight:400;
+	font-size:1.5em;
+	margin-top: 16px;
+}
+
+.tour-caption p{
+	font-size: 1.3em;
+	padding: 0 9%;
+}
+
+#texto-img{
+	padding: 0;
+	padding-bottom: 4%;
+}
+
+#texto-img .row{
+	padding: 0;
+}
+
+.ac_col {
+    position: relative;
+    float: left;
+    margin-left: 1.6%;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: #fff!important;
+	padding-bottom: 0;
+}
+
+.ac_col.twelve {
+    width: 100%;
+}
+
+.ac_home-tour #tour-slides {
+    display: none;
+		width: 70.3% !important;
+	  top: 43px;
+		left: 14.6%;
+		position: absolute;
+		bottom: 2px;
+    z-index: 1;
+}
+
+.slidesjs-container{
+    overflow: hidden!important;
+    width: 654px!important;
+    height: 361.675px!important;
+}
+
+.slidesjs-control{
+    width: 637px!important;
+}
+
+#tour-slides {
+    overflow: visible !important;
+}
+
+/*==========================
+	CONFIG IMG LAPTOP SAE
+ ===========================*/
+.laptop-sae #tour-slides img:nth-of-type(1){
+	max-width:60%;
+	height:95%;
+	margin:1% 15%;
+}
+
+.laptop-sae #tour-slides img:nth-of-type(2){
+	margin:1% 1%;
+	width: 88.5%;
+}
+
+.laptop-sae #tour-slides img:nth-of-type(3){
+	margin:1% 1%;
+}
+
+.laptop-sae #tour-slides img:nth-of-type(4){
+	height: 130%;
+}
+
+.laptop-sae #tour-slides img:nth-of-type(5){
+	margin:8% 1%;
+} /*FIN SECCION LAPTOP SAE*/
+
+/*==========================
+	CONFIG IMG LAPTOP COI
+ ===========================*/
+
+.laptop-coi #tour-slides img:nth-of-type(1){
+	max-width:60%;
+	height:95%;
+	margin:1% 20%;
+}
+
+.laptop-coi #tour-slides img:nth-of-type(2){
+	margin:1% 1%;
+	width: 88.5%;
+}
+
+.laptop-coi #tour-slides img:nth-of-type(3){
+	max-width:60%;
+	margin-top: -2%;
+	margin-left:20%;
+}
+
+.laptop-coi #tour-slides img:nth-of-type(4){
+	max-width:65%;
+	margin-top: -2%;
+	margin-left:20%;
+}
+
+.laptop-coi #tour-slides img:nth-of-type(5){
+	max-width:100%;
+}
+
+.laptop-coi #tour-slides img:nth-of-type(6){
+	max-width:65%;
+	margin-left:20%;
+}
+
+.laptop-coi #tour-slides img:nth-of-type(7){
+	max-width:70%;
+	margin: 3% 18%;
+}
+
+/*FIN SECCIÓN LAPTOP COI*/
+
+#tour-slides .slidesjs-pagination {
+    position: absolute;
+    top: 81%;
+	left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255,255,255,0.8);
+    padding: 10px;
+    border-radius: 20px;
+    z-index: 10!important;
+    text-align:center;
+}
+
+.slidesjs-pagination {
+    margin-top: 10px;
+    z-index: 1 !important;
+}
+
+.slidesjs-pagination li {
+    float: left;
+    list-style-type: none;
+    margin: 0 4px;
+}
+
+.slidesjs-pagination li a {
+    display: block;
+    list-style-type: none;
+    border: none;
+    text-indent: -9999px;
+    background: #999;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+}
+
+#tour-slides .slidesjs-pagination .slidesjs-pagination-item a.active {
+    width: 14px;
+    height: 14px;
+	  vertical-align: middle;
+    margin-top: -2px;
+}
+
+.slidesjs-pagination li a.active {
+    background: #4f7ac9;
+}
+
+.ac_separator-h {
+    margin: 0;
+    height: 2px;
+    background: #cacaca;
+    width: 100%;
+}
+
+
+/*RESPONSIVE TOUR*/
+@media (max-width: 1280px){
+	.ac_home-tour {
+			height: 510px!important;
+	}
+
+	.ac_home-tour #tour-slides {
+			width: 70.3%;
+			top: 44px;
+			left: 14.5%;
+	}
+
+	.slidesjs-container, .slidesjs-control{
+			width: 654px!important;
+			height: 362px!important;
+	}
+}
+
+
+/*@media (max-width: 1024px){
+	.ac_home-tour {
+			height: 510px!important;
+	}
+
+	.ac_home-tour #tour-slides {
+			width: 70.3%;
+			top: 44px;
+			left: 14.5%;
+	}
+
+	.slidesjs-container, .slidesjs-control{
+			width: 654px!important;
+			height: 362px!important;
+	}
+}*/
+
+@media (max-width: 800px){
+	.ac_home-tour {
+			height: 420px!important;
+	}
+
+	.ac_home-tour #tour-slides {
+			width: 70.3%;
+			top: 39px;
+		left:14.6%;
+	}
+
+	.slidesjs-container, .slidesjs-control{
+			width: 535px!important;
+			height: 296px!important;
+	}
+}
+
+
+@media (max-width: 768px){
+	.ac_home-tour {
+			height: 400px!important;
+	}
+
+	.ac_home-tour #tour-slides {
+			width: 70.3%;
+			top: 35px;
+	}
+
+	.slidesjs-container, .slidesjs-control{
+			width: 513px!important;
+			height: 284px!important;
+	}
+}
+
+@media (max-width: 736px){
+	.ac_home-tour {
+			height: 380px!important;
+	}
+
+	.ac_home-tour #tour-slides {
+			width: 70.3%;
+			top: 31px;
+	}
+
+	.slidesjs-container, .slidesjs-control{
+			width: 491px!important;
+			height: 272px!important;
+	}
+}
+
+@media (max-width: 720px){
+	.ac_home-tour {
+			height: 375px!important;
+	}
+
+	.ac_home-tour #tour-slides {
+			width: 70.3%;
+			top: 36px;
+	}
+
+	.slidesjs-container, .slidesjs-control{
+			width: 477px!important;
+			height: 263px!important;
+	}
+}
+
+@media (max-width: 640px){
+	.ac_home-tour {
+			height: 330px!important;
+	}
+
+	.ac_home-tour #tour-slides {
+			width: 70.3%;
+			top: 29px;
+	}
+
+	.slidesjs-container, .slidesjs-control{
+			width: 422px!important;
+			height: 234px!important;
+	}
+}
+
+@media (max-width: 640px){
+	.ac_home-tour {
+			height: 330px!important;
+	}
+
+	.ac_home-tour #tour-slides {
+			width: 70.3%;
+			top: 30px;
+	}
+
+	.slidesjs-container, .slidesjs-control{
+			width: 421px!important;
+			height: 233px!important;
+	}
+}
+
+@media (max-width: 568px){
+	.ac_home-tour {
+			height: 290px!important;
+	}
+
+	.ac_home-tour #tour-slides {
+			width: 60.3%;
+			top: 25px;
+	}
+
+	.slidesjs-container, .slidesjs-control{
+			width: 371px!important;
+			height: 206px!important;
+	}
+}
+
+@media (max-width: 533px){
+	.ac_home-tour {
+			height: 270px!important;
+	}
+
+	.ac_home-tour #tour-slides {
+			width: 60.3%;
+			top: 23px;
+	}
+
+	.slidesjs-container, .slidesjs-control{
+			width: 346px!important;
+			height: 192px!important;
+	}
+}
+@media (max-width: 480px){
+	.ac_home-tour {
+			height: 240px!important;
+	}
+
+	.ac_home-tour #tour-slides {
+			width: 70.3%;
+			top: 20px;
+			left: 14.5%;
+	}
+
+	.slidesjs-container, .slidesjs-control{
+			width: 310px!important;
+			height: 172px!important;
+	}
+}
+
+@media (max-width: 414px){
+	.ac_home-tour {
+			height: 205px!important;
+	}
+
+	.ac_home-tour #tour-slides {
+			width: 70.3%;
+			top: 18px;
+			left: 14.5%;
+	}
+
+	.slidesjs-container, .slidesjs-control{
+			width: 264px!important;
+			height: 145px!important;
+	}
+}
+
+@media (max-width: 384px){
+	.ac_home-tour {
+			height: 190px!important;
+	}
+
+	.ac_home-tour #tour-slides {
+			width: 70.5%!important;
+			top: 18px;
+	}
+
+	.slidesjs-container, .slidesjs-control{
+			width: 243px!important;
+			height: 134px!important;
+	}
+
+	.banner-prod .iis-btn{
+		width: 55%!important;
+		border-color: #FFF;
+		margin: 0 1em;
+	}
+}
+
+@media (max-width: 375px){
+	.ac_home-tour {
+			height: 185px!important;
+	}
+
+	.ac_home-tour #tour-slides {
+			width: 70.5%!important;
+			top: 18px;
+	}
+
+	.slidesjs-container, .slidesjs-control{
+			width: 236px!important;
+			height: 130px!important;
+	}
+
+	.banner-prod .iis-btn{
+		width: 55%!important;
+		border-color: #FFF;
+		margin: 0 1em;
+	}
+}
+
+@media (max-width: 360px){
+	.ac_home-tour {
+			height: 180px!important;
+	}
+
+	.ac_home-tour #tour-slides {
+			width: 70.5%!important;
+			top: 20px;
+	}
+
+	.slidesjs-container, .slidesjs-control{
+			width: 225px!important;
+			height: 124px!important;
+	}
+
+	.banner-prod .iis-btn{
+		width: 55%!important;
+		border-color: #FFF;
+		margin: 0 1em;
+	}
+}
+
+@media (max-width: 320px){
+	.ac_home-tour {
+			height: 155px!important;
+	}
+
+	.tour-caption .title{
+		font-size:1.2em;
+	}
+
+	.tour-caption p{
+		font-size: 1em;
+	}
+
+	.ac_home-tour #tour-slides {
+			width: 70.3%;
+			top: 14px;
+			left: 14.5%;
+	}
+
+	.slidesjs-container, .slidesjs-control{
+			width: 197px!important;
+			height: 110px!important;
+	}
+	
+	.banner-prod .iis-btn{
+		width: 55%!important;
+		border-color: #FFF;
+		margin: 0 1em;
+	}	
+}
+
+
+
+  /*TERMINA TOUR DEL PRODUCTO*/
+
+  /*Caracteristicas Productos*/
+/*Caracteristicas SAE*/
+
+.caracteristicas-prod span{
+	color: #DF2141;
+	font-size: 5em;
+}
+
+.caracteristicas-prod h3{
+	margin-top: 0.7em;
+	font-weight: 300;
+	color: #DF2141;
+	/*color: #525252;*/
+}
+
+.caracteristicas-prod p{
+	font-size: 1.2em;
+	color: #777788;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 3em;
+}
+/*TERMINA Caracteristicas SAE*/
+
+
+
+
+	/*MENU PRODUCTOS*/
+.demo-2{
+	position: fixed;
+	top: 15%;
+	left: 2px;
+	z-index:1;
+	width:250px;
+}
+
+.demo-2 a{
+	text-decoration: none;
+}
+
+
+/*MENU DEL SAE*/
+.demo-2 .dl-menuwrapper button {
+	background: #c10b11 !important;
+	border: 1px #fff solid;
+	opacity: 1!important;
+}
+
+.demo-2 .dl-menuwrapper button:hover,
+.demo-2 .dl-menuwrapper button.dl-active,
+.demo-2 .dl-menuwrapper ul {
+	background: #DF2141!important;
+}
+
+.demo-2 .dl-menuwrapper button:hover,
+.demo-2 .dl-menuwrapper button.dl-active {
+	opacity: 1;
+}
+
+.dl-menuwrapper li a {
+    line-height: 1!important;
+    color: #555!important;
+	  font-size: 1em!important;
+	  padding: 14px 20px!important;
+}
+
+.dl-menuwrapper li a:hover {
+	  background: rgba(223, 33, 65,0.3)!important;
+}
+
+.demo-2 .dl-menuwrapper ul {
+    background: rgba(255,255,255,0.95) !important;
+	  border: 1px rgba(223, 33, 65,0.9) solid;
+}
+
+
+/*MENU DEL ADM*/
+#menu-adm .dl-menuwrapper button {
+	background: #005487 !important;
+}
+
+#menu-adm .dl-menuwrapper li a:hover {
+	  background: rgba(0, 117, 189,0.3)!important;
+}
+
+#menu-adm .dl-menuwrapper ul {
+    background: rgba(255,255,255,0.9) !important;
+	  border: 1px rgba(0, 117, 189,0.9) solid;
+}
+
+#menu-adm .dl-menuwrapper li.dl-back::after, 
+#menu-adm .dl-menuwrapper li > a:not(:only-child)::after {
+    color: #005487 !important;
+}
+
+/*MENU DEL ADMTienda*/
+
+#menu-admTienda .dl-menuwrapper button {
+	background: #64B32E !important;
+}
+
+#menu-admTienda .dl-menuwrapper li a:hover {
+	  background: rgba(100, 179, 46,0.5) !important;
+}
+
+#menu-admTienda .dl-menuwrapper ul {
+    background: rgba(255,255,255,0.9) !important;
+	  border: 1px rgba(100, 179, 46,0.5) solid;
+}
+
+#menu-admTienda .dl-menuwrapper li.dl-back::after, 
+#menu-admTienda .dl-menuwrapper li > a:not(:only-child)::after {
+    color: #64B32E !important;
+}
+
+/*MENU DEL BANCO*/
+#menu-banco .dl-menuwrapper button {
+	background: #469B47 !important;
+}
+
+#menu-banco .dl-menuwrapper li a:hover {
+	  background: rgba(70, 155, 71,0.3)!important;
+}
+
+#menu-banco .dl-menuwrapper ul {
+    background: rgba(255,255,255,0.9) !important;
+	  border: 1px rgba(70, 155, 71,0.9) solid;
+}
+
+#menu-banco .dl-menuwrapper li.dl-back::after, 
+#menu-banco .dl-menuwrapper li > a:not(:only-child)::after {
+    color: #469B47 !important;
+}
+
+
+/*MENU DEL CAJA */
+#menu-caja .dl-menuwrapper button {
+	background: #F3A02C !important;
+}
+
+/*#menu-adm .dl-menuwrapper button:hover,
+#menu-adm .dl-menuwrapper button.dl-active,
+.demo-2 .dl-menuwrapper ul {
+	background: #005487!important;
+}*/
+
+#menu-caja .dl-menuwrapper li a:hover {
+	  background: rgba(243, 160, 44,0.3)!important;
+}
+
+#menu-caja .dl-menuwrapper ul {
+    background: rgba(255,255,255,0.9) !important;
+	  border: 1px rgba(243, 160, 44,0.9) solid;
+}
+
+#menu-caja .dl-menuwrapper li.dl-back::after, 
+#menu-caja .dl-menuwrapper li > a:not(:only-child)::after {
+    color: #F3A02C !important;
+}
+
+/*MENU DEL COI */
+#menu-coi .dl-menuwrapper button {
+	background: #03AEBD !important;
+	left: -10px;
+}
+
+#menu-coi .dl-menuwrapper li a:hover {
+	  background: rgba(3, 174, 189,0.3)!important;
+}
+
+#menu-coi .dl-menuwrapper ul {
+	top:100px;
+	left:10px;
+    background: rgba(255,255,255,0.9) !important;
+	  border: 1px rgba(3, 174, 189,0.9) solid;
+}
+
+#menu-coi .dl-menuwrapper li.dl-back::after, 
+#menu-coi .dl-menuwrapper li > a:not(:only-child)::after {
+    color: #03AEBD !important;
+}
+
+/*MENU DEL FACTURE*/
+#menu-facture .dl-menuwrapper button {
+	background: #753D29 !important;
+}
+
+#menu-facture .dl-menuwrapper li a:hover {
+	  background: rgba(117, 61, 41,0.3)!important;
+}
+
+#menu-facture .dl-menuwrapper ul {
+    background: rgba(255,255,255,0.9) !important;
+	  border: 1px rgba(117, 61, 41,0.9) solid;
+}
+
+#menu-facture .dl-menuwrapper li.dl-back::after, 
+#menu-facture .dl-menuwrapper li > a:not(:only-child)::after {
+    color: #753D29 !important;
+}
+
+/*MENU DEL NOI*/
+#menu-noi .dl-menuwrapper button {
+	background: #dd5d07 !important;
+}
+
+#menu-noi .dl-menuwrapper li a:hover {
+	  background: rgba(221, 93, 7,0.3)!important;
+}
+
+#menu-noi .dl-menuwrapper ul {
+    background: rgba(255,255,255,0.9) !important;
+	  border: 1px rgba(221, 93, 7,0.9) solid;
+}
+
+#menu-noi .dl-menuwrapper li.dl-back::after, 
+#menu-noi .dl-menuwrapper li > a:not(:only-child)::after {
+    color: #F3A02C !important;
+}
+
+
+/*MENU DEL PROD*/
+#menu-prod .dl-menuwrapper button {
+	background: #308FAF !important;
+}
+
+#menu-prod .dl-menuwrapper li a:hover {
+	  background: rgba(48, 143, 175,0.3)!important;
+}
+
+#menu-prod .dl-menuwrapper ul {
+    background: rgba(255,255,255,0.9) !important;
+	  border: 1px rgba(48, 143, 175,0.9) solid;
+}
+
+#menu-prod .dl-menuwrapper li.dl-back::after, 
+#menu-prod .dl-menuwrapper li > a:not(:only-child)::after {
+    color: #308FAF !important;
+}
+
+/*MENU DEL SR*/
+#menu-sr .dl-menuwrapper button {
+	background: #f7761f !important;
+}
+
+#menu-sr .dl-menuwrapper li a:hover {
+	  background: rgba(247, 118, 31,0.3)!important;
+}
+
+#menu-sr .dl-menuwrapper ul {
+    background: rgba(255,255,255,0.9) !important;
+	  border: 1px rgba(247, 118, 31,0.9) solid;
+}
+
+#menu-sr .dl-menuwrapper li.dl-back::after, 
+#menu-sr .dl-menuwrapper li > a:not(:only-child)::after {
+    color: #f7761f !important;
+}
+
+
+/*MENU DEL OTM*/
+#menu-otm .dl-menuwrapper button {
+	background: #3a73b8 !important;
+}
+
+#menu-otm .dl-menuwrapper li a:hover {
+	  background: rgba(58, 115, 184, 0.3)!important;
+}
+
+#menu-otm .dl-menuwrapper ul {
+    background: rgba(255,255,255,0.9) !important;
+	  border: 1px rgba(58, 115, 184, 0.9) solid;
+}
+
+#menu-otm .dl-menuwrapper li.dl-back::after, 
+#menu-otm .dl-menuwrapper li > a:not(:only-child)::after {
+    color: #3a73b8 !important;
+}
+
+/*MENU DEL SF*/
+#menu-sf .dl-menuwrapper button {
+	background: #eb4947 !important;
+}
+
+#menu-sf .dl-menuwrapper li a:hover {
+	  background: rgba(235, 73, 71, 0.3)!important;
+}
+
+#menu-sf .dl-menuwrapper ul {
+    background: rgba(255,255,255,0.9) !important;
+	  border: 1px rgba(235, 73, 71, 0.9) solid;
+}
+
+#menu-sf .dl-menuwrapper li.dl-back::after, 
+#menu-sf .dl-menuwrapper li > a:not(:only-child)::after {
+    color: #eb4947 !important;
+}
+
+
+/*MENU DEL NSH*/
+#menu-nsh .dl-menuwrapper button {
+	background: #6E3E18 !important;
+}
+
+#menu-nsh .dl-menuwrapper li a:hover {
+	  background: rgba(110, 62, 24, 0.3)!important;
+}
+
+#menu-nsh .dl-menuwrapper ul {
+    background: rgba(255,255,255,0.9) !important;
+	  border: 1px rgba(110, 62, 24, 0.9) solid;
+}
+
+#menu-nsh .dl-menuwrapper li.dl-back::after, 
+#menu-nsh .dl-menuwrapper li > a:not(:only-child)::after {
+    color: #6E3E18 !important;
+}
+
+/*MENU DEL ICRM*/
+#menu-icrm .dl-menuwrapper button {
+	background: #579bd3 !important;
+}
+
+#menu-icrm .dl-menuwrapper li a:hover {
+	  background: rgba(87, 155, 211, 0.3)!important;
+}
+
+#menu-icrm .dl-menuwrapper ul {
+    background: rgba(255,255,255,0.9) !important;
+	  border: 1px rgba(87, 155, 211, 0.9) solid;
+}
+
+#menu-icrm .dl-menuwrapper li.dl-back::after, 
+#menu-icrm .dl-menuwrapper li > a:not(:only-child)::after {
+    color: #579bd3 !important;
+}
+
+
+/*MENU DEL Espacio*/
+#menu-espacio .dl-menuwrapper button {
+	background: #18B7E7 !important;
+}
+
+#menu-espacio .dl-menuwrapper li a:hover {
+	  background: rgba(87, 155, 211, 0.3)!important;
+}
+
+#menu-espacio .dl-menuwrapper ul {
+    background: rgba(255,255,255,0.9) !important;
+	  border: 1px rgba(87, 155, 211, 0.9) solid;
+}
+
+#menu-espacio .dl-menuwrapper li.dl-back::after, 
+#menu-espacio .dl-menuwrapper li > a:not(:only-child)::after {
+    color: #18B7E7 !important;
+}
+
+/*
+.dl-menuopen{
+	opacity: 0.9!important;
+	border: 1px #DF2141 solid;
+}
+
+.dl-menu{
+	background: #fff!important;
+	font-size: 1em;
+	color: #000!important;
+}
+
+.dl-menuopen a{
+	background: #fff!important;
+	color: #000!important;
+}
+
+.dl-menuopen a:hover{
+	background: #eaeaea!important;
+}
+*/
+	/*TERMINA MENU PRODUCTOS*/
+	
+
+	/*INICIA SOLUCIONES DEL PRODUCTO*/
+/*Soluciones SAE*/
+.sae-pages h2{
+	color: #DF2141;
+}
+
+.sae-pages .title-h4{
+	font-weight: 400;
+	text-align: center;
+}
+
+.sae-pages .title-h5{
+	font-weight: 300;
+	color: #DF2141;
+}
+
+#sae-en-la-nube .title-h5{
+	text-align: center;
+	margin-bottom: 0.5em;
+	margin-top: 1.5em;
+}
+
+#sae-en-la-nube span{
+	color: #DF2141;
+	font-size: 5em;
+}
+
+.interfaz .logo-produ{
+	height: 120px;
+	min-height: 90px;
+}
+
+.interfaz .title-h4{
+	margin-bottom: 2em;
+	color: #DF2141;
+}
+
+.interfaz .title-h5{
+	text-align: center;
+	color: #aeaeae;
+}
+
+#mas-soluciones .interfaz .col-md-3:nth-child(2)> h5{
+	color: #02B2C1;
+}
+
+#mas-soluciones .interfaz .col-md-3:nth-child(3)> h5{
+	color: #3B91B0;
+}
+
+#mas-soluciones .interfaz .col-md-3:nth-child(4)> h5{
+	color: #469B47;
+}
+
+#mas-soluciones .interfaz .col-md-3:nth-child(5)> h5{
+	color: #e3a702;
+}
+/*TERMINA Soluciones SAE*/
+
+
+
+	/*TERMINA SOLUCIONES DEL PRODUCTO*/
+
+  /*LO NUEVO */
+/*SAE Lo nuevo*/
+#beneficios .title-h5{
+	color: #DF2141;
+}
+  /*TERMINA LO NUEVO */
+
+  /*MOVIL VERSION*/
+/*SAE Movil*/
+.column {
+	width: 100%;
+	margin: 0 auto!important;
+	display: block;
+}
+
+.column div {
+	margin: 0 auto!important;
+	width: auto;
+	display: inline-block;
+}
+
+.column div:first-child {
+	margin-left: 0;
+}
+
+figure {
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+.hover14 .img-responsive{
+	max-width:250px;
+	width: 80%;
+}
+
+
+
+.hover14 figure {
+	position: relative;
+}
+.hover14 figure::before {
+	position: absolute;
+	top: 0px;
+	left: -75%;
+	z-index: 2;
+	display: inline-block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.4) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.4) 100%);
+	-webkit-transform: skewX(-45deg);
+	transform: skewX(-45deg);
+}
+.hover14 figure:hover::before {
+	-webkit-animation: shine .95s;
+	animation: shine .95s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+
+
+
+.tablacomp{
+	margin-top: 4%;
+	border: 1px #eee solid;
+	padding: 10px;
+	
+}
+
+.tablacomp-frase{
+	font-size: 1.5em;
+}
+
+.tablacomp-product img{
+	height: 110px;
+}
+
+.tablacomp-row{
+	padding: 0px!important;
+	margin: 0px;
+	border-bottom: 1px #ddd solid;
+}
+
+.tablacomp-row .row{
+	padding: 0;
+}
+
+.tablacomp-row p{
+	margin: 7px 0;
+}
+
+.tablacomp-field p.yes,.tablacomp-field p.no{
+  text-align: center!important;
+  font-size: 1.5em;	
+	vertical-align: middle!important;
+}
+
+.tablacomp-field .yes{
+	color: #008000;
+}
+
+.tablacomp-field .no{
+	color: #FF0000;
+}
+
+.tablacomp-row .title-h5{
+	text-align: left!important;
+	margin-top: 1em;
+}
+
+.tablacomp-btn{
+	padding: 0!important;
+}
+
+.tablacomp-btn a{
+	background: #f7761f;
+	color: #FFF;
+	border-color: #f7761f;
+	border-radius: 0;
+}
+
+.tablacomp-btn a:hover{
+	background: #dd5d08;
+	color: #FFF;
+	border-color: #dd5d08;
+}
+
+/*mi menu de lista de precios*/
+#MenuPrecio{
+	
+
+	background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,0.15);
+
+}
+
+/*fondo para la lista de precio profesional*/
+
+#prim{
+	width: 6%;
+}
+
+#prim2{
+	width: 11%;
+}
+
+#listpres-color{
+
+	background-color: #F4F5F6 ;
+	-webkit-border-radius: 5px 10px;  /* Safari  */
+    -moz-border-radius: 5px 10px;     /* Firefox */
+    font-family: "Helvetica Neue","Roboto",Arial,sans-serif;
+    font-family: "Helvetica Neue","Roboto",Arial,sans-serif;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-right: 6px;
+    line-height: 1.42857143;
+    color: #505050;
+    aling-items: center
+
+}
+
+#listpres-color1{
+
+	background-color: #F4F5F6 ;
+	-webkit-border-radius: 5px 10px;  /* Safari  */
+    -moz-border-radius: 5px 10px;     /* Firefox */
+    font-family: "Helvetica Neue","Roboto",Arial,sans-serif;
+    font-family: "Helvetica Neue","Roboto",Arial,sans-serif;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-right: 6px;
+    line-height: 1.42857143;
+    color: #505050;
+    aling-items: center;
+    
+
+}
+/*profesional con precio mensual*/
+#profes-color {
+	background-color: #7dcaaa;
+	color: #fff;
+	-webkit-border-radius: 5px 10px;  /* Safari  */
+    -moz-border-radius: 5px 10px;     /* Firefox */
+    font-family: "Helvetica Neue","Roboto",Arial,sans-serif;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-right: 6px;
+    line-height: 1.42857143;
+
+   
+
+
+}
+
+/*profesional con precio trimestral*/
+
+#profes-color1 {
+	background-color: #49AF85;
+	color: #fff;
+	-webkit-border-radius: 5px 10px;  /* Safari  */
+    -moz-border-radius: 5px 10px;     /* Firefox */
+    font-family: "Helvetica Neue","Roboto",Arial,sans-serif;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-right: 6px;
+    line-height: 1.42857143;
+}
+
+#promos-color {
+	background-color: #244075;
+	color: #fff;
+	-webkit-border-radius: 5px 10px;  /* Safari  */
+    -moz-border-radius: 5px 10px;     /* Firefox */
+    font-family: "Helvetica Neue","Roboto",Arial,sans-serif;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-right: 6px;
+    line-height: 1.42857143;
+}
+
+/*profesional con precio semestral*/
+
+#profes-color2 {
+	background-color: #22A36E;
+	color: #fff;
+	-webkit-border-radius: 5px 10px;  /* Safari  */
+    -moz-border-radius: 5px 10px;     /* Firefox */
+    font-family: "Helvetica Neue","Roboto",Arial,sans-serif;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-right: 6px;
+    line-height: 1.42857143;
+
+
+}
+
+/*profesional con precio anual*/
+
+#profes-color3 {
+	background-color: #07935A;
+	color: #fff;
+	-webkit-border-radius: 5px 10px;  /* Safari  */
+    -moz-border-radius: 5px 10px;     /* Firefox */
+    font-family: "Helvetica Neue","Roboto",Arial,sans-serif;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-right: 6px;
+    line-height: 1.42857143;
+
+
+}
+
+/*fondo*/
+
+.pricing-page .plan-panel {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #f4f5f6;
+    color: #505050;
+    text-align: center;
+    float: left;
+    min-height: 435px;
+    will-change: margin-top,box-shadow;
+    transition: box-shadow 0.3s, margin-top 0.3s;
+    -webkit-transition: box-shadow 0.3s, margin-top 0.3s;
+    -moz-transition: box-shadow 0.3s, margin-top 0.3s;
+    -ms-transition: box-shadow 0.3s, margin-top 0.3s;
+    -o-transition: box-shadow 0.3s, margin-top 0.3s;
+    font-family: "Helvetica Neue","Roboto",Arial,sans-serif;
+
+
+ }
+
+ .text-muted {
+    color: #777;
+}
+/*color y tamaño del precio de de los pop up*/
+.preci{     
+color: #00020A;     
+text-align: center;    
+align-content: center;
+font-size: 40pt;
+
+
+	 
+}
+
+.preci1{     
+color: #00020A;     
+text-align: center;    
+align-content: center;
+font-size: 20pt;
+
+
+	 
+}
+/*simbolo de precio $*/
+
+.symbol{
+	color: #00020A;     
+	font-size: 40pt;
+    position: absolute;
+    
+    margin-left: -33px;
+    text-align: center;
+}
+
+/*Tamaño de letra de MXM*/
+.code{
+	color: #00020A;     
+
+	font-size: 12pt;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 3px;
+}
+
+/*letras que dicen mes en el precio*/
+.period{
+	color: #00020A;     
+	font-size: 10pt;
+    position: absolute;
+    margin-top: 27px;
+    margin-left: 3px;
+}
+
+.text-center {
+    text-align: center;
+    
+}
+
+.pricing-page .plan-panel .plan-price {
+    text-decoration: none;
+    margin-top: 42px;
+}
+
+.plan-features {
+    width: 145px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    font-size: 9pt;
+}
+
+.plan-features1 {
+    width: 175px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    font-size: 9pt;
+}
+
+/*colores generales y centrado de las letras p y h5*/
+.p-list p {
+
+	color:black;
+	text-align: center;
+
+}
+
+.h5-list h5{
+   color:black;
+   text-align: left;
+}
+
+/*colores diferentes en el texto para que se vea un cambio*/
+
+/*letras en pago mensual*/
+.title-list1{
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 1em;
+	color: #35373B;
+}
+
+.colorprof {
+	color:#fff;
+}
+
+#buscar{
+	background:#6ED1DE;
+	border:0px;
+	padding: 8px;
+ 	font-size: 18px;
+ 	border-radius: 5px;
+ 	position: relative;
+ 	box-sizing: border-box;
+ 	transition: all 500ms ease;
+}
+
+#buscar:hover{
+	background:#54A5AF;
+	border:0px;
+	padding: 8px;
+ 	font-size: 18px;
+ 	border-radius: 5px;
+ 	position: relative;
+ 	box-sizing: border-box;
+ 	transition: all 500ms ease;
+}
+
+/*animacion hacia abajo*/
+
+/* =========================================
+		Estilos de cotización
+   =========================================*/
+
+   /* Estilos para Aspel-NOI */
+	.titulo-venta-noi {
+		color:#dd5d07;
+	}
+
+   .plan-features-noi {
+    	background-color: rgba(221, 93, 7,0.9);
+    	color: #fff;
+	}
+
+	#btn-noi{
+		background-color: rgba(221, 93, 7,0.9);
+		color:#fff;
+	}
+
+	#btn-noi:hover{
+		background: #ad4805;
+		color:#fff;
+	}
+
+   /* Estilos para Aspel-BANCO */
+	.titulo-venta-banco {
+		color:#32912f;
+	}
+
+   .plan-features-banco {
+    	background-color: rgba(50, 145, 47,0.9);
+    	color: #fff;
+	}
+
+	#btn-banco{
+		background-color: rgba(50, 145, 47,0.9);
+		color:#fff;
+	}
+
+	#btn-banco:hover{
+		background: #32912f;
+		color:#fff;
+	}
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup-promo {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup-promo h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup-promo .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup-promo .close:hover {
+  color: #06D85F;
+}
+.popup-promo .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup-promo{
+    width: 70%;
+  }
+}
+
+/*estilo para lo nuevo de COI 8.0 en la lista de precios*/
+
+.plan-features-abajo {
+    background-color:  rgba( 18, 156, 175  ,0.9);
+    color: #fff;
+    
+
+}
+
+
+#btn-coi{
+	background: rgba(18, 156, 175, 0.9);
+	color:#fff;
+}
+
+#btn-coi:hover{
+	background: #015f6c;
+	color:#fff;
+}
+.plan-features-coi {
+    background-color: #03aebd;
+    color: #fff;
+}
+
+/*estilos para el pop up de coi*/
+#form1
+{
+	padding-top: 5%;
+}
+
+.under-tienda .form-horizontal{
+	background: rgba(255,255,255,0.4);
+	height: 640px;
+	padding: 1em 0;
+	border-radius: 10px;
+}
+
+
+
+
+
+/*de aqui inicia los estilos de pop up de sae 8.0*/
+
+/*contacto con aspel coi 8.0 formulario en el pop up*/
+
+.contact-form-sae input, .contact-form-sae textarea{
+    
+    padding:8px 15px;
+    
+        
+}
+.contact-form-sae input{
+    margin-bottom:8px;
+}
+
+.contact-form-sae input.btn{
+    padding:10px 15px;
+    margin-top:0.5em;
+    border-width:2px;
+    transition:all .6s ease;
+    -webkit-transition:all .6s ease;
+    -moz-transition:all .6s ease;
+    -o-transition:all .6s ease;
+    -ms-transition:all .6s ease;
+    background:#b81029;
+    border-color:#b81029;   
+    color:#fff;
+}
+
+.contact-form-sae input.btn:hover{
+    border-color:#800819;
+    background:#800819;
+}
+
+.plan-features-sae {
+    background-color: #c10b11;
+    color: #fff;
+}
+
+.plan-features-promos {
+    background-color: rgba(30, 54, 98,0.9);
+    color: #fff;
+}
+
+#listpres-color2{
+
+	background-color: #F4F5F6 ;
+	-webkit-border-radius: 5px 10px;  /* Safari  */
+    -moz-border-radius: 5px 10px;     /* Firefox */
+    font-family: "Helvetica Neue","Roboto",Arial,sans-serif;
+    font-family: "Helvetica Neue","Roboto",Arial,sans-serif;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-right: 6px;
+    line-height: 1.42857143;
+    color: #505050;
+    aling-items: center;
+    
+
+}
+
+#btn-sae{
+	background: #c10b11;
+	color:#fff;
+}
+
+#btn-sae:hover{
+	background: #c10b11;
+	color:#fff;
+}
+
+
+/*btn- de pop up coi 8.0*/
+
+
+#btn-envio-coi-promo{
+	background-color: rgba(40, 165, 182,0.9);
+	color: #fff;
+}
+
+#btn-envio-coi-promo:hover{
+
+	background-color: rgba( 56, 180, 152  ,0.9);
+	color:#fff;
+}
+
+
+
+
+
+/*soft restaurant 9.5*/
+#btn-version-sr{
+
+	border: rgba( 253, 252, 252 ,0.8);
+	color:#D9732F;
+}
+
+#btn-version-sr:hover{
+
+	background-color: rgba(  56, 180, 152  ,0.8);
+	color:#fff;
+}
+
+
+/*promociones de sr*/
+
+.plan-features-sr{
+	background-color:  rgba( 246, 130, 51,0.9);
+    color: #fff;
+}
+
+.plan-features-sr-abajo{
+	background-color:  rgba(  117, 56, 139 ,0.9);
+    color: #fff;
+}
+
+#btn-promo-sr{
+	background-color:  rgba( 246, 130, 51,0.9);
+    color: #fff;
+}
+
+#btn-promo-sr:hover{
+
+	background-color: rgba(  56, 180, 152  ,0.8);
+	color:#fff;
+}
+
+#btn-promo-sr-abajo{
+	background-color:  rgba(  117, 56, 139,0.9);
+    color: #fff;
+}
+
+#btn-promo-sr-abajo:hover{
+
+	background-color: rgba(  56, 180, 152  ,0.8);
+	color:#fff;
+}
+
+
+
+
+/*pop up para soft restaurant 9.5*/
+#btn-envio-sr-promo{
+	background-color: rgba(117, 56, 139,0.9);
+	color: #fff;
+}
+
+#btn-envio-sr-promo:hover{
+
+	background-color: rgba(  56, 180, 152  ,0.8);
+	color:#fff;
+}
+
+
+/*divs de promocion de facture nuevo*/
+/*promociones de sr*/
+
+.plan-features-facture{
+	background-color:  rgba(  117, 61, 41 ,0.9);
+    color: #fff;
+}
+
+
+
+#btn-promo-facture{
+	background-color:  rgba(  117, 61, 41 ,0.9);
+    color: #fff;
+}
+
+#btn-promo-facture:hover{
+
+	background-color: rgba(   76, 35, 21  ,0.8);
+	color:#fff;
+}
+
+/*estos estilos del pop up son generales para todos los pop up*/
+
+
+
+.login-modal .modal-dialog {
+    width: 350px;
+    font-weight: normal;
+   
+}
+
+.login-modal input[type=text], input[type=password], input[type=email] {
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+#div-login-msg,
+#div-lost-msg,
+#div-register-msg {
+    border: 1px solid #dadfe1;
+    height: 30px;
+    line-height: 28px;
+    transition: all ease-in-out 500ms;
+
+}
+
+#div-login-msg.success,
+#div-lost-msg.success,
+#div-register-msg.success {
+    border: 1px solid #68c3a3;
+    background-color: #c8f7c5;
+}
+
+#div-login-msg.error,
+#div-lost-msg.error,
+#div-register-msg.error {
+    border: 1px solid #eb575b;
+    background-color: #ffcad1;
+}
+
+#icon-login-msg,
+#icon-lost-msg,
+#icon-register-msg {
+    width: 30px;
+    float: left;
+    line-height: 28px;
+    text-align: center;
+    background-color: #dadfe1;
+    margin-right: 5px;
+    transition: all ease-in-out 500ms;
+}
+
+#icon-login-msg.success,
+#icon-lost-msg.success,
+#icon-register-msg.success {
+    background-color: #68c3a3 !important;
+}
+
+#icon-login-msg.error,
+#icon-lost-msg.error,
+#icon-register-msg.error {
+    background-color: #eb575b !important;
+}
+
+#img_logo {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+#login_lost_btn{
+	text-align: center;
+ 	margin-top: 4%;
+}
+
+/* #########################################
+   #    override the bootstrap configs     #
+   ######################################### */
+
+.modal-backdrop.in {
+    
+    opacity: .8;
+    font-weight: normal;
+}
+
+.modal-content {
+    background-color: #ececec;
+    border: 1px solid #bdc3c7;
+    border-radius: 0px;
+    outline: 0;
+     
+}
+
+.modal-header {
+    min-height: 16.43px;
+    padding: 15px 15px 15px 15px;
+    border-bottom: 0px;
+}
+
+.modal-body {
+    position: relative;
+    padding: 5px 15px 5px 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.modal-footer {
+    padding: 15px 15px 15px 15px;
+    text-align: left;
+    border-top: 0px;
+}
+
+.checkbox {
+    margin-bottom: 0px;
+}
+
+.form-control {
+  border-radius: 0px;
+
+}
+
+.glyphicon {
+    top: 0px;
+}
+
+
+.glyphicon {
+    top: 0px;
+}
+
+
+
+/*posibles estilos para el pop up
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#suscripcionsae7 .modal-dialog {
+    width: 350px;
+}
+
+#suscripcionsae7 input[type=text], input[type=password] {
+	margin-top: 10px;
+}
+
+#div-login-msg,
+#div-lost-msg,
+#div-register-msg {
+    border: 1px solid #dadfe1;
+    height: 30px;
+    line-height: 28px;
+    transition: all ease-in-out 500ms;
+}
+
+#div-login-msg.success,
+#div-lost-msg.success,
+#div-register-msg.success {
+    border: 1px solid #68c3a3;
+    background-color: #c8f7c5;
+}
+
+#div-login-msg.error,
+#div-lost-msg.error,
+#div-register-msg.error {
+    border: 1px solid #eb575b;
+    background-color: #ffcad1;
+}
+
+#icon-login-msg,
+#icon-lost-msg,
+#icon-register-msg {
+    width: 30px;
+    float: left;
+    line-height: 28px;
+    text-align: center;
+    background-color: #dadfe1;
+    margin-right: 5px;
+    transition: all ease-in-out 500ms;
+}
+
+#icon-login-msg.success,
+#icon-lost-msg.success,
+#icon-register-msg.success {
+    background-color: #68c3a3 !important;
+}
+
+#icon-login-msg.error,
+#icon-lost-msg.error,
+#icon-register-msg.error {
+    background-color: #eb575b !important;
+}
+
+#img_logo {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+/* #########################################
+   #    override the bootstrap configs     #
+   ######################################### */
+/*
+.modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .8;
+}
+
+.modal-content {
+    background-color: #ececec;
+    border: 1px solid #bdc3c7;
+    border-radius: 0px;
+    outline: 0;
+}
+
+.modal-header {
+    min-height: 16.43px;
+    padding: 15px 15px 15px 15px;
+    border-bottom: 0px;
+}
+
+.modal-body {
+    position: relative;
+    padding: 5px 15px 5px 15px;
+}
+
+.modal-footer {
+    padding: 15px 15px 15px 15px;
+    text-align: left;
+    border-top: 0px;
+}
+
+.checkbox {
+    margin-bottom: 0px;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+}
+
+.btn-lg, .btn-group-lg>.btn {
+    border-radius: 0px;
+}
+
+.btn-link {
+    padding: 5px 10px 0px 0px;
+    color: #95a5a6;
+}
+
+.btn-link:hover, .btn-link:focus {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.glyphicon {
+    top: 0px;
+}
+
+.form-control {
+  border-radius: 0px;
+}
+*/
+
+/*estilos para el aspel general*/
+
+/*empresas comercializadoras*/
+#base {
+    background: url(/images/products/aspelgral/Inelco-banner-comercializadora.jpg)no-repeat center 0px fixed;
+    background-size: 100%;
+    padding: 5em 1em;
+    color: #fff;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+
+
+#base .img {
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0.9;
+    padding: 3em 1em;
+    height: 500px;
+}
+
+#base h1 {
+    font-size: 3.5em;
+   
+    text-align:center;
+}
+
+#base p {
+    font-size: 1.5em;
+    color: #fff;
+    text-align:center
+}
+
+#base span {
+    color: #fff;
+}
+
+
+@media screen and (max-width: 992px) {
+    #hardware h1 {
+        font-size: 2em;
+        text-transform: uppercase;
+    }
+    #hardware p {
+        font-size: 1em;
+    }
+    header {
+        margin-top: -10%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    #hardware h1 {
+        font-size: 2em;
+        text-transform: uppercase;
+    }
+    #hardware p {
+        font-size: 1em;
+    }
+    header {
+        margin-top: -15%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #base h1 {
+        font-size: 2em;
+        
+    }
+    #base p {
+        font-size: 1em;
+    }
+    header {
+        margin-top: -20%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #base{
+    	 height: 200px;
+    	 padding: 1em 1em;
+    }
+
+    #base h1 {
+        font-size: 1em;
+
+        text-align:center;
+        margin-bottom:0px;
+       	
+        
+    }
+    #base p {
+        display:none;
+    }
+
+    #base .img {
+    
+    padding: 2em 1em;
+    
+}
+
+    
+
+
+    .sistemas{
+    	 padding: 0em 0;
+    }
+    .title-h2{
+    	padding-top: 0px;
+    	margin-top:0px;
+    }
+    
+}
+
+/* ESTILOS DE LA PAGINA SOLUCIONES POR ACTIVIDAD*/
+
+
+
+.sistemas {
+    padding: 2em 0;
+}
+
+.sistemas .col-md-6 h3 {
+    font-size: 1.5em;
+    color: #005DAB;
+    padding: .5em 0;
+}
+
+.sistemas ul>li {
+    list-style: none;
+    line-height: 1.8em;
+}
+
+.sistemas .btn-default {
+    background-color: #1E3662;
+    color: #ffffff;
+    border-color: #1E3662;
+}
+
+.sistemas .btn-default:hover {
+    background-color: #fff;
+    color: #1E3662;
+    border-color: #1E3662;
+}
+
+.sistemas .boton {
+    text-align: right;
+    padding: 0 3em 3em 0;
+}
+
+
+/* ESTILOS DE LA PAGINA HARDWARE*/
+
+#hardware {
+    background: url(/img/img-servicios/valores-banner.jpg)no-repeat center 0px fixed;
+    background-size: 100%;
+    /* padding: 5em 1em; */
+    color: #fff;
+}
+
+#hardware .img {
+    background-color: rgba(0, 0, 0, 0.66);
+    opacity: 0.9;
+    padding: 5em 1em;
+    height: 280px;
+}
+
+#hardware h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+#hardware p {
+    font-size: 1.5em;
+}
+
+#hardware span {
+    color: #86ba0d;
+}
+
+.compus {
+    background-color: #FFF;
+    padding: 4% 0;
+    color: #555;
+}
+
+.text-hard {
+    font-weight: 300;
+    line-height: 1.4;
+    margin-bottom: 3em;
+}
+
+.compus .hard-btn {
+    background: #005DAB;
+    color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #005DAB;
+    margin: 0em 2em;
+    font-weight: 400;
+    margin-top: 2em;
+    padding: 1.2% 7%;
+    border-radius: 0;
+    vertical-align: middle;
+    width: auto !important;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease-in;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+}
+
+.compus .hard-btn:hover {
+    background-color: #2981C4;
+    color: #fff;
+    border-color: #2981C4;
+}
+
+.compus .hard-btn2:hover {
+    background-color: #2981C4;
+    color: #fff;
+    border-color: #2981C4;
+}
+
+.compus .hard-btn2 {
+    background: #fff;
+    color: #005dab;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #005dab;
+    margin: 0em 2em;
+    font-weight: 400;
+    margin-top: 2em;
+    padding: 1.2% 7%;
+    border-radius: 0;
+    vertical-align: middle;
+    width: auto !important;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease-in;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+}
+
+.tabla {
+    display: none;
+}
+
+.tabla .col-md-4 {
+    border-color: #ccc;
+    border-width: 2px;
+    border-style: solid;
+    padding: 3em 0;
+    margin-top: 1em;
+}
+
+.back-tabla {
+    background: #eee;
+}
+
+.tabla h4 {
+    background-color: #bbb;
+    color: #666;
+    padding: 8px 0;
+}
+
+.tabla ul {
+    list-style: none;
+    padding: 2em 1em 2em 2em;
+    line-height: 1.6em;
+}
+
+

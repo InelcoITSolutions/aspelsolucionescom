@@ -1,0 +1,6 @@
+/*media queries de la seccion de noticias*/
+@media(max-width:1000px) {
+    .notice {
+        align-content: center;
+    }
+}

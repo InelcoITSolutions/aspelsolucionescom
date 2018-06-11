@@ -1,0 +1,1583 @@
+/* el color del banner adm-tienda*/
+.banner-admtienda {
+    padding: 6% 0;
+    background: rgb(100, 179, 46);
+    color: #FFF;
+}
+
+.banner-admtienda h1 {
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 4%;
+    font-size: 2em;
+    line-height: 1.5;
+}
+.banner-admtienda .iis-btn {
+    width: 35%!important;
+    /* border-color: #FFF; */
+    margin: 0 1em;
+    color: #64B32E;
+    background-color: #fff;
+}
+
+
+/* el color del banner espacio*/
+.banner-espacio {
+    padding: 6% 0;
+    background: rgb(83, 192, 232);
+    color: #FFF;
+}
+
+.banner-espacio h1 {
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 4%;
+    font-size: 2em;
+    line-height: 1.5;
+}
+.banner-espacio .iis-btn {
+    width: 35%!important;
+    /* border-color: #FFF; */
+    margin: 0 1em;
+    color: #5BC5ED;
+    background-color: #fff;
+}
+
+
+
+
+
+/* el color del banner prod*/
+.banner-prod {
+    padding: 6% 0;
+    background: rgb(223, 33, 65);
+    color: #FFF;
+}
+
+.secciones {
+    padding: 5em 0;
+}
+
+.banner-prod h1 {
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 4%;
+    font-size: 2em;
+    line-height: 1.5;
+}
+
+.banner-prod .iis-btn {
+    width: 35%!important;
+    /* border-color: #FFF; */
+    margin: 0 1em;
+    color: #b81029;
+    background-color: #fff;
+}
+
+.title-h2 {
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-size: 2.5em;
+}
+
+.title-h3 {
+    font-weight: 300;
+    text-align: center;
+    /* margin-bottom: 2em; */
+    color: #64b32e;
+    font-size: 1.7em;
+}
+
+.title-h4 {
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 1em;
+    color: #aeaeae;
+}
+
+.title-h5 {
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 1em;
+    color: #aeaeae;
+    font-size: 1.3em;
+}
+
+.text-p {
+    font-size: 1.2em;
+    color: #777788;
+    font-weight: 300;
+}
+
+.news-img {
+    float: left;
+    position: relative;
+    padding: 0;
+}
+
+.imagencontainer {
+    margin-top: -10em;
+}
+
+@media (max-width: 660px) {
+    .imagencontainer {
+        margin-top: -3em;
+    }
+}
+
+.ventajas {}
+
+.news-text {
+    float: right;
+    padding: 5em 5em;
+    background: #f4f4f4;
+}
+
+
+/* ESTILOS DE LA PAGINA SAE*/
+
+
+/*BANNER SAE*/
+
+#banner-sae {
+    color: #FFF;
+    background: #b81029;
+}
+
+.hvr-sweep-to-right {
+    border-radius: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.hvr-sweep-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #FFF;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    border-radius: 40px;
+}
+
+#banner-sae .vm-banner-prod:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+    background: transparent;
+}
+
+#banner-sae .probar-banner-prod {
+    color: #b81029;
+    background: #FFF;
+}
+
+#banner-sae .probar-banner-prod:hover {
+    color: #fff;
+    border-color: #ffffff;
+    background: transparent;
+}
+
+#btn-sae-prob button.hvr-sweep-to-right:before {
+    background: #9c162d;
+}
+/* ...........descripcio de adm tienda .................*/
+.desc-admtienda h2 {
+    color: #64b32e;
+}
+.descripcion-admtienda p>b {
+    color: #64b32e;
+    font-weight: 300;
+}
+.descripcion-admtienda p {
+    font-weight: 300;
+    color: #777788;
+    font-size: 1.3em;
+}
+/* descripcio de espacio ...........................*/
+.desc-espacio h2 {
+    color: #5BC5ED;
+}
+
+
+
+.descripcion-espacio p>b {
+    color: #5BC5ED;
+    font-weight: 300;
+}
+.descripcion-espacio p {
+    font-weight: 300;
+    color: #777788;
+    font-size: 1.3em;
+}
+/*DESCRIPCION SAE.................................*/
+
+.descripcion-prod {
+    padding: 5% 0;
+}
+
+.descripcion-prod h2 {
+    font-weight: 300;
+    padding-bottom: 4%;
+}
+
+.desc-sae h2 {
+    color: #b81029;
+}
+
+.descripcion-prod p {
+    font-weight: 300;
+    color: #777788;
+    font-size: 1.3em;
+}
+
+.descripcion-prod p>b {
+    color: #b81029;
+    font-weight: 300;
+}
+
+.descripcion-prod img {
+    vertical-align: middle!important;
+    padding-top: 4em;
+}
+
+
+/*Inicia FRASE*/
+
+#frase-sae {
+    background-image: url(/img/productos/sae/inelco-sae-frase.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+/* banner que esta en el interior del producto */
+#frase-sae .fondo-gray {
+    background: rgba(223, 33, 65, 0.66);
+    padding: 5em 0;
+    text-align: center;
+    color: #fff;
+}
+
+#frase-sae h3 i {
+    color: #fff;
+}
+/* banner que esta en el interior del producto adm-tienda*/
+#frase-sae .fondo-gray-admtienda {
+    background: rgba(100, 179, 46, 0.61);
+    padding: 5em 0;
+    text-align: center;
+    color: #fff;
+}
+
+#frase-admtienda h3 i {
+    color: #fff;
+}
+
+/* banner que esta en el interior del producto espacio*/
+#frase-sae .fondo-gray-espacio {
+    background: rgba(85, 202, 248, 0.7);
+    padding: 5em 0;
+    text-align: center;
+    color: #fff;
+}
+
+#frase-espacio h3 i {
+    color: #fff;
+}
+
+/* SLIDER DE LOS BENEFICIOS DE CADA PRODUCTO*/
+
+.ac_content {
+    position: relative;
+    width: 100%;
+}
+
+.ac_content {
+    padding-bottom: 0;
+}
+
+#lap-separator {
+    margin-top: 0px;
+    border-width: 3px;
+    border-color: #ddd;
+    z-index: 10;
+}
+
+.notpadding {
+    padding-top: 0 !important;
+}
+
+.ac_content-wrapper {
+    position: relative;
+    padding: 100px 10px;
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.ac_home-tour {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 561px;
+    background: url(/img/macbook.png) no-repeat center bottom;
+    background-size: 100%;
+    margin-bottom: -102px;
+}
+
+
+/*.tour-caption {
+    position: absolute;
+    right: 82px;
+    bottom: 30px;
+    width: 236px;
+    padding: 20px;
+    height: auto;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+    color: #fff;
+    z-index: 2;
+}*/
+
+.tour-caption .title, .tour-caption p {
+    text-align: center!important;
+}
+
+.tour-caption .title {
+    color: #1E3662;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.tour-caption p {
+    font-size: 1.3em;
+    padding: 0 9%;
+}
+
+#texto-img {
+    padding: 0;
+    padding-bottom: 4%;
+}
+
+#texto-img .row {
+    padding: 0;
+}
+
+.ac_col {
+    position: relative;
+    float: left;
+    margin-left: 1.6%;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: #fff!important;
+}
+
+.ac_col.twelve {
+    width: 100%;
+}
+
+.ac_home-tour #tour-slides {
+    display: none;
+    width: 88.5% !important;
+    left: 5.7%;
+    position: absolute;
+    bottom: 2px;
+    z-index: 1;
+    top: 7.1%;
+}
+
+#tour-slides {
+    overflow: visible !important;
+}
+
+#tour-slides .slidesjs-pagination {
+    position: absolute;
+    bottom: -5px;
+    left: 55%;
+    margin-left: -88px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 20px;
+    z-index: 10!important;
+}
+
+.slidesjs-pagination {
+    float: right;
+    margin-top: 10px;
+    z-index: 1 !important;
+    background: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.slidesjs-pagination li {
+    float: left;
+    list-style-type: none;
+    margin: 0 4px;
+}
+
+.slidesjs-pagination li a {
+    display: block;
+    list-style-type: none;
+    border: none;
+    text-indent: -9999px;
+    background: #999;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+}
+
+#tour-slides .slidesjs-pagination .slidesjs-pagination-item a.active {
+    width: 11px;
+    height: 11px;
+    margin-top: -1px;
+}
+
+.slidesjs-pagination li a.active {
+    background: #4f7ac9;
+}
+
+.ac_separator-h {
+    margin: 0;
+    height: 2px;
+    background: #cacaca;
+    width: 100%;
+}
+
+
+/*CARACTERISTICAS SAE*/
+
+.caracteristicas-prod {
+    background: #FFF;
+    padding: 5% 0;
+    z-index: 10!important;
+}
+
+.caracteristicas-prod span {
+    color: #b81029;
+    font-size: 5em;
+}
+
+.caracteristicas-prod h3 {
+    margin-top: 1em;
+    font-weight: 300;
+    color: #b81029;
+    /*color: #525252;*/
+    font-size: 1.3em;
+    text-align: center;
+}
+
+/* caracteristicas del producto adm-tienda*/
+.caracteristicas-admtienda h3 {
+    margin-top: 1em;
+    font-weight: 300;
+    color: #64b32e;
+    /*color: #525252;*/
+    font-size: 1.3em;
+    text-align: center;
+}
+
+/* caracteristicas del producto espacio*/
+.caracteristicas-espacio h3 {
+    margin-top: 1em;
+    font-weight: 300;
+    color: #84C4EB;
+    /*color: #525252;*/
+    font-size: 1.3em;
+    text-align: center;
+}
+
+
+.caracteristicas-prod p, .caracteristicas-prod ul {
+    font-size: 1.2em;
+    color: #777788;
+    font-weight: 300;
+    text-align: justify;
+    margin-bottom: 3em;
+    padding: 1em 0;
+}
+
+
+
+/*MENU PRODUCTOS*/
+.demo-2 {
+    position: fixed;
+    top: 30%;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+.demo-2 a {
+    text-decoration: none;
+}
+/*MENU DEL SAE*/
+.demo-2 .dl-menuwrapper button {
+    background: #005dab !important;
+    border: 1px #292626 solid;
+    opacity: 0.5;
+    color: red;
+}
+.demo-2 .dl-menuwrapper button:hover, .demo-2 .dl-menuwrapper button.dl-active, 
+.demo-2 .dl-menuwrapper ul {
+    background: #005dab!important;
+}
+.demo-2 .dl-menuwrapper button:hover, .demo-2 .dl-menuwrapper button.dl-active {
+    opacity: 1;
+}
+.dl-menuwrapper li a {
+    line-height: 1!important;
+    color: #000!important;
+    font-size: 1em!important;
+    padding: 14px 20px!important;
+}
+.dl-menuwrapper li a:hover {
+    background: rgba(223, 33, 65, 0.3)!important;
+}
+.demo-2 .dl-menuwrapper ul {
+    background: rgb(255, 255, 255) !important;
+    border: 1px rgba(10, 101, 218, 0.9) solid;
+}  /*FIN MENU DEL SAE*/
+
+
+
+/*MENU PRODUCTOS COI*/
+.demo-3 {
+    position: fixed;
+    top: 30%;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+.demo-3 a {
+    text-decoration: none;
+}
+/*MENU DEL COI*/
+.demo-3 .dl-menuwrapper button {
+    background: #005dab !important;
+    border: 1px #292626 solid;
+    opacity: 0.5;
+    color: red;
+}
+.demo-3 .dl-menuwrapper button:hover, .demo-3 .dl-menuwrapper button.dl-active, 
+.demo-3 .dl-menuwrapper ul {
+    background: #129caf!important;
+}
+.demo-3 .dl-menuwrapper button:hover, .demo-3 .dl-menuwrapper button.dl-active {
+    opacity: 1;
+}
+.dl-menuwrapper li a {
+    line-height: 1!important;
+    color: #000!important;
+    font-size: 1em!important;
+    padding: 14px 20px!important;
+}
+.dl-menuwrapper li a:hover {
+    background: rgba(18, 156, 175, 0.57) !important;
+}
+.demo-3 .dl-menuwrapper ul {
+    background: rgb(255, 255, 255) !important;
+    border: 1px rgba(10, 101, 218, 0.9) solid;
+} /*.................TERMINA EL MENU DE COI................*/
+
+
+
+
+
+
+
+
+
+
+
+
+#barra-solida {
+    background-image: url(/img/productos/sae/inelco-sae-frase.jpg);
+    /* padding: 3em 0; */
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.fondo-morado {
+    background: rgba(138, 138, 138, 0.6);
+    padding: 5em 0;
+    text-align: center;
+    color: #fff;
+}
+
+#barra-solida h2 {
+    color: #FFFFFF;
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
+#barra-solida p {
+    font-size: 1.5em;
+    color: #FFFFFF;
+    padding: 1em 0;
+}
+
+.button-gratis-sae, .button-gratis-noi, .button-gratis-coi, 
+.button-gratis-caja, .button-gratis-banco, .button-gratis-prod, .button-gratis-facture, 
+.button-gratis-adm, .button-gratis-espacio {
+    /* display: inline-block; */
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    -webkit-appearance: none;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 0.45em 1.5em;
+    margin: -30% 0 1em 0;
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #fff;
+}
+
+.button-gratis-sae {
+    background-color: #b81029;
+}
+
+.button-gratis-noi {
+    background-color: #c25d1b;
+}
+
+.button-gratis-coi {
+    background-color: #129caf;
+}
+
+.button-gratis-caja {
+    background-color: #e9b418;
+}
+
+.button-gratis-banco {
+    background-color: #33902f;
+}
+
+.button-gratis-prod {
+    background-color: #486c87;
+}
+
+.button-gratis-facture {
+    background-color: #5e2f1c;
+}
+
+.button-gratis-adm {
+    background-color: #005487;
+}
+.button-gratis-espacio {
+    background-color: #84C4EB;
+}
+
+.button-gratis-tienda {
+    background-color: #64B32E;
+} 
+
+.button-gratis-sae:hover, .button-gratis-noi:hover, .button-gratis-coi:hover, .button-gratis-caja:hover, 
+.button-gratis-banco:hover, .button-gratis-prod:hover, .button-gratis-facture:hover, .button-gratis-adm:hover, 
+.button-gratis-espacio:hover, .button-gratis-tienda:hover {
+    color: #fff;
+    border-color: #ffffff;
+    background: transparent;
+    text-decoration: none;
+}
+
+
+/*  ESTILOS DE LA SUBPAGINA SAE-SOLUCIONES*/
+
+.soluciones-sae {
+    padding: 5em 0;
+}
+
+.soluciones-sae .row {
+    padding: 2em 0;
+}
+
+.soluciones-sae ul li {
+    line-height: 1.5em;
+    font-size: 1.2em;
+    list-style: none;
+}
+
+.soluciones-sae ul.otro li {
+    line-height: 1.5em;
+    font-size: 1.05em;
+    list-style: disc;
+}
+
+.soluciones-sae h4.title-h4::after {
+    content: '';
+    background: #008BFF;
+    width: 10%;
+    height: 2px;
+    position: absolute;
+    bottom: 0%;
+    left: 45%;
+}
+
+.interfaz h4.title {
+    font-weight: 300;
+    color: #b81029;
+    text-align: center;
+    padding: 2em 0;
+}
+
+#inventarios-y-servicios {
+    background-color: #fff;
+}
+
+#clientes-y-cuentas-por-cobrar {
+    background-color: #f7f5f5;
+}
+
+#facturas-y-vendedores {}
+
+#proveedores {
+    background-color: #f7f5f5;
+}
+
+#compras {}
+
+#sae-en-la-nube {
+    background-color: #f7f5f5;
+}
+
+#mas-soluciones {}
+
+
+/*  ESTILOS DE LA SUBPAGINA SAE-MOVIL*/
+
+.sae-pages {
+    padding: 5em 0;
+}
+
+.sae-pages .filas .texto ul li {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.sae-pages .filas p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+#beneficios {
+    background-color: #f7f7f9;
+}
+
+
+/*  ESTILOS DE LA SUBPAGINA SAE-LO NUEVO*/
+
+.nuevo-sae .row {
+    padding: 3em 0;
+}
+
+
+/* ESTILOS DE LA PAGINA COI*/
+
+#banner-coi {
+    background: #129caf;
+}
+
+#banner-coi .vm-banner-prod {
+    color: #129caf;
+}
+
+#banner-coi .vm-banner-prod:hover {
+    color: #fff;
+    border-color: #ffffff;
+    background: transparent;
+}
+
+#banner-coi .probar-banner-prod {
+    color: #129caf;
+    background: #FFF;
+}
+
+#banner-coi .probar-banner-prod:hover {
+    color: #FFF;
+    border-color: #ffffff;
+    background: transparent;
+}
+
+#btn-coi-prob button.hvr-sweep-to-right:before {
+    background: #129caf;
+}
+
+.nuevo-sae h4.title-h4::after {
+    content: '';
+    background: #008BFF;
+    width: 10%;
+    height: 2px;
+    position: absolute;
+    bottom: 0%;
+    left: 45%;
+}
+
+
+/*DESCRIPCION COI*/
+
+.desc-coi h2 {
+    color: #129caf;
+}
+
+.desc-coi p>b {
+    color: #129caf;
+}
+
+.coi h3 {
+    color: #129caf;
+}
+
+
+/*Inicia FRASE*/
+
+#frase-coi {
+    background-image: url(/img/encabezado1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#frase-coi .fondo-gray {
+    background: rgba(3, 174, 189, 0.47);
+    padding: 5em 0;
+    text-align: center;
+    color: #fff;
+}
+
+#frase-coi h3 i {
+    color: #fff;
+}
+
+
+/*INICIA CARACTERISTICAS COI*/
+
+#caract-coi span {
+    color: #03AEBD;
+}
+
+.caracteristicas-prod-coi h3 {
+    color: #03AEBD;
+    /*color: #525252;*/
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#caract-coi p {
+    color: #777788;
+}
+
+
+/*ESTILOS DE LA PAGINA ASPEL NOI*/
+
+#banner-noi {
+    background: #c25d1b;
+}
+
+#banner-noi .iis-btn {
+    width: 35%!important;
+    /* border-color: #FFF; */
+    margin: 0 1em;
+    color: #c25d1b;
+    background-color: #fff;
+}
+
+#banner-noi .vm-banner-prod:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+    background: transparent;
+}
+
+#banner-noi .probar-banner-prod {
+    color: #c25d1b;
+    background: #FFF;
+}
+
+#banner-noi .probar-banner-prod:hover {
+    color: #FFF;
+    border-color: #ffffff;
+    background: transparent;
+}
+
+#btn-noi-prob button.hvr-sweep-to-right:before {
+    background: #c1750b;
+}
+
+
+/*DESCRIPCION COI*/
+
+.desc-noi h2 {
+    color: #c25d1b;
+}
+
+.desc-noi p>b {
+    color: #c25d1b;
+}
+
+
+/*Inicia FRASE*/
+
+#frase-noi {
+    background-image: url(/img/encabezado1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#frase-noi .fondo-gray {
+    background: rgba(211, 94, 19, 0.71);
+    padding: 5em 0;
+    text-align: center;
+    color: #fff;
+}
+
+#frase-noi h3 i {
+    color: #fff;
+}
+
+
+/*INICIA CARACTERISTICAS NOI*/
+
+.noi h3 {
+    color: #c25d1b;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+
+/*TERMINA PAGINA NOI*/
+
+
+/* ESTILOS DE LA PAGINA ASPEL CAJA*/
+
+#banner-caja {
+    background: #e9b418;
+}
+
+#banner-caja .iis-btn {
+    width: 35%!important;
+    /* border-color: #FFF; */
+    margin: 0 1em;
+    color: #e9b418;
+    background-color: #fff;
+}
+
+#banner-caja .vm-banner-prod:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+    background: transparent;
+}
+
+#banner-caja .probar-banner-prod {
+    color: #e9b418;
+    background: #FFF;
+}
+
+#banner-caja .probar-banner-prod:hover {
+    color: #FFF;
+    border-color: #ffffff;
+    background: transparent;
+}
+
+#btn-caja-prob button.hvr-sweep-to-right:before {
+    background: #c1750b;
+}
+
+
+/*DESCRIPCION CAJA*/
+
+.desc-caja h2 {
+    color: #e9b418;
+}
+
+.desc-caja p>b {
+    color: #e9b418;
+}
+
+.caja h3 {
+    color: #e9b418;
+}
+
+
+/*Inicia FRASE*/
+
+#frase-caja {
+    background-image: url(/img/encabezado1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#frase-caja .fondo-gray {
+    background: rgba(247, 168, 0, 0.66);
+    padding: 5em 0;
+    text-align: center;
+    color: #fff;
+}
+
+#frase-caja h3 i {
+    color: #fff;
+}
+
+
+/*INICIA CARACTERISTICAS CAJA*/
+
+#caract-caja span {
+    color: #F3A02C;
+}
+
+#caract-caja h3 {
+    color: #F3A02C;
+    /*color: #525252;*/
+}
+
+#caract-caja p {
+    color: #777788;
+}
+
+
+/* ESTILOS DE LA PAGINA ASPEL BANCO*/
+
+#banner-banco {
+    background: #33902f;
+}
+
+#banner-banco .iis-btn {
+    width: 35%!important;
+    /* border-color: #FFF; */
+    margin: 0 1em;
+    color: #33902f;
+    background-color: #fff;
+}
+
+#banner-banco .vm-banner-prod:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+    background: transparent;
+}
+
+#banner-banco .probar-banner-prod {
+    color: #33902f;
+    background: #FFF;
+}
+
+#banner-banco .probar-banner-prod:hover {
+    color: #FFF;
+    border-color: #ffffff;
+    background: transparent;
+}
+
+#frase-banco {
+    background-image: url(/img/encabezado1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#frase-banco .fondo-gray {
+    background: rgba(76, 139, 43, 0.73);
+    padding: 5em 0;
+    text-align: center;
+    color: #fff;
+}
+
+#frase-banco h3 i {
+    color: #FFF;
+}
+
+.desc-banco h2 {
+    color: #33902f;
+}
+
+.desc-banco p>b {
+    color: #33902f;
+}
+
+.banco h3 {
+    color: #33902f;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+
+/* ESTILOS DE LA PAGINA ASPEL PROD*/
+
+#banner-prod {
+    background: #486c87;
+}
+
+#banner-prod .iis-btn {
+    width: 35%!important;
+    /* border-color: #FFF; */
+    margin: 0 1em;
+    color: #486c87;
+    background-color: #fff;
+}
+
+#banner-prod .vm-banner-prod:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+    background: transparent;
+}
+
+#banner-prod .probar-banner-prod {
+    color: #486c87;
+    background: #FFF;
+}
+
+#banner-prod .probar-banner-prod:hover {
+    color: #FFF;
+    border-color: #ffffff;
+    background: transparent;
+}
+
+#frase-prod {
+    background-image: url(/img/encabezado1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#frase-prod .fondo-gray {
+    background: rgba(66, 115, 141, 0.72);
+    padding: 5em 0;
+    text-align: center;
+    color: #fff;
+}
+
+#frase-prod h3 i {
+    color: #FFF;
+}
+
+.desc-prod h2 {
+    color: #486c87;
+}
+
+.desc-prod p>b {
+    color: #486c87;
+}
+
+.prod h3 {
+    color: #486c87;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+
+/* ESTILOS DE LA PAGINA ASPEL FACTURE*/
+
+#banner-facture {
+    background: #5e2f1c;
+}
+
+#banner-facture .iis-btn {
+    width: 35%!important;
+    /* border-color: #FFF; */
+    margin: 0 1em;
+    color: #5e2f1c;
+    background-color: #fff;
+}
+
+#banner-facture .vm-banner-prod:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+    background: transparent;
+}
+
+#banner-facture .probar-banner-prod {
+    color: #5e2f1c;
+    background: #FFF;
+}
+
+#banner-facture .probar-banner-prod:hover {
+    color: #FFF;
+    border-color: #ffffff;
+    background: transparent;
+}
+
+#frase-facture {
+    background-image: url(/img/encabezado1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#frase-facture .fondo-gray {
+    background: rgba(117, 61, 41, 0.8);
+    padding: 5em 0;
+    text-align: center;
+    color: #fff;
+}
+
+#frase-facture h3 i {
+    color: #FFF;
+}
+
+.desc-facture h2 {
+    color: #5e2f1c;
+}
+
+.desc-facture p>b {
+    color: #5e2f1c;
+}
+
+.facture h3 {
+    color: #5e2f1c;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+
+/* ESTILOS DE LA PAGINA ASPEL ADM*/
+
+#banner-adm {
+    background: #005487;
+}
+
+#banner-adm .iis-btn {
+    width: 35%!important;
+    /* border-color: #FFF; */
+    margin: 0 1em;
+    color: #005487;
+    background-color: #fff;
+}
+
+#banner-adm .vm-banner-prod:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+    background: transparent;
+}
+
+#banner-adm .probar-banner-prod {
+    color: #005487;
+    background: #FFF;
+}
+
+#banner-adm .probar-banner-prod:hover {
+    color: #FFF;
+    border-color: #ffffff;
+    background: transparent;
+}
+
+#frase-adm {
+    background-image: url(/img/encabezado1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#frase-adm .fondo-gray {
+    background: rgba(0, 84, 135, 0.69);
+    padding: 5em 0;
+    text-align: center;
+    color: #fff;
+}
+
+#frase-adm h3 i {
+    color: #FFF;
+}
+
+.desc-adm h2 {
+    color: #005487;
+}
+
+.desc-adm p>b {
+    color: #005487;
+}
+
+.adm h3 {
+    color: #005487;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+
+/*INICIA SOLUCIONES DEL PRODUCTO*/
+/*Soluciones amd tienda*/
+.amdtienda-pages h2 {
+    color: #64b32e;
+} 
+.amdtienda-pages .title-h4 {
+    color: #999;
+    padding: .5em 0 2em;
+    line-height: 1.8em;
+    position: relative;
+    text-align: center;
+    font-weight: 300!important;
+    font-size: 1.3em;
+}
+
+
+
+/*Soluciones ESPACIO*/
+.espacio-pages h2 {
+    color: #5BC5ED;
+}
+.espacio-pages .title-h4 {
+    color: #999;
+    padding: .5em 0 2em;
+    line-height: 1.8em;
+    position: relative;
+    text-align: center;
+    font-weight: 300!important;
+    font-size: 1.3em;
+}
+
+
+/*soluciones secciones de adm-tienda */
+.admtienda-pages h2  {
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-size: 2.5em;
+    color: #64b32e;
+}
+
+
+
+
+/*Soluciones SAE*/
+.sae-pages h2 {
+    color: #005DAB;
+}
+.sae-pages .title-h4 {
+    color: #999;
+    padding: .5em 0 2em;
+    line-height: 1.8em;
+    position: relative;
+    text-align: center;
+    font-weight: 300!important;
+    font-size: 1.3em;
+}
+
+/* para la pagina de nuevo espacio*/
+
+.admtienda-pages .title-h2 {
+    font-weight: 250;
+    color: #64b32e;
+}
+
+
+/* para la pagina de nuevo espacio*/
+.espacio-pages .title-h5 {
+    font-weight: 300;
+    color: #5BC5ED;
+}
+
+.sae-pages .title-h5 {
+    font-weight: 300;
+    color: ##aeaeae;
+}
+
+#sae-en-la-nube .title-h5 {
+    text-align: center;
+    margin-bottom: 0.5em;
+    margin-top: 1.5em;
+}
+
+#sae-en-la-nube span {
+    color: #b81029;
+    font-size: 5em;
+}
+
+.interfaz .logo-produ {
+    width: 40%;
+}
+
+.interfaz .title-h4 {
+    margin-bottom: 2em;
+    color: #b81029;
+}
+
+.interfaz .title-h5 {
+    text-align: center;
+    color: #aeaeae;
+}
+
+#mas-soluciones .interfaz .col-md-3:nth-child(2)>h5 {
+    color: #02B2C1;
+}
+
+#mas-soluciones .interfaz .col-md-3:nth-child(3)>h5 {
+    color: #3B91B0;
+}
+
+#mas-soluciones .interfaz .col-md-3:nth-child(4)>h5 {
+    color: #469B47;
+}
+
+#mas-soluciones .interfaz .col-md-3:nth-child(5)>h5 {
+    color: #e3a702;
+}
+
+
+/*TERMINA Soluciones SAE*/
+
+
+/*TERMINA SOLUCIONES DEL PRODUCTO*/
+
+
+/*LO NUEVO */
+
+
+/*SAE Lo nuevo*/
+
+#beneficios .title-h5 {
+    color: #b81029;
+}
+
+.p-css {
+    font-size: 1.2em;
+}
+
+.secciones ul li {
+    font-size: 1.2em;
+    list-style: none;
+    padding: 5px 0;
+    line-height: 1.5em;
+}
+
+.secciones ul li .fa {
+    font-size: 1.2em;
+    color: #005dab;
+    font-weight: 600;
+}
+
+
+/*TERMINA LO NUEVO */
+
+
+/*MOVIL VERSION*/
+
+
+/*SAE Movil*/
+
+.column {
+    width: 94%;
+    margin: 0 auto!important;
+    padding: 0 25%;
+    display: inline-block;
+}
+
+.column div {
+    margin: 0 auto!important;
+    width: auto;
+    display: inline-block;
+}
+
+.column div:first-child {
+    margin-left: 0;
+}
+
+figure {
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+}
+
+figure:hover+span {
+    bottom: -36px;
+    opacity: 1;
+}
+
+.hover14 .img-responsive {
+    max-width: 250px;
+}
+
+.hover14 figure {
+    position: relative;
+}
+
+.hover14 figure::before {
+    position: absolute;
+    top: 0px;
+    left: -75%;
+    z-index: 2;
+    display: inline-block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .4) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 100%);
+    -webkit-transform: skewX(-45deg);
+    transform: skewX(-45deg);
+}
+
+.hover14 figure:hover::before {
+    -webkit-animation: shine .95s;
+    animation: shine .95s;
+}
+
+@-webkit-keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+
+@keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+
