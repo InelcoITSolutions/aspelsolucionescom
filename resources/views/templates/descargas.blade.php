@@ -103,7 +103,7 @@
                                 <img alt="" src="/img/aspel-SAE.png" title="">
                                     <section class="list-left">
                                         <h5 class="title">
-                                            Aspel-SAE 7.0 - R16
+                                            Aspel-SAE 7.0 - R17
                                             <br>
                                             </br>
                                         </h5>
@@ -113,7 +113,7 @@
                                         <strong class="date">
                                             Actualizado:
                                             <span>
-                                                01 / junio / 2018
+                                                20 / junio / 2018
                                             </span>
                                         </strong>
                                         <p class="catpath">
@@ -141,14 +141,14 @@
                     <div class="tab-pane fade unico1" id="menu1">
                         <div class="well">
                             <span>
-                                Aspel-SAE 7.0 Reinstalable 15
+                                Aspel-SAE 7.0 Reinstalable 16
                             </span>
                             <br>
-                                Actualizado: 27 / 03 / 2018
+                                Actualizado: 01 / 03 / 2018
                             </br>
                             <em class="download">
                                 294 MB
-                                <a class="ico icon-download" href="http://ftp.aspel.com/Download/SAE/reinstal/ASPEL-SAE70_R15.exe" target="_blank">
+                                <a class="ico icon-download" href="http://ftp.aspel.com/Download/SAE/reinstal/ASPEL-SAE70_R16.exe" target="_blank">
                                 </a>
                             </em>
                         </div>
