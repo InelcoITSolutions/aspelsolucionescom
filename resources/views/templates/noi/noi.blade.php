@@ -340,9 +340,9 @@
     @push('add-js')
 
 <script>
-    $("#myModalPromo").modal("show");
+    $("#ID_PROMO_POPUP").modal("show");
     window.setTimeout(function(){
-     $('#myModalPromo').modal('hide');
+     $('#ID_PROMO_POPUP').modal('hide');
   }, 10000); 
 
 
