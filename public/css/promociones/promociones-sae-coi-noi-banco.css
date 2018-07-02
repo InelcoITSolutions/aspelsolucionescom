@@ -1,6 +1,6 @@
-/* 	===========================================
-					Reglas generales
-	===========================================	*/
+/*  ===========================================
+                    Reglas generales
+    =========================================== */
 
 label {
     color: white;
@@ -52,16 +52,16 @@ ul li {
     font-size: 2.2em !important;
 }
 
-/* 	===========================================
-				Banner de promoción SAE BANCO
-	===========================================	*/
+/*  ===========================================
+                Banner de promoción SAE BANCO
+    =========================================== */
 
 #promos-banner-wallpaper {
     background: url(/images-new/inelco/promocion/sae-coi-noi-banco/wallpaper/inelco-promocion-aspel-sae-coi-noi-banco-wallpaper.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 280px 0;
+    padding: 240px 0;
 }
 
 /*#promos-banner-wallpaper .promos-banner {
@@ -90,12 +90,11 @@ ul li {
     color: #4c8b2b;
 }
 
-/*.precio-banner {
+.precio-banner {
     position: relative;
-    left: 400px;
-    top: -100px;
+    top:-40px;
     width: 100%!important;
-}*/
+}
 
 
 
@@ -103,9 +102,9 @@ ul li {
 
 
 
-/* 	===========================================
-					1° separador
-	===========================================	*/
+/*  ===========================================
+                    1° separador
+    =========================================== */
 
 .separador-primario {
     padding: 52px 0;
@@ -139,9 +138,9 @@ video {
     padding: 1px;
 }
 
-/* 	===========================================
-					2° separador
-	===========================================	*/
+/*  ===========================================
+                    2° separador
+    =========================================== */
 
 .separador-secundario {
     padding: 52px 0;
@@ -152,9 +151,9 @@ video {
 
 
 
-/* 	===========================================
-		Sección con ventajas de la interfaz
-	===========================================	*/
+/*  ===========================================
+        Sección con ventajas de la interfaz
+    =========================================== */
 
 .ventajas-section {
     padding: 130px 0;
@@ -186,9 +185,9 @@ video {
     width: 100px;
     height: 100px;
 }
-/* 	===========================================
-					Sección de contacto
-	===========================================	*/
+/*  ===========================================
+                    Sección de contacto
+    =========================================== */
 
 .promo-contacto {
     width: 100%;

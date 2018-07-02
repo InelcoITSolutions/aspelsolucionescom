@@ -49,7 +49,7 @@
                 <div class="col-md-6">
                     <div class="text-center center-block">
                         <h2 class="banner-title" align="center">
-                            En <span class="special-text">junio</span>
+                            En <span class="special-text">julio</span>
                             <br>
                             ¡Aprovecha nuestras <span class="special-text">grandes</span> promociones!
                         </h2>
@@ -69,7 +69,7 @@
     </div>
 </section>
 
-<div id="promociones">
+    <div id="promociones">
         <div class="container">
             <div class="row">
 {{--                 <div class="col-md-8 col-md-offset-2">
@@ -88,10 +88,9 @@
                 </div>
                 <div class="col-md-4">
                     <p align="center">
-                        Compra el kit <br/><span style="color:#92232f;">Aspel SAE</span>+<span style="color:#009cb5;">Aspel COI</span>
-                        +<span style="color:#e36800;">Aspel NOI</span> 
-                        <br>y llévate de regalo:
-                        <br><span style="color:#4c8b2b;">Aspel BANCO</span><br/> 
+                        Compra el kit <br/><span style="color:#92232f;">Aspel SAE</span>+<span style="color:#4c8b2b;">Aspel BANCO</span>
+                        <br/><span style="color:#009cb5;">Aspel COI</span>+<span style="color:#e36800;">Aspel NOI</span>
+                        <br/> a sólo: $23,399*
                     </p>
                 </div>
                 <div class="col-md-4">
@@ -121,7 +120,7 @@
                     </h3>
                     <br/>
                     <p align="center">
-                        Combo <br/><span style="color:#92232f;">Aspel SAE</span> + <span style="color:#4c8b2b;">Aspel BANCO</span><br/> a sólo: $12,799*
+                        Combo <br/><span style="color:#92232f;">Aspel SAE</span> + <span style="color:#4c8b2b;">Aspel BANCO</span><br/> a sólo: $13,599*
                     </p>
                     <br>
                     <div class="text-center">
@@ -168,7 +167,7 @@
                     </h3>
                     <br>
                         <p align="center">
-                             Combo <br/><span style="color:#009cb5;">Aspel COI</span> + <span style="color:#4c8b2b;">Aspel BANCO</span><br/> a sólo: $8,599*
+                             Combo <br/><span style="color:#009cb5;">Aspel COI</span> + <span style="color:#4c8b2b;">Aspel BANCO</span><br/> a sólo: $9,299*
                         </p>
                         <br>
                     <div class="text-center">

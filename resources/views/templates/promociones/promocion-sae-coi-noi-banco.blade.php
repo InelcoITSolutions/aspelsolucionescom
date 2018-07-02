@@ -48,16 +48,19 @@
                     <div class="row">
                         <div class="col-md-3">
                             <img src="/images-new/inelco/promocion/sae-coi-noi-banco/logos/inelco-promocion-sae-coi-noi-banco-logo.png" alt="" class="center-block" id="scnb">
+                            <h2 class="text-center vertical-center">
+                               ¡Obtén la máxima productividad de tu empresa!
+                            </h2>
                         </div>
                         {{-- <div class="col-md-4">
                             <img src="/images-new/inelco/promocion/sae-coi-noi-banco/logos/inelco-promos-aspel-sae-coi-noi-banco-precio.png" alt="" class="img-responsive precio-banner">
                         </div>
                     </div>
                     <div class="row"> --}}
-                        <div class="col-md-8">
-                            <h2 class="text-center vertical-center">
-                               ¡Obtén la máxima productividad de tu empresa!
-                            </h2> {{-- <img src="/images-new/inelco/otros/inelco-promos-aspel-sae-banco-mayo.png" alt="" class="img-responsive precio-banner"> --}}
+                        <div class="col-md-4">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="/images-new/inelco/promocion/sae-coi-noi-banco/logos/inelco-promocion-aspel-sae-coi-noi-banco-precio.png" alt="" class="img-responsive precio-banner"> 
                         </div>
                     </div>
                 </div>
@@ -284,7 +287,7 @@
             <div class="row">
                 <div class="col-md-5">
                     <p id="terminos">
-                        *Terminos y condiciones: Precios en MXN + IVA. No incluye servicios. Precio de lista: Aspel SAE $10,225 MXN + IVA,  Aspel COI $5,507 MXN + IVA,  Aspel NOI $5,883 MXN + IVA,  Aspel BANCO $4,850 MXN + IVA. Promoción vigente hasta 30 de junio 2018.
+                        *Terminos y condiciones: Precios en MXN + IVA. No incluye servicios. Precio de lista: Aspel SAE $10,225 MXN + IVA,  Aspel COI $5,507 MXN + IVA,  Aspel NOI $5,883 MXN + IVA,  Aspel BANCO $4,850 MXN + IVA. Promoción vigente hasta el 31 de julio 2018.
                     </p>
                 </div>
             </div>

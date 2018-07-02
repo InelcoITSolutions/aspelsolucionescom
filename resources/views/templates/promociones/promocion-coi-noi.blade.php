@@ -267,7 +267,7 @@
             <div class="row">
                 <div class="col-md-5">
                     <p id="terminos">
-                        *Terminos y condiciones: Precios en MXN + IVA. No incluye servicios. Precio de lista: $11,390 MXN + IVA. Promoción vigente hasta 30 de junio 2018.
+                        *Terminos y condiciones: Precios en MXN + IVA. No incluye servicios. Precio de lista: $11,390 MXN + IVA. Promoción vigente hasta el 31 de julio 2018.
                     </p>
                 </div>
             </div>
