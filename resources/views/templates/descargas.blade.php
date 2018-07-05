@@ -1168,7 +1168,9 @@
                         </p>
                         <br>
                             <button class="btn btn-default espacio" type="button">
-                                Registrarme ahora
+                                <a href="https://survey.zohopublic.com/zs/zNB5wd">
+                                    Registrarme ahora
+                                </a>
                             </button>
                             <ul class="list">
                                 <li>
