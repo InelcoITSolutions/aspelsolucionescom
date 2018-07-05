@@ -1167,9 +1167,9 @@
                             Para comenzar a utilizar todas las ventajas que te brinda la aplicación Aspel ADM, primero regístrate y disfruta de una prueba gratis por 30 días. Después descarga la app en la Tienda de tu preferencia y controla tu negocio desde tu dispositivo móvil.
                         </p>
                         <br>
-                            <a href="https://survey.zohopublic.com/zs/zNB5wd" target="_blank" style="text-decoration: none;">
-                                <button class="btn btn-default espacio" type="button">
-                                    Registrarme ahora
+                            <a href='https://survey.zohopublic.com/zs/zNB5wd' title='' target='_blank' onclick='zs_open_window(this.href, 648, 700); return false;'>
+                                <button class="btn btn-default" type="button">
+                                    Licencia Gratuita
                                 </button>
                             </a>
                             <ul class="list">
