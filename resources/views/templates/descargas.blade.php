@@ -458,7 +458,7 @@
                                 <img alt="" src="/img/aspel-NOI.png" title="">
                                     <section class="list-left">
                                         <h5 class="title">
-                                            Aspel-NOI 8.0 - R12
+                                            Aspel-NOI 8.0 - R13
                                             <br>
                                             </br>
                                         </h5>
@@ -468,7 +468,7 @@
                                         <strong class="date">
                                             Actualizado:
                                             <span>
-                                                29 / diciembre / 2017
+                                                06 / julio / 2018
                                             </span>
                                         </strong>
                                         <p class="catpath">
@@ -492,17 +492,17 @@
                         </ul>
                     </div>
                     <div class="tab-pane fade unico1" id="noi1">
-                        <div class="well">
-                            Aspel-NOI 8.0 Reinstalable 11
+{{--                         <div class="well">
+                            Aspel-NOI 8.0 Reinstalable 12
                             <br>
-                                Actualizado: 13 / 12 / 2017
+                                Actualizado: 29 / 12 / 2017
                             </br>
                             <em class="download">
                                 214 MB
-                                <a class="ico icon-download" href="http://ftp.aspel.com/Download/Noi/reinstal/Aspel-NOI80_R11.exe_" target="_blank">
+                                <a class="ico icon-download" href="http://ftp.aspel.com/Download/Noi/reinstal/Aspel-NOI80_R12.exe_" target="_blank">
                                 </a>
                             </em>
-                        </div>
+                        </div> --}}
                         <div class="well">
                             Aspel-NOI 7.0 Reinstalable 23
                             <br>
