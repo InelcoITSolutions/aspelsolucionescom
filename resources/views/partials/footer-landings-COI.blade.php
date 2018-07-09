@@ -37,6 +37,38 @@
                             </li>
                         </ul>
                     </div>
+                    {{-- Botones de redes sociales --}}
+                    <div class="col-md-6">
+                        <ul>
+                            <li>
+                                {{-- Twitter  --}}
+                                <br>
+                                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </li>
+                        </ul>
+                    </div>
+                    <br>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>
+                                {{--plugin de botones de facebook--}}
+                                <br>
+                                @php
+                                    $host= $_SERVER["HTTP_HOST"];
+                                    $url= $_SERVER["REQUEST_URI"];
+                                    $direc= "http://" . $host . $url;            
+                                @endphp
+                                @if($direc == 'http://aspelsoluciones.com/nuevo-coi' OR $direc == 'http://aspelsoluciones.des/nuevo-coi' OR $direc == 'http://www.aspelsoluciones.com/nuevo-coi')
+                                {{--plugin de botones de facebook--}}
+                                <div class="fb-like" data-href="https://www.aspelsoluciones.com/nuevo-coi" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+
+                                @elseif($direc == 'http://aspelsoluciones.des/actualizacion-coi' OR $direc == 'http://aspelsoluciones.com/actualizacion-coi' OR $direc == 'http://www.aspelsoluciones.com/actualizacion-coi')
+                                <div class="fb-like" data-href="https://www.aspelsoluciones.com/actualizacion-coi" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                                
+                                @endif
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="col-xs-6 col-md-6 col-sm-6 footer-w3ls2">
@@ -156,21 +188,8 @@
             </li>
             --}}
         </ul>
-        @php
-            $host= $_SERVER["HTTP_HOST"];
-            $url= $_SERVER["REQUEST_URI"];
-            $direc= "http://" . $host . $url;            
-        @endphp
-        @if($direc == 'http://aspelsoluciones.com/nuevo-coi' OR $direc == 'http://aspelsoluciones.dev:8080/nuevo-coi' OR $direc == 'http://www.aspelsoluciones.com/nuevo-coi')
-        {{--plugin de botones de facebook--}}
-        <div class="fb-like" data-action="like" data-href="http://aspelsoluciones.com/nuevo-coi" data-layout="standard" data-share="true" data-show-faces="true" data-size="large" data-width="200px">
-        </div>
-        @elseif($direc == 'http://aspelsoluciones.dev:8080/actualizacion-coi' OR $direc == 'http://aspelsoluciones.com/actualizacion-coi' OR $direc == 'http://www.aspelsoluciones.com/actualizacion-coi')
-        <div class="fb-like" data-action="like" data-href="http://aspelsoluciones.com/actualizacion-coi" data-layout="standard" data-share="true" data-show-faces="true" data-size="large" data-width="200px">
-        </div>
-        @endif
         <p class="copyright">
-            © 2017 Inelco IT Solutions S.A. de C.V. Todos los derechos reservados
+            © 2018 Inelco IT Solutions S.A. de C.V. Todos los derechos reservados
         </p>
     </div>
 </section>

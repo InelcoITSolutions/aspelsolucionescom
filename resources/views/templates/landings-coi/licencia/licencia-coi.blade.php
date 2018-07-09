@@ -785,9 +785,9 @@
 
 
 <script>
-    $("#myModalPromo").modal("show");
+    $("#myModalPromo-QUITAR").modal("show");
     window.setTimeout(function(){
-     $('#myModalPromo').modal('hide');
+     $('#myModalPromo-QUITAR').modal('hide');
   }, 10000); 
 
 

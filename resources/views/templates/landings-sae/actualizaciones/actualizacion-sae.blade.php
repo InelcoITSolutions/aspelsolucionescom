@@ -539,7 +539,7 @@
         <div class="row">
             <div class="col-md-7 ocultar nota wow fadeInDown" data-wow-delay="0.5s">
                 <p>
-                    Terminos y condiciones: Precios en MXN + IVA. No incluye servicio de implementación. Precio por sólo un usuario. El costo por usuario adicional varia. Promoción válida sólo en mayo 2018.
+                    Terminos y condiciones: Precios en MXN + IVA. No incluye servicio de implementación. Precio por sólo un usuario. El costo por usuario adicional varia. Promoción válida sólo en julio 2018.
                 </p>
             </div>
         </div>
@@ -550,9 +550,9 @@
 var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"9f9e70d185f4d218e80feae15380fbd8b58e031ab6b34c3a879ef3dfeafec28b40a65cf3953078af9fd0897ab113022a", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
 </script>
 <script>
-    $("#myModalPromo").modal("show");
+    $("#myModalPromo-QUITAR").modal("show");
     window.setTimeout(function(){
-     $('#myModalPromo').modal('hide');
+     $('#myModalPromo-QUITAR').modal('hide');
   }, 10000); 
 
 

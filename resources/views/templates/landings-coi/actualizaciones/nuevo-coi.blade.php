@@ -654,7 +654,7 @@
                          </br>
                         <br>
                         --}}
-                        * Precio en Moneda Nacional + IVA ** Válido hasta el 31 de julio 2017 *** No incluye servicios de instalación
+                        * Precio en Moneda Nacional + IVA ** Válido hasta el 31 de julio 2018 *** No incluye servicios de instalación
             </p>
         </div>
     </div>
@@ -662,9 +662,9 @@
     
 </section>
 <script>
-    $("#myModalPromo").modal("show");
+    $("#myModalPromo-QUITAR").modal("show");
     window.setTimeout(function(){
-     $('#myModalPromo').modal('hide');
+     $('#myModalPromo-QUITAR').modal('hide');
   }, 10000); 
 
 

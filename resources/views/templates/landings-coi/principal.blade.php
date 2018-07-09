@@ -10,7 +10,36 @@
         <title>
             Aspel Soluciones | @yield('title')
         </title>
+        {{-- META SHARE | Comprueba si la página es actualización o nuevo y asigna los parametros para compartir --}}
+        @php
+            $host= $_SERVER["HTTP_HOST"];
+            $url= $_SERVER["REQUEST_URI"];
+            $direc= "http://" . $host . $url;
+        @endphp
+        {{--plugin de botones de facebook--}}
+        @if($direc == 'http://aspelsoluciones.com/nuevo-coi' OR $direc == 'http://aspelsoluciones.des/nuevo-coi' OR $direc == 'http://www.aspelsoluciones.com/nuevo-coi')
+        {{-- IF para nuevo-coi --}}
+                <meta property="og:url"           content="https://www.aspelsoluciones.com/nuevo-coi" />
+                <meta property="og:type"          content="website" />
+                <meta property="og:title"         content="Nuevo Aspel COI 8.0" />
+                <meta property="og:description"   content="El Sistema Administrativo Empresarial más utilizado en México y el único que pone en control total a tu negocio." />
+                <meta property="og:image"         content="http://www.aspelsoluciones.com/img/share/nuevo-coi.png" />
+                <meta property="og:image:secure_url" content="https://www.aspelsoluciones.com/img/share/nuevo-coi.png" />
+                <link href="https://www.aspelsoluciones.com/img/share/nuevo-coi.png" rel="image_src"/> 
+        {{-- ELSEIF para actualizacion-coi --}}
+        @elseif($direc == 'http://aspelsoluciones.des/actualizacion-coi' OR $direc == 'http://aspelsoluciones.com/actualizacion-coi' OR $direc == 'http://www.aspelsoluciones.com/actualizacion-coi')
+        <!-- You can use open graph tags to customize link previews.
+                Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+            <meta property="og:url"                content="https://www.aspelsoluciones.com/actualizacion-coi" />
+            <meta property="og:type"               content="website" />
+            <meta property="og:title"              content="Actualización Aspel COI" />
+            <meta property="og:description"        content="Actualizate al Sistema Administrativo Empresarial más utilizado en México y el único que pone en control total a tu negocio." />
+            <meta property="og:image"              content="http://www.aspelsoluciones.com/img/share/actu-coi.png" />
+            <meta property="og:image:secure_url" content="https://www.aspelsoluciones.com/img/share/actu-coi.png" />
+            <link href="https://www.aspelsoluciones.com/img/share/actu-coi.png" rel="image_src"/>
 
+        @endif
+        {{-- META GENERALES --}}
         <meta content="El sistema de administración contable, financiera
 y contabilidad electrónica mas usado del país. " name="description"/>
 
@@ -37,8 +66,8 @@ y contabilidad electrónica mas usado del país. " name="description"/>
         
         <link href="http://www.aspelsoluciones.com/img/share/actu-coi.png" rel="image_src"/>
         
-        {{--estilos para landing del curso de sae basico--}}
-        @stack('css-curso-sae')
+        {{--estilos para landing del curso de coi basico--}}
+        @stack('css-curso-coi')
 
         {{--estilos para landing de la presentacion del nuevo noi--}}
         @stack('css-presentacion-nuevo-noi')
@@ -87,17 +116,15 @@ y contabilidad electrónica mas usado del país. " name="description"/>
     </head>
     <body>
         @yield('content')
-        <div id="fb-root">
-        </div>
-        <script>
-            (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.8";
-             fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-        </script>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.0';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
         @section('footer')
             @include('partials.footer-landings-COI')           
         @show

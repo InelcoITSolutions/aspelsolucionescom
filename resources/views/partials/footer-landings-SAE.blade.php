@@ -37,19 +37,35 @@
                             </li>
                         </ul>
                     </div>
+                    {{-- Botones de redes sociales --}}
                     <div class="col-md-6">
                         <ul>
                             <li>
+                                {{-- Twitter  --}}
                                 <br>
                                 <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                             </li>
                         </ul>
                     </div>
+                    <br>
                     <div class="col-md-6">
                         <ul>
                             <li>
+                                {{--plugin de botones de facebook--}}
                                 <br>
-                                <div class="fb-like" data-href="https://aspelsoluciones.com/nuevo-sae" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                                @php
+                                    $host= $_SERVER["HTTP_HOST"];
+                                    $url= $_SERVER["REQUEST_URI"];
+                                    $direc= "http://" . $host . $url;            
+                                @endphp
+                                @if($direc == 'http://aspelsoluciones.com/nuevo-sae' OR $direc == 'http://aspelsoluciones.des/nuevo-sae' OR $direc == 'http://www.aspelsoluciones.com/nuevo-sae')
+                                {{--plugin de botones de facebook--}}
+                                <div class="fb-like" data-href="https://www.aspelsoluciones.com/nuevo-sae" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+
+                                @elseif($direc == 'http://aspelsoluciones.des/actualizacion-sae' OR $direc == 'http://aspelsoluciones.com/actualizacion-sae' OR $direc == 'http://www.aspelsoluciones.com/actualizacion-sae')
+                                <div class="fb-like" data-href="https://www.aspelsoluciones.com/actualizacion-sae" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                                
+                                @endif
                             </li>
                         </ul>
                     </div>
@@ -171,28 +187,8 @@
                 </a>
             </li>
             --}}
-        <div>
-            
-            
-            
-        </div>
         </ul>
 
-{{--         @php
-            $host= $_SERVER["HTTP_HOST"];
-            $url= $_SERVER["REQUEST_URI"];
-            $direc= "http://" . $host . $url;            
-        @endphp
-        @if($direc == 'http://aspelsoluciones.com/nuevo-sae' OR $direc == 'http://aspelsoluciones.dev:8080/nuevo-sae' OR $direc == 'http://www.aspelsoluciones.com/nuevo-sae')
-
-        <div class="fb-like" data-action="like" data-href="http://aspelsoluciones.com/nuevo-sae" data-layout="standard" data-share="true" data-show-faces="true" data-size="large" data-width="200px">
-        </div>
-
-        @elseif($direc == 'http://aspelsoluciones.dev:8080/actualizacion-sae' OR $direc == 'http://aspelsoluciones.com/actualizacion-sae' OR $direc == 'http://www.aspelsoluciones.com/actualizacion-sae')
-        <div class="fb-like" data-action="like" data-href="http://aspelsoluciones.com/actualizacion-sae" data-layout="standard" data-share="true" data-show-faces="true" data-size="large" data-width="200px">
-        </div>
-        
-        @endif --}}
         <p class="copyright">
             © 2018 Inelco IT Solutions S.A. de C.V. Todos los derechos reservados
         </p>

@@ -273,12 +273,12 @@
                     Nuevo y poderoso NOI 8.0
                 </h2>
                 <p>
-                    La nueva versión integra nuevas funcionalidades para tu beneficio. Ahora te ofrece una plataforma tecnólogica para mejorar tu experiencia de uso e incluye la nueva versión 1.2 del complemento de nómina, obligatorio para los CFDI en 2017.
+                    La nueva versión integra nuevas funcionalidades para tu beneficio. Ahora te ofrece una plataforma tecnólogica para mejorar tu experiencia de uso e incluye la nueva versión 1.2 del complemento de nómina, obligatorio para los CFDI en 2018.
                 </p>
             </div>
             <div align="right" class="boton wow fadeInDown" data-wow-delay="0.5s">
                 <a class="button-fiscales large" href="/descargas/Disposiciones-fiscales-para-la-nómina-digital-2017.pdf" target="_blank">
-                    Disposiciones fiscales para la Nómina Digital 2017
+                    Disposiciones fiscales para la Nómina Digital 2018
                 </a>
             </div>
         </div>
@@ -453,7 +453,7 @@
                     <br>
                         1 Curso: Aspel NOI Actualización (Curso en línea) PL $999*
                         <br>
-                            * Precios más IVA. Precios en Moneda Nacional MXP. Vigencia: 30 de abril 2017
+                            * Precios más IVA. Precios en Moneda Nacional MXP. Vigencia: julio 2018.
                         </br>
                     </br>
                 </br>

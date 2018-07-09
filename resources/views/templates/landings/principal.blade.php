@@ -8,7 +8,39 @@
         <title>
             Aspel Soluciones | @yield('title')
         </title>
-        <meta content="El Sistema más usado en la administración de la nómina y el capital humano en México evoluciona" name="description"/>
+
+{{-- META SHARE | Comprueba si la página es actualización o nuevo y asigna los parametros para compartir --}}
+        @php
+            $host= $_SERVER["HTTP_HOST"];
+            $url= $_SERVER["REQUEST_URI"];
+            $direc= "http://" . $host . $url;
+        @endphp
+        {{--plugin de botones de facebook--}}
+        @if($direc == 'http://aspelsoluciones.com/nuevo-noi' OR $direc == 'http://aspelsoluciones.des/nuevo-noi' OR $direc == 'http://www.aspelsoluciones.com/nuevo-noi')
+        {{-- IF para nuevo-noi --}}
+                <meta property="og:url"           content="https://www.aspelsoluciones.com/nuevo-noi" />
+                <meta property="og:type"          content="website" />
+                <meta property="og:title"         content="Nuevo Aspel NOI 8.0" />
+                <meta property="og:description"   content="El Sistema más usado en la administración de la nómina y el capital humano en México evoluciona" name="description." />
+                <meta property="og:image"         content="http://www.aspelsoluciones.com/img/share/nuevo-noi.png" />
+                <meta property="og:image:secure_url" content="https://www.aspelsoluciones.com/img/share/nuevo-noi.png" />
+                <link href="https://www.aspelsoluciones.com/img/share/nuevo-noi.png" rel="image_src"/> 
+        {{-- ELSEIF para actualizacion-noi --}}
+        @elseif($direc == 'http://aspelsoluciones.des/actualizacion-noi' OR $direc == 'http://aspelsoluciones.com/actualizacion-noi' OR $direc == 'http://www.aspelsoluciones.com/actualizacion-noi')
+        <!-- You can use open graph tags to customize link previews.
+                Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+            <meta property="og:url"                content="https://www.aspelsoluciones.com/actualizacion-noi" />
+            <meta property="og:type"               content="website" />
+            <meta property="og:title"              content="Actualización Aspel NOI " />
+            <meta property="og:description"        content="Actualizate al Sistema más usado en la administración de la nómina y el capital humano en México evoluciona" name="description." />
+            <meta property="og:image"              content="http://www.aspelsoluciones.com/img/share/actu-noi.png" />
+            <meta property="og:image:secure_url" content="https://www.aspelsoluciones.com/img/share/actu-noi.png" />
+            <link href="https://www.aspelsoluciones.com/img/share/actu-noi.png" rel="image_src"/>
+
+        @endif
+        {{-- META GENERALES --}}
+
+        <meta content=""/>
         <meta content="soluciones de tecnología, consultoría, asesoria, capacitación, sistemas, aspel, cursos" name="keywords"/>
         <meta content="Inelco IT Solutions S.A de C.V" name="author"/>
         <meta content="Index, Follow" name="robots"/>
@@ -21,9 +53,6 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet"/>
         <link href="/css/landings/footer.css" rel="stylesheet"/>
         <link href="/css/animate.css" rel="stylesheet"/>
-        <!--- metas para facebook imagenes para compartir en facebook -->
-        <link href="http://www.aspelsoluciones.com/img/img-landings/fondo-nuevo-noi-facebook.PNG" rel="image_src"/>
-        <link href="http://www.aspelsoluciones.com/img/img-landings/fondo-actualizacion-noi-face.PNG" rel="image_src"/>
 
         {{--estilos para landing del curso de sae basico--}}
         @stack('css-curso-sae')
@@ -72,19 +101,18 @@
     </head>
     <body>
         @yield('content')
-        <div id="fb-root">
-        </div>
-        <script>
-            (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.8";
-             fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-        </script>
+
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.0';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
         @section('footer')
-            @include('partials.footer-landings')           
+            @include('partials.footer-landings-NOI')           
         @show
         {{--boton de ir arriba--}}
         <i aria-hidden="true" class="scrollup fa fa-angle-up fa-5x">

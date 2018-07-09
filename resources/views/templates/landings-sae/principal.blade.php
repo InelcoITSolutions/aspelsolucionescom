@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es-MX">
+<html lang="es-MX" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
@@ -11,14 +11,44 @@
             Aspel Soluciones | @yield('title')
         </title>
 
-        <meta content="El Sistema Administrativo Empresarial más utilizado en 
-México y el único que pone en control total a tu negocio. " name="description"/>
+        {{-- META SHARE | Comprueba si la página es actualización o nuevo y asigna los parametros para compartir --}}
+        @php
+            $host= $_SERVER["HTTP_HOST"];
+            $url= $_SERVER["REQUEST_URI"];
+            $direc= "http://" . $host . $url;
+        @endphp
+        {{--plugin de botones de facebook--}}
+        @if($direc == 'http://aspelsoluciones.com/nuevo-sae' OR $direc == 'http://aspelsoluciones.des/nuevo-sae' OR $direc == 'http://www.aspelsoluciones.com/nuevo-sae')
+        {{-- IF para nuevo-sae --}}
+                <meta property="og:url"           content="https://www.aspelsoluciones.com/nuevo-sae" />
+                <meta property="og:type"          content="website" />
+                <meta property="og:title"         content="Nuevo Aspel SAE 7" />
+                <meta property="og:description"   content="El Sistema Administrativo Empresarial más utilizado en México y el único que pone en control total a tu negocio." />
+                <meta property="og:image"         content="http://www.aspelsoluciones.com/img/share/nuevo-sae.png" />
+                <meta property="og:image:secure_url" content="https://www.aspelsoluciones.com/img/share/nuevo-sae.png" />
+                <link href="https://www.aspelsoluciones.com/img/share/nuevo-sae.png" rel="image_src"/> 
+        {{-- ELSEIF para actualizacion-sae --}}
+        @elseif($direc == 'http://aspelsoluciones.des/actualizacion-sae' OR $direc == 'http://aspelsoluciones.com/actualizacion-sae' OR $direc == 'http://www.aspelsoluciones.com/actualizacion-sae')
+        <!-- You can use open graph tags to customize link previews.
+                Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+            <meta property="og:url"                content="https://www.aspelsoluciones.com/actualizacion-sae" />
+            <meta property="og:type"               content="website" />
+            <meta property="og:title"              content="Actualización Aspel SAE " />
+            <meta property="og:description"        content="Actualizate al Sistema Administrativo Empresarial más utilizado en México y el único que pone en control total a tu negocio." />
+            <meta property="og:image"              content="http://www.aspelsoluciones.com/img/share/actu-sae.png" />
+            <meta property="og:image:secure_url" content="https://www.aspelsoluciones.com/img/share/actu-sae.png" />
+            <link href="https://www.aspelsoluciones.com/img/share/actu-sae.png" rel="image_src"/>
+
+        @endif
+        {{-- META GENERALES --}}
+        <meta content="El Sistema Administrativo Empresarial más utilizado en México y el único que pone en control total a tu negocio. " name="description"/>
 
         <meta content="soluciones de tecnolog, consultoría, asesoria, capacitación, sistemas, aspel, cursos" name="keywords"/>
 
         <meta content="Inelco IT Solutions S.A de C.V" name="author"/>
 
         <meta content="Index, Follow" name="robots"/>
+        
         {{--estilos--}}
         <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <!-- Material Design Bootstrap -->
@@ -35,9 +65,6 @@ México y el único que pone en control total a tu negocio. " name="description"
         <!--
         imagenes que se muestran para los fondos 
         cuando se comparte en facebok-->
-        <link href="https://www.aspelsoluciones.com/img/share/nuevo-sae.png" rel="image_src"/> 
-        <link href="https://www.aspelsoluciones.com/img/share/actu-sae.png" rel="image_src"/>
-        
         
         
         {{--estilos para landing del curso de sae basico--}}
@@ -91,7 +118,7 @@ México y el único que pone en control total a tu negocio. " name="description"
         </noscript>
     </head>
     <body>
-        @yield('content')
+
         <div id="fb-root"></div>
         <script>(function(d, s, id) {
           var js, fjs = d.getElementsByTagName(s)[0];
@@ -100,6 +127,8 @@ México y el único que pone en control total a tu negocio. " name="description"
           js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.0';
           fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
+
+        @yield('content')
         @section('footer')
             @include('partials.footer-landings-SAE')           
         @show
@@ -113,21 +142,18 @@ México y el único que pone en control total a tu negocio. " name="description"
         {{--script para el boton de ir arriba--}}
         <script type="text/javascript">
             $(document).ready(function(){
-  
-        $(window).scroll(function(){
-            if ($(this).scrollTop() > 100) {
-                $('.scrollup').fadeIn();
-            } else {
-                $('.scrollup').fadeOut();
-            }
-        });
-  
-        $('.scrollup').click(function(){
-            $("html, body").animate({ scrollTop: 0 }, 600);
-            return false;
-        });
-  
-    });
+                $(window).scroll(function(){
+                    if ($(this).scrollTop() > 100) {
+                        $('.scrollup').fadeIn();
+                    } else {
+                        $('.scrollup').fadeOut();
+                    }
+                });
+                $('.scrollup').click(function(){
+                    $("html, body").animate({ scrollTop: 0 }, 600);
+                    return false;
+                });
+            });
         </script>
         {{--scripts que funciona con animate.CSS para los efectos de los elemntos cuando se desplaza por una página--}}
         <script src="/js/wow.min.js">

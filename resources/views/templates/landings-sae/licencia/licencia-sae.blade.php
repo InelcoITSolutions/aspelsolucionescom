@@ -748,9 +748,9 @@
 var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"9f9e70d185f4d218e80feae15380fbd8b58e031ab6b34c3a879ef3dfeafec28b40a65cf3953078af9fd0897ab113022a", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
 </script>
 <script>
-    $("#myModalPromo1").modal("show");
+    $("#myModalPromo-QUITAR").modal("show");
     window.setTimeout(function(){
-     $('#myModalPromo1').modal('hide');
+     $('#myModalPromo-QUITAR').modal('hide');
   }, 10000); 
 
 
