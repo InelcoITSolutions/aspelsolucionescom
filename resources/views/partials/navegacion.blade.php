@@ -17,7 +17,7 @@
                     </div>
                 </div>
                 
-                <div align="right" class="col-md-10">
+                <div align="right" class="col-md-8">
                 
                     <ul class="derecha">
                         <li>
@@ -248,7 +248,26 @@
                         --}}
                     </ul>
                 </div>
+                <div class="google">
+                    <div class="col-md-2">
+                        <div align="left" class="logo">
+                            <gcse:search></gcse:search>
+                        </div>
+                    </div>
+                </div>
             </div>        
         </div>
     </nav>
 </header>
+
+<script>
+  (function() {
+    var cx = '010972545683301979037:ckopgrzbcwa';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>

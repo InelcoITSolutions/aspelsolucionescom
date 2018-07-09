@@ -24,7 +24,7 @@
                             <a href="/">
                                 <span class="icon-house">
                                 </span>
-                               <i aria-hidden="true" class="fa fa-home fa"></i> Inicio
+                               <i aria-hidden="true" class="fa fa-home fa"></i> HELLOW
                             </a>
                         </li>
 
