@@ -1,11 +1,19 @@
-@extends('templates.landings-promociones.principal')
+@extends('templates.landings-promociones.principal-sae-coi-noi-banco')
 
 @section('title','Promociones')
 
 @push('css-promocion-nuevo-noi')
     <link href="/css/landings-promociones/promocion.css" rel="stylesheet" type="text/css"/>
     <!--<link href="/css/landings-SAE/form-promocion.css" rel="stylesheet"/>-->
-    {{-- IMAGEN QUE SE muestra cuando se comparte en redes sociales --}}
+    {{-- META Sociales --}}
+    <meta property="og:url" content="https://www.aspelsoluciones.com/promocion-sae-coi-noi-banco" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Promociones de kit empresarial Aspel | AspelSoluciones" />
+    <meta property="og:description" content="¡Obtén la máxima productividad de tu empresa! " />
+    <meta property="og:image" content="http://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-empresarial-social-media.png" />
+    <meta property="og:image:secure_url" content="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-empresarial-social-media.png" />
+    <link href="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-empresarial-social-media.png" rel="image_src" />
+    {{-- CSS --}}
     <link href="https://www.aspelsoluciones.com/img/share/nuevo-sae.png" rel="image_src"/> 
     {{-- <link rel="stylesheet" href="/css/inelco/mis-estilos.css"> --}}
     <link rel="stylesheet" href="/css/inelco/products-styles.css">
@@ -252,10 +260,10 @@
                        <div class="col-sm-12">
                             <p><span class="glyphicon glyphicon-ok"></span> Licencia de Aspel NOI 8.0 (1 usuario/99 empresas)</p>
                         </div>
-                        <br>
+{{--                         <br>
                         <div class="col-sm-12 col-sm-offset-3">
                             <p><span id="title-incluye-promo">Llevate <span class="special-text">Gratis</span> :</span></p>
-                        </div>
+                        </div> --}}
                         <div class="col-sm-12">
                             <p><span class="glyphicon glyphicon-ok"></span> Licencia de Aspel BANCO 4.0 (1 usuario/99 empresas)</p>
                         </div>                        

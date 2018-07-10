@@ -1,12 +1,19 @@
-@extends('templates.landings-promociones.principal')
+@extends('templates.landings-promociones.principal-sae-banco')
 
 @section('title','Promociones')
 
 @push('css-promocion-nuevo-noi')
     <link href="/css/landings-promociones/promocion.css" rel="stylesheet" type="text/css"/>
     <!--<link href="/css/landings-SAE/form-promocion.css" rel="stylesheet"/>-->
-    {{-- IMAGEN QUE SE muestra cuando se comparte en redes sociales --}}
-    <link href="https://www.aspelsoluciones.com/img/share/nuevo-sae.png" rel="image_src"/> 
+    {{-- META Sociales --}}
+    <meta property="og:url" content="https://www.aspelsoluciones.com/promocion-sae-banco" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Promociones de Aspel SAE y Aspel BANCO | AspelSoluciones" />
+    <meta property="og:description" content="El máximo control de tus movimientos bancarios y procesos administrativos." />
+    <meta property="og:image" content="http://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-sae-banco-social-media.png" />
+    <meta property="og:image:secure_url" content="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-sae-banco-social-media.png" />
+    <link href="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-sae-banco-social-media.png" rel="image_src" />
+    {{-- CSS --}}
     {{-- <link rel="stylesheet" href="/css/inelco/mis-estilos.css"> --}}
     <link rel="stylesheet" href="/css/inelco/products-styles.css">
         <link rel="stylesheet" href="/css/promociones/promociones-sae-banco.css">

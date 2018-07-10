@@ -22,7 +22,7 @@
                             <li>
                                 <i aria-hidden="true" class="fa fa-phone">
                                 </i>
-                                01 (800) 0888 911
+                               (81) 1352 2222
                             </li>
                         </ul>
                     </div>

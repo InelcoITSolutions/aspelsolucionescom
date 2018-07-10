@@ -1,12 +1,20 @@
-@extends('templates.landings-promociones.principal')
+@extends('templates.landings-promociones.principal-coi-banco')
 
 @section('title','Promociones')
 
 @push('css-promocion-nuevo-noi')
     <link href="/css/landings-promociones/promocion.css" rel="stylesheet" type="text/css"/>
     <!--<link href="/css/landings-SAE/form-promocion.css" rel="stylesheet"/>-->
-    {{-- IMAGEN QUE SE muestra cuando se comparte en redes sociales --}}
-    <link href="https://www.aspelsoluciones.com/img/share/nuevo-sae.png" rel="image_src"/> 
+    {{-- META Sociales --}}
+    <meta property="og:url" content="https://www.aspelsoluciones.com/promocion-coi-banco" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Promociones de Aspel COI y Aspel BANCO | AspelSoluciones" />
+    <meta property="og:description" content="Genera las pólizas correspondientes a los cargos y abonos de las cuentas bancarias." />
+    <meta property="og:image" content="http://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-coi-banco-social-media.png" />
+    <meta property="og:image:secure_url" content="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-coi-banco-social-media.png" />
+    <link href="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-coi-banco-social-media.png" rel="image_src" />
+
+    {{-- CSS --}}
     {{-- <link rel="stylesheet" href="/css/inelco/mis-estilos.css"> --}}
     <link rel="stylesheet" href="/css/inelco/products-styles.css">
         <link rel="stylesheet" href="/css/promociones/promociones-coi-banco.css">

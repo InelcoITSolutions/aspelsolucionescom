@@ -97,7 +97,7 @@ México y el único que pone en control total a tu negocio. " name="description"
 
       <!-- scripts -->
         @section('footer')
-            @include('partials.footer.promociones.footer-landings-promociones')           
+            @include('partials.footer.promociones.footer-landings-sae-banco')           
         @show
         {{--boton de ir arriba--}}
         <i aria-hidden="true" class="scrollup fa fa-angle-up fa-5x">
