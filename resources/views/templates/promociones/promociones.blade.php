@@ -11,9 +11,9 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Promociones del Mes de AspelSoluciones" />
     <meta property="og:description" content="Aprovecha nuestras promociones del mes." />
-    <meta property="og:image" content="http://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promo-social-media.png" />
-    <meta property="og:image:secure_url" content="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promo-social-media.png" />
-    <link href="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promo-social-media.png" rel="image_src" />
+    <meta property="og:image" content="http://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/aspelsoluciones-promocion-social-media.png" />
+    <meta property="og:image:secure_url" content="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/aspelsoluciones-promocion-social-media.png" />
+    <link href="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/aspelsoluciones-promocion-social-media.png" rel="image_src" />
     {{-- css --}}
 
     {{-- <link rel="stylesheet" href="/css/inelco/mis-estilos.css"> --}}
