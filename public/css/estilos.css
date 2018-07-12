@@ -1073,6 +1073,10 @@ p.parrafo-dos {
     text-decoration: none;
 }
 
+.botones-sociales li {
+    margin: 8px 0;
+}
+
 #footer .footer-grid h4 {
     font-size: 1.2em;
     color: #fff;

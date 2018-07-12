@@ -40,38 +40,25 @@
                                         </span>
                                     </a>
                                 </li>
-                                
+                            </ul>
+                            <ul class="botones-sociales">
+                                <li>
+                                    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+                                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                </li>
+                                <li>
+                                    <div class="fb-like" data-href="https://www.aspelsoluciones.com/" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                                </li>
+                                <li>
+                                    <div class="fb-share-button" data-href="https://www.aspelsoluciones.com/" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.aspelsoluciones.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
+                                </li>
+                                <li>
+                                    <div class="fb-send" data-href="https://www.aspelsoluciones.com" data-layout="button">
+                                    </div>
+                                </li>
                             </ul>
                         </center>
-
-                     
-                
                     </div>
-                    {{--Condiciones para mostrar botones de compartir en face--}}
-                    @php
-                        $host= $_SERVER["HTTP_HOST"];
-                        $url= $_SERVER["REQUEST_URI"];
-                        $direc= "http://" . $host . $url;            
-                    @endphp
-                    @if($direc == 'http://aspelsoluciones.com/' OR $direc == 'http://aspelsoluciones.dev:8080/' OR $direc == 'http://www.aspelsoluciones.com/')
-                    <div class="col-md-6" style="left: -3%;">
-                        <div class="fb-like" data-action="like" data-href="http://aspelsoluciones.com/" data-layout="button_count" data-share="true" data-show-faces="true" data-size="small">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="fb-send" data-href="http://www.aspelsoluciones.com/">
-                        </div>
-                    </div>
-                    @elseif($direc == 'http://aspelsoluciones.com/productos/sae/presentacion' OR $direc == 'http://aspelsoluciones.dev:8080/productos/sae/presentacion' OR $direc == 'http://www.aspelsoluciones.com/productos/sae/presentacion')
-                    <div class="col-md-6" style="left: -3%;">
-                        <div class="fb-like" data-action="like" data-href="http://aspelsoluciones.com/productos/sae/presentacion" data-layout="button_count" data-share="true" data-show-faces="true" data-size="small">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="fb-send" data-href="http://aspelsoluciones.com/productos/sae/presentacion">
-                        </div>
-                    </div>
-                    @endif
                 </div>
 
                 
@@ -183,13 +170,7 @@
                             </a>
                         </p>
 
-                        <div class="fb-page" data-adapt-container-width="true" data-height="200" data-hide-cover="false" data-href="https://www.facebook.com/Aspel-Soluciones-1392656057613447/?fref=ts" data-show-facepile="true" data-small-header="false" data-tabs="timeline">
-                            <blockquote cite="https://www.facebook.com/Aspel-Soluciones-1392656057613447/?fref=ts" class="fb-xfbml-parse-ignore">
-                                <a href="https://www.facebook.com/Aspel-Soluciones-1392656057613447/?fref=ts">
-                                    Aspel Soluciones
-                                </a>
-                            </blockquote>
-                        </div>
+                        <div class="fb-page" data-href="https://www.facebook.com/NuevoSAE7/" data-tabs="timeline" data-height="350" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/NuevoSAE7/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/NuevoSAE7/">Aspel Soluciones. Sistemas administrativos Aspel y consultoría para Pymes</a></blockquote></div>
                     </div>
                 </div>
             </div>
@@ -199,7 +180,7 @@
 <center>
     <div class="derechos">
         <p class="copy">
-            © 2017 Inelco IT Solutions S.A. de C.V. Todos los derechos reservados
+            © 2018 Inelco IT Solutions S.A. de C.V. Todos los derechos reservados
             <br>
                 <a href="">
                     Aviso de privacidad
