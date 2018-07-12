@@ -531,6 +531,21 @@
 </section>
 <!-- termina seccion de software se mostraran los productos de aspel -->
 
+    <section class="seccion-fondo inicio-promocion">
+        <div class="fondo-promocion">
+            <div class="container">
+                <div class="wow bounceInDown" data-wow-delay="0.2s">
+                    <h2 class="title-h2">
+                        Aprovecha las promociones que tenemos para ti.
+                    </h2>
+                    <a href="{{ url('/promociones') }}" class="btn btn-promocion btn-lg center-block" role="button">
+                        Conocer promociones
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
 <!-- apartado de servicios -->
 <section class="steps" id="servicios">
     <div class="container">

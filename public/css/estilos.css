@@ -1,12 +1,3 @@
-.btn-share {
-    position: relative;
-    top:-18px;
-}
-
-.btn-tweet {
-    position: relative;
-    top:-4px;
-}
 .btn-inelco {
     color: #fff !important;
     background-color: #1e3662 !important;
@@ -4053,3 +4044,90 @@ padding-left : 30px;
     font-weight: 400;
 }
 
+
+.btn-share {
+    position: relative;
+    top:-18px;
+}
+
+.btn-tweet {
+    position: relative;
+    top:-4px;
+}
+.btn-inelco {
+    color: #fff !important;
+    background-color: #1e3662 !important;
+    border-style: none;
+    -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.btn-inelco:hover {
+    color: #fff !important;
+    background-color: #12203b !important;
+    border-style: none;
+    -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.close {
+    opacity: 1;
+}
+#modalBanco .fa-times-circle {
+    color:red;
+    opacity: 1;
+}
+
+.seccion-fondo{
+    background-attachment: fixed!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    margin: 0px auto;
+    /*! max-width: 1450px; */
+    overflow: hidden;
+    padding: 0px;
+}
+
+.inicio-promocion{
+    background-image: url(../images-new/inelco/promocion/fondo4.jpg);
+    color:#FFF;
+}
+
+.inicio-promocion .fondo-gray{
+    padding: 4% 0;
+}
+
+.inicio-promocion h2{
+    font-weight: 300;
+    text-align: center;
+    font-size: 2.2em;
+    line-height: 1.4;
+}
+
+.inicio-promocion a {
+    text-decoration: none;
+}
+
+.fondo-promocion {
+    background: rgba(30, 54, 98,0.5);
+    padding: 5% 0;
+    /* height: 100%; */
+}
+
+.btn-promocion {
+    width: 192px;
+    font-size: 16px;
+    color: #fff;
+    background-color: transparent !important;
+    border: solid 1px #fff;
+    -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.btn-promocion:hover {
+    color: #1e3662 !important;
+    background-color: white !important;
+    border: solid 1px #fff;
+    -webkit-transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+}
