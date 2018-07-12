@@ -1,3 +1,12 @@
+.btn-share {
+    position: relative;
+    top:-18px;
+}
+
+.btn-tweet {
+    position: relative;
+    top:-4px;
+}
 .btn-inelco {
     color: #fff !important;
     background-color: #1e3662 !important;

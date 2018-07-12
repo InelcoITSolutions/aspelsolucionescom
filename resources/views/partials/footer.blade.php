@@ -27,36 +27,33 @@
                             </p>
                         </br>
                         <center>
-                            <ul class="redes-sociales" style="margin-top: -5%; margin-bottom: 10%;">
+                            <ul class="redes-sociales" style="margin-top: -5%;">
                                 <li>
                                     <a class="icono-facebook" href="https://www.facebook.com/Aspel-Soluciones-1392656057613447/?fref=ts" target="_blank">
-                                        <span class="icon-facebook-with-circle">
-                                        </span>
+                                    <i class="icon-facebook-with-circle">
+                                    </i>
                                     </a>
+                                   <span class="btn-share">
+                                        <div class="fb-share-button" data-href="https://www.aspelsoluciones.com/" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.aspelsoluciones.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
+                                   </span>
                                 </li>
                                 <li>
                                     <a class="icono-twitter" href="https://twitter.com/AspelSoluciones" target="_blank">
                                         <span class="icon-twitter-with-circle">
                                         </span>
                                     </a>
-                                </li>
-                            </ul>
-                            <ul class="botones-sociales">
-                                <li>
+                                    <span class="btn-tweet">
                                     <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
                                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                    </span>
                                 </li>
+                            </ul>
+                            <ul class="redes-sociales" >
                                 <li>
                                     <div class="fb-like" data-href="https://www.aspelsoluciones.com/" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
                                 </li>
-                                <li>
-                                    <div class="fb-share-button" data-href="https://www.aspelsoluciones.com/" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.aspelsoluciones.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
-                                </li>
-                                <li>
-                                    <div class="fb-send" data-href="https://www.aspelsoluciones.com" data-layout="button">
-                                    </div>
-                                </li>
                             </ul>
+
                         </center>
                     </div>
                 </div>
