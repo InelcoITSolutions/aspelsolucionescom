@@ -10,16 +10,22 @@
         <title>
             Aspel Soluciones | @yield('title')
         </title>
-
-        <meta content="El Sistema Administrativo Empresarial más utilizado en 
-México y el único que pone en control total a tu negocio. " name="description"/>
-
-        <meta content="soluciones de tecnolog, consultoría, asesoria, capacitación, sistemas, aspel, cursos" name="keywords"/>
-
-        <meta content="Inelco IT Solutions S.A de C.V" name="author"/>
-
+        <!-- +=+=+=+=+=+=+ META TAGS +=+=+=+=+=+=+ -->
+        <!-- META | SEO -->
+        <meta content="¡Obtén la máxima productividad de tu empresa! Con el kit empresarial automatiza los procesos de tu empresa y consigue el control total con los sistemas Aspel SAE, Aspel COI, Aspel NOI y Aspel BANCO." name="description"/>
+        <meta content="aspel, soluciones, promociones, descuentos, productividad, empresa, kit, empresaria, automatización, procesos, control, sistemas, sae, coi, noi, banco" name="keywords"/>
+        <meta content="AspelSoluciones" name="author"/>
         <meta content="Index, Follow" name="robots"/>
-        {{--estilos--}}
+        <!-- META | Social Media -->
+        <meta property="og:url" content="https://www.aspelsoluciones.com/promocion-sae-coi-noi-banco" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Promociones de kit empresarial Aspel | AspelSoluciones" />
+        <meta property="og:description" content="¡Obtén la máxima productividad de tu empresa! " />
+        <meta property="og:image" content="http://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-empresarial-social-media.png" />
+        <meta property="og:image:secure_url" content="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-empresarial-social-media.png" />
+        <link href="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-empresarial-social-media.png" rel="image_src" />
+
+        {{-- ******* ESTILOS CSS *******--}}
         <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <!-- Material Design Bootstrap -->
         <!--<link href="/css/mdb.min.css" rel="stylesheet"/>-->

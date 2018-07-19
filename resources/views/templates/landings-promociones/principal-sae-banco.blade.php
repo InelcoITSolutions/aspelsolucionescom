@@ -9,17 +9,24 @@
         
         <title>
             Aspel Soluciones | @yield('title')
-        </title>
-
-        <meta content="El Sistema Administrativo Empresarial más utilizado en 
-México y el único que pone en control total a tu negocio. " name="description"/>
-
-        <meta content="soluciones de tecnolog, consultoría, asesoria, capacitación, sistemas, aspel, cursos" name="keywords"/>
-
-        <meta content="Inelco IT Solutions S.A de C.V" name="author"/>
-
+        </title>        
+        <!-- +=+=+=+=+=+=+ META TAGS +=+=+=+=+=+=+ -->
+        <!-- META | SEO -->
+        <meta content="Consigue el máximo control de tus movimientos bancarios y procesos administrativos. Consolida los procesos de tu empresa con el paquete de sistemas Aspel SAE y Aspel BANCO." name="description"/>
+        <meta content="aspel, soluciones, promociones, descuentos, contron, movimientos, bancarios, procesos, administrativos, administración, procesos, facturación, electrónica, cfdi, sistemas, sae, banco" name="keywords"/>
+        <meta content="AspelSoluciones" name="author"/>
         <meta content="Index, Follow" name="robots"/>
-        {{--estilos--}}
+        
+        <!-- META | Social Media -->
+        <meta property="og:url" content="https://www.aspelsoluciones.com/promocion-sae-banco" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Promociones de Aspel SAE y Aspel BANCO | AspelSoluciones" />
+        <meta property="og:description" content="El máximo control de tus movimientos bancarios y procesos administrativos." />
+        <meta property="og:image" content="http://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-sae-banco-social-media.png" />
+        <meta property="og:image:secure_url" content="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-sae-banco-social-media.png" />
+        <link href="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-sae-banco-social-media.png" rel="image_src" />
+
+        {{-- ******* ESTILOS CSS *******--}}
         <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <!-- Material Design Bootstrap -->
         <!--<link href="/css/mdb.min.css" rel="stylesheet"/>-->

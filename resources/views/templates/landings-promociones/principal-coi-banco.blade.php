@@ -10,17 +10,22 @@
         <title>
             Aspel Soluciones | @yield('title')
         </title>
-
-        <meta content="El Sistema Administrativo Empresarial más utilizado en 
-México y el único que pone en control total a tu negocio. " name="description"/>
-
-        <meta content="soluciones de tecnolog, consultoría, asesoria, capacitación, sistemas, aspel, cursos" name="keywords"/>
-
-        <meta content="Inelco IT Solutions S.A de C.V" name="author"/>
-
+        <!-- +=+=+=+=+=+=+ META TAGS +=+=+=+=+=+=+ -->
+        <!-- META | SEO -->
+        <meta content="Genera las pólizas correspondientes a los cargos y abonos de las cuentas bancarias. El control total del registro de finanzas con los sistemas Aspel COI y Aspel BANCO." name="description"/>
+        <meta content="aspel, soluciones, promociones, descuentos, pólizas, contabilidad, eletrónica, flujo, efectivo, finanzas, cargos, abonos, control, dinero, sistemas, coi, banco" name="keywords"/>
+        <meta content="AspelSoluciones" name="author"/>
         <meta content="Index, Follow" name="robots"/>
-        {{--estilos--}}
-        <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <!-- META | Social Media -->
+        <meta property="og:url" content="https://www.aspelsoluciones.com/promocion-coi-banco" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Promociones de Aspel COI y Aspel BANCO | AspelSoluciones" />
+        <meta property="og:description" content="Genera las pólizas correspondientes a los cargos y abonos de las cuentas bancarias." />
+        <meta property="og:image" content="http://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-coi-banco-social-media.png" />
+        <meta property="og:image:secure_url" content="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-coi-banco-social-media.png" />
+        <link href="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-coi-banco-social-media.png" rel="image_src" />
+        
+        {{-- ******* ESTILOS CSS *******--}}
         <!-- Material Design Bootstrap -->
         <!--<link href="/css/mdb.min.css" rel="stylesheet"/>-->
         <link href="/icomoon/style.css" rel="stylesheet"/>

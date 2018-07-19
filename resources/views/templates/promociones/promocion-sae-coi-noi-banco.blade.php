@@ -3,17 +3,9 @@
 @section('title','Promociones')
 
 @push('css-promocion-nuevo-noi')
+    {{-- CSS --}}
     <link href="/css/landings-promociones/promocion.css" rel="stylesheet" type="text/css"/>
     <!--<link href="/css/landings-SAE/form-promocion.css" rel="stylesheet"/>-->
-    {{-- META Sociales --}}
-    <meta property="og:url" content="https://www.aspelsoluciones.com/promocion-sae-coi-noi-banco" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Promociones de kit empresarial Aspel | AspelSoluciones" />
-    <meta property="og:description" content="¡Obtén la máxima productividad de tu empresa! " />
-    <meta property="og:image" content="http://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-empresarial-social-media.png" />
-    <meta property="og:image:secure_url" content="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-empresarial-social-media.png" />
-    <link href="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-empresarial-social-media.png" rel="image_src" />
-    {{-- CSS --}}
     <link href="https://www.aspelsoluciones.com/img/share/nuevo-sae.png" rel="image_src"/> 
     {{-- <link rel="stylesheet" href="/css/inelco/mis-estilos.css"> --}}
     <link rel="stylesheet" href="/css/inelco/products-styles.css">
@@ -68,7 +60,7 @@
                         <div class="col-md-4">
                         </div>
                         <div class="col-md-4">
-                            <img src="/images-new/inelco/promocion/sae-coi-noi-banco/logos/inelco-promocion-aspel-sae-coi-noi-banco-precio.png" alt="" class="img-responsive precio-banner"> 
+                            {{-- <img src="/images-new/inelco/promocion/sae-coi-noi-banco/logos/inelco-promocion-aspel-sae-coi-noi-banco-precio.png" alt="" class="img-responsive precio-banner">  --}}
                         </div>
                     </div>
                 </div>
@@ -240,7 +232,7 @@
                     </div> --}}
                     <div class="col-md-6 incluye-promo">
                         <div class="col-sm-12 ">
-                            <p class="text-center"><span id="title-incluye-promo">Adquiere el kit empresarial a sólo<br><span style="font-size: 2.5em;text-align: center;">$21,615*</span></span></p>
+                            <p class="text-center"><span id="title-incluye-promo">Adquiere el kit empresarial a sólo<br><span style="font-size: 2.5em;text-align: center;">$23,399*</span></span></p>
                         </div>
                         <div class="col-sm-12 ">
                             <p><span id="title-incluye-promo">Incluye:</span></p>

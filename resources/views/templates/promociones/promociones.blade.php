@@ -3,19 +3,9 @@
 @section('title','Promociones')
 
 @push('css-promocion-nuevo-noi')
+    {{-- css --}}
     <link href="/css/landings-promociones/promocion.css" rel="stylesheet" type="text/css"/>
     <!--<link href="/css/landings-SAE/form-promocion.css" rel="stylesheet"/>-->
-    
-    {{-- META | Redes sociales --}}
-    <meta property="og:url" content="https://www.aspelsoluciones.com/promociones" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Promociones del Mes de AspelSoluciones" />
-    <meta property="og:description" content="Aprovecha nuestras promociones del mes." />
-    <meta property="og:image" content="http://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/aspelsoluciones-promocion-social-media.png" />
-    <meta property="og:image:secure_url" content="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/aspelsoluciones-promocion-social-media.png" />
-    <link href="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/aspelsoluciones-promocion-social-media.png" rel="image_src" />
-    {{-- css --}}
-
     {{-- <link rel="stylesheet" href="/css/inelco/mis-estilos.css"> --}}
     <link rel="stylesheet" href="/css/inelco/products-styles.css">
     <link rel="stylesheet" href="/css/promociones/promociones.css">

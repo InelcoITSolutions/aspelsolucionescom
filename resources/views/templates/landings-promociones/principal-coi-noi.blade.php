@@ -10,16 +10,22 @@
         <title>
             Aspel Soluciones | @yield('title')
         </title>
-
-        <meta content="El Sistema Administrativo Empresarial más utilizado en 
-México y el único que pone en control total a tu negocio. " name="description"/>
-
-        <meta content="soluciones de tecnolog, consultoría, asesoria, capacitación, sistemas, aspel, cursos" name="keywords"/>
-
-        <meta content="Inelco IT Solutions S.A de C.V" name="author"/>
-
+        <!-- +=+=+=+=+=+=+ META TAGS +=+=+=+=+=+=+ -->
+        <!-- META | SEO -->
+        <meta content="Genera y contabilizalas pólizas de los movimientos de la nómina en línea. Excelencia en el manejo de capital humano y la mejor productividad con la contabilidad electrónica gracias a los sistemas Aspel COI y Aspel NOI." name="description"/>
+        <meta content="aspel, soluciones, promociones, descuentos, contabilidad, eletrónica, pólizas, información, financiera, productividad, información, contable, fiscal, nómina, digital, capital, humano, sistemas, coi, noi" name="keywords"/>
+        <meta content="AspelSoluciones" name="author"/>
         <meta content="Index, Follow" name="robots"/>
-        {{--estilos--}}
+        <!-- META | Social Media -->
+        <meta property="og:url" content="https://www.aspelsoluciones.com/promocion-coi-noi" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Promociones de Aspel COI y Aspel NOI | AspelSoluciones" />
+        <meta property="og:description" content="Genera y contabilizalas pólizas de los movimientos de lanómina en línea." />
+        <meta property="og:image" content="http://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-coi-noi-social-media.png" />
+        <meta property="og:image:secure_url" content="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-coi-noi-social-media.png" />
+        <link href="https://www.aspelsoluciones.com/images-new/inelco/promocion/social-media/inelco-promocion-coi-noi-social-media.png" rel="image_src" />
+
+        {{-- ******* ESTILOS CSS *******--}}
         <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <!-- Material Design Bootstrap -->
         <!--<link href="/css/mdb.min.css" rel="stylesheet"/>-->
